@@ -16,7 +16,7 @@
   fhir:ValueSet.version [ fhir:value "1.0.0"];
   fhir:ValueSet.name [ fhir:value "BeRiskManifestation"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2019-11-14T21:31:58+01:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2019-11-16T15:46:41+01:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Belgium"];
   fhir:ValueSet.contact [
      fhir:index 0;

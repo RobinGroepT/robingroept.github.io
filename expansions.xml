@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="6a21f7c1-5bde-4fdf-998f-58f8ad4a2fbb"/>
+  <id value="f1bbf1cb-7c94-42b2-a29d-7606e1c8cf3a"/>
   <meta>
-    <lastUpdated value="2019-11-14T21:31:58.071+01:00"/>
+    <lastUpdated value="2019-11-16T15:46:41.995+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -88,7 +88,7 @@
         <version value="1.0"/>
         <name value="BEDiaryTopic"/>
         <status value="draft"/>
-        <date value="2019-11-14T21:31:58+01:00"/>
+        <date value="2019-11-16T15:46:41+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -104,8 +104,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:48344717-10f2-47ab-840d-ec19ac10d664"/>
-          <timestamp value="2019-11-14T21:32:17+01:00"/>
+          <identifier value="urn:uuid:e2ab1bcf-71ea-4243-a1a5-4c69eb72d138"/>
+          <timestamp value="2019-11-16T15:46:54+01:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -445,7 +445,7 @@
         <version value="1.0.0"/>
         <name value="BeContactPerson"/>
         <status value="draft"/>
-        <date value="2019-11-14T21:31:58+01:00"/>
+        <date value="2019-11-16T15:46:41+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -461,8 +461,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5a54cd64-09c7-426c-a331-5e5a0e901cbf"/>
-          <timestamp value="2019-11-14T21:32:21+01:00"/>
+          <identifier value="urn:uuid:37f76e2a-5a49-4fa5-bc77-2c96a8721cd7"/>
+          <timestamp value="2019-11-16T15:46:57+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -616,7 +616,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 138 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12, SNOMED CT 11000201108 edition 06-Mar 2017</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1886,7 +1886,7 @@
         <version value="1.0.0"/>
         <name value="BeCausativeAgent"/>
         <status value="draft"/>
-        <date value="2019-11-14T21:31:58+01:00"/>
+        <date value="2019-11-16T15:46:41+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -1902,8 +1902,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cd6ee320-fdfe-43bc-8190-ca2e9f9f9419"/>
-          <timestamp value="2019-11-14T21:32:21+01:00"/>
+          <identifier value="urn:uuid:e9eec307-fc02-4d88-81e5-009485f0e4a3"/>
+          <timestamp value="2019-11-16T15:46:57+01:00"/>
           <total value="138"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1915,7 +1915,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20190430"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -2923,7 +2923,7 @@ en systemische symptomen</td>
         <version value="1.0.0"/>
         <name value="BeRiskManifestation"/>
         <status value="draft"/>
-        <date value="2019-11-14T21:31:58+01:00"/>
+        <date value="2019-11-16T15:46:41+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -2939,8 +2939,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:478834bc-5734-454d-b7dc-b83fac4595b3"/>
-          <timestamp value="2019-11-14T21:32:21+01:00"/>
+          <identifier value="urn:uuid:63d459c3-a85d-448a-9a37-b7b2bd18bef1"/>
+          <timestamp value="2019-11-16T15:46:57+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3286,7 +3286,7 @@ en systemische symptomen</td>
         <version value="1.0.0"/>
         <name value="BeCivilstate"/>
         <status value="draft"/>
-        <date value="2019-11-14T21:31:58+01:00"/>
+        <date value="2019-11-16T15:46:41+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -3302,8 +3302,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a667972e-ff3b-4483-b2fb-b73a2362c254"/>
-          <timestamp value="2019-11-14T21:32:29+01:00"/>
+          <identifier value="urn:uuid:51cb7c39-50e1-4b4f-a0be-7eca7f032361"/>
+          <timestamp value="2019-11-16T15:47:03+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
