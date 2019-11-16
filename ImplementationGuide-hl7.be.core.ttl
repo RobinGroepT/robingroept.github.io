@@ -14,10 +14,10 @@
   ];
   fhir:ImplementationGuide.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core"];
   fhir:ImplementationGuide.name [ fhir:value "BaseIG"];
-  fhir:ImplementationGuide.title [ fhir:value "Belgium Base IG"];
+  fhir:ImplementationGuide.title [ fhir:value "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-11-16T15:46:41+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-11-16T16:28:53+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Belgium"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
