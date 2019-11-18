@@ -134,108 +134,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <div class="itoc">
       <p>Artifact Packages</p>
       <p class="link">-
-            <a href="#1">Logical Models</a>
-      </p>
-      <p class="link">-
-            <a href="#2">Core Profiles</a>
-      </p>
-      <p class="link">-
-            <a href="#3">Communication</a>
-      </p>
-      <p class="link">-
-            <a href="#4">Conditions</a>
-      </p>
-      <p class="link">-
-            <a href="#5">Terminology</a>
+            <a href="#1">Conditions</a>
       </p>
    </div>
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
-   <h3>Logical Models </h3>
-   <p>The common Belgian Logical Models - these can be mapped to KMEHR and FHIR</p>
-   <p>
-      <table>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="lm-be-communication.html"
-                     title="StructureDefinition/lm-be-communication">  •  Logical Model Communication</a>
-               </td>
-               <td>Communication / Diary Note logical model</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="lm-be-careplan.html" title="StructureDefinition/lm-be-careplan">  •  Logical Model Care Plan</a>
-               </td>
-               <td>Care Plan logical model</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="2"> </a>
-   <h3>Core Profiles </h3>
-   <p>Core resources to be reused in other resources</p>
-   <p>
-      <table>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-patient.html" title="StructureDefinition/be-patient">  •  BE Patient profile</a>
-               </td>
-               <td>Core Belgian Patient profile</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-practitionerrole.html"
-                     title="StructureDefinition/be-practitionerrole">  •  BE Practitioner Role profile</a>
-               </td>
-               <td>Core Belgian Practitioner Role profile</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="string320.html" title="StructureDefinition/string320">  •  String 320</a>
-               </td>
-               <td>String with up to 320 characters</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-communication-apps.html"
-                     title="CapabilityStatement/be-communication-apps">  •  Communication Apps</a>
-               </td>
-               <td>This is a Capability Statement for all Apps and clients that wish to be conformant with the Communication system specifications in Belgium.</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="3"> </a>
-   <h3>Communication </h3>
-   <p>Communication and Care Coordination</p>
-   <p>
-      <table>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-communication.html"
-                     title="StructureDefinition/be-communication">  •  Communication Profile</a>
-               </td>
-               <td>Communication / Diary Note profile</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-careplan.html" title="StructureDefinition/be-careplan">  •  Care Plan profile</a>
-               </td>
-               <td/>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-careteam.html" title="StructureDefinition/be-careteam">  •  Care Team profile</a>
-               </td>
-               <td/>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="4"> </a>
    <h3>Conditions </h3>
    <p>Resource profiles defined for conditions</p>
    <p>
@@ -247,71 +150,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/be-allergyintolerance">  •  Allergy Intolerance core BE profile</a>
                </td>
                <td>The Core BE profile for Allergy Intolerance</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="5"> </a>
-   <h3>Terminology </h3>
-   <p>Terminology resources - ValueSets and CodeSystems</p>
-   <p>
-      <table>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="valueset-be-diarytopic.html" title="ValueSet/be-diarytopic">  •  ValueSet - CommunicationTopic</a>
-               </td>
-               <td>The values for communication topic</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-diarytopic.html" title="CodeSystem/be-diarytopic">  •  CodeSystem - CommunicationTopic</a>
-               </td>
-               <td>The values for communication topic</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="valueset-be-contactperson.html" title="ValueSet/be-contactperson">  •  ValueSet - Contact Person</a>
-               </td>
-               <td>The values for Contact Person type</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-contactperson.html" title="CodeSystem/be-contactperson">  •  CodeSystem - Contact Person</a>
-               </td>
-               <td>The values for Contact Person type</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="valueset-be-causativeagent.html"
-                     title="ValueSet/be-causativeagent">  •  ValueSet - Contact Person</a>
-               </td>
-               <td>The list of causative agents</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="valueset-be-riskmanifestation.html"
-                     title="ValueSet/be-riskmanifestation">  •  ValueSet - Risk Manifestation</a>
-               </td>
-               <td>The values for Risk Manifestation</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="valueset-be-civilstate.html" title="ValueSet/be-civilstate">  •  ValueSet - Civil State</a>
-               </td>
-               <td>The values for Civil State</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-civilstate.html" title="CodeSystem/be-civilstate">  •  CodeSystem - Civil State</a>
-               </td>
-               <td>The official values for Civil State</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="be-hcparty.html" title="CodeSystem/be-hcparty">  •  CodeSystem - Healthcare Party</a>
-               </td>
-               <td>The values for healthcare party types</td>
             </tr>
          </tbody>
       </table>
@@ -329,7 +167,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Nov 16, 2019 16:28+0100">2019-11-16</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 18, 2019 14:11+0100">2019-11-18</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
