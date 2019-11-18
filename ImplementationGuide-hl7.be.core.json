@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-18T14:11:50+01:00",
+  "date": "2019-11-18T14:45:26+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -101,6 +101,27 @@
         "name": "Allergy Intolerance core BE profile",
         "description": "The Core BE profile for Allergy Intolerance",
         "groupingId": "condition"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-practitionerrole.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-practitionerrole"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Practitioner Role core BE profile",
+        "description": "The Core BE profile for Practitioner Role",
+        "groupingId": "core"
       }
     ],
     "page": {

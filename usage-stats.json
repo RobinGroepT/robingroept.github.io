@@ -9,6 +9,12 @@
         "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance",
         "title": "BeAllergyIntolerance"
       }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole",
+        "title": "BePractitionerRole"
+      }
     ]
   },
   "usage": {
