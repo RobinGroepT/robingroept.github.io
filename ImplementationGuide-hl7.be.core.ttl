@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-11-20T16:25:46+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-11-20T16:50:27+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Belgium"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -168,7 +168,7 @@
          fhir:value "4.0.1";
          fhir:index 0
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Patient core BE observation" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation core BE profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Core BE profile for Observation" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "conditions" ]
      ], [
@@ -258,6 +258,28 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Valueset exposureroute" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The valueset for exposureroute" ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "cd-hcparty.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cd-hcparty" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.fhirVersion [
+         fhir:value "4.0.1";
+         fhir:index 0
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Codesystem CD-HCPARTY" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-HCPARTY codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ];
      fhir:ImplementationGuide.definition.page [

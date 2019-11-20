@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-20T16:25:46+01:00",
+  "date": "2019-11-20T16:50:27+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -161,7 +161,7 @@
         "fhirVersion": [
           "4.0.1"
         ],
-        "name": "Patient core BE observation",
+        "name": "Observation core BE profile",
         "description": "The Core BE profile for Observation",
         "groupingId": "conditions"
       },
@@ -247,6 +247,27 @@
         ],
         "name": "Valueset exposureroute",
         "description": "The valueset for exposureroute",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "cd-hcparty.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cd-hcparty"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Codesystem CD-HCPARTY",
+        "description": "The CD-HCPARTY codesystem",
         "groupingId": "terminology"
       }
     ],

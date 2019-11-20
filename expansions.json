@@ -1,47 +1,21 @@
 {
   "resourceType" : "Bundle",
-  "id" : "5e48633c-1bde-4d5e-bfc4-1cc1d3c38d02",
+  "id" : "0b2f7459-6f5d-44df-a442-95e882b4e03a",
   "meta" : {
-    "lastUpdated" : "2019-11-20T16:25:46.695+01:00"
+    "lastUpdated" : "2019-11-20T16:50:27.182+01:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-exposureroute",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "be-exposureroute",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT 11000201108 edition 06-Mar 2017</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-447694001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447694001\">447694001</a></td><td>Respiratory tract route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6064005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6064005\">6064005</a></td><td>Topical route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26643006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26643006\">26643006</a></td><td>Oral route</td><td/></tr></table></div>"
       },
-      "url" : "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-exposureroute",
-      "version" : "0.1.0",
-      "name" : "BeExposureRoute",
-      "status" : "draft",
-      "date" : "2019-11-20T16:25:46+01:00",
-      "publisher" : "HL7 Belgium",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "other",
-          "value" : "http://hl7.org/Special/committees/fiwg"
-        }]
-      }],
-      "description" : "Codes to illustrate differentiating types of exposure route. This valueset supports the Belgian federal FHIR profiling effort.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
       "expansion" : {
-        "identifier" : "urn:uuid:8422ab51-89ca-49cb-aff9-36bab5e24a16",
-        "timestamp" : "2019-11-20T16:26:07+01:00",
-        "total" : 3,
+        "identifier" : "urn:uuid:727cb8bc-cfd7-4253-ad82-7f2471936aa2",
+        "timestamp" : "2019-11-20T15:26:07.997Z",
         "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
           "name" : "limitedExpansion",
           "valueString" : "-1"
         },

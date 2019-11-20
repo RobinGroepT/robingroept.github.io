@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-20T16:25:46+01:00"/>
+  <date value="2019-11-20T16:50:27+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -118,7 +118,7 @@
         <reference value="StructureDefinition/be-observation"/>
       </reference>
       <fhirVersion value="4.0.1"/>
-      <name value="Patient core BE observation"/>
+      <name value="Observation core BE profile"/>
       <description value="The Core BE profile for Observation"/>
       <groupingId value="conditions"/>
     </resource>
@@ -180,6 +180,21 @@
       <fhirVersion value="4.0.1"/>
       <name value="Valueset exposureroute"/>
       <description value="The valueset for exposureroute"/>
+      <groupingId value="terminology"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="cd-hcparty.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cd-hcparty"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Codesystem CD-HCPARTY"/>
+      <description value="The CD-HCPARTY codesystem"/>
       <groupingId value="terminology"/>
     </resource>
     <page>

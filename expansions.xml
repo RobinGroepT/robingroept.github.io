@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="5e48633c-1bde-4d5e-bfc4-1cc1d3c38d02"/>
+  <id value="0b2f7459-6f5d-44df-a442-95e882b4e03a"/>
   <meta>
-    <lastUpdated value="2019-11-20T16:25:46.695+01:00"/>
+    <lastUpdated value="2019-11-20T16:50:27.182+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-exposureroute"/>
     <resource>
       <ValueSet>
-        <id value="be-exposureroute"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -60,33 +58,9 @@
             </table>
           </div>
         </text>
-        <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-exposureroute"/>
-        <version value="0.1.0"/>
-        <name value="BeExposureRoute"/>
-        <status value="draft"/>
-        <date value="2019-11-20T16:25:46+01:00"/>
-        <publisher value="HL7 Belgium"/>
-        <contact>
-          <telecom>
-            <system value="other"/>
-            <value value="http://hl7.org/Special/committees/fiwg"/>
-          </telecom>
-        </contact>
-        <description value="Codes to illustrate differentiating types of exposure route. This valueset supports the Belgian federal FHIR profiling effort."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8422ab51-89ca-49cb-aff9-36bab5e24a16"/>
-          <timestamp value="2019-11-20T16:26:07+01:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:727cb8bc-cfd7-4253-ad82-7f2471936aa2"/>
+          <timestamp value="2019-11-20T15:26:07.997Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
