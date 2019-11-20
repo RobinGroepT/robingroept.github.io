@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-20T16:50:27+01:00",
+  "date": "2019-11-20T17:22:41+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -253,6 +253,90 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "valueset-be-causativeagent.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/be-causativeagent"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Valueset causative agent",
+        "description": "The valueset for causative agent",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "valueset-be-civilstate.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/be-civilstate"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Valueset civil state",
+        "description": "The valueset for civil state",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "valueset-be-contactperson.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/be-contactperson"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Valueset contact person",
+        "description": "The valueset for contact person",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "valueset-be-riskmanifestation.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/be-riskmanifestation"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Valueset risk manifestation",
+        "description": "The valueset for risk manifestation",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           },
           {
@@ -268,6 +352,69 @@
         ],
         "name": "Codesystem CD-HCPARTY",
         "description": "The CD-HCPARTY codesystem",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "cd-civilstate.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cd-civilstate"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Codesystem CD-CIVILSTATE",
+        "description": "The CD-CIVILSTATE codesystem",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "cd-contactperson.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cd-contactperson"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Codesystem CD-CONTACT-PERSON",
+        "description": "The CD-CONTACT-PERSON codesystem",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "cd-fedcountry.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cd-fedcountry"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Codesystem CD-FED-COUNTRY",
+        "description": "The CD-FED-COUNTRY codesystem",
         "groupingId": "terminology"
       }
     ],

@@ -327,7 +327,7 @@ The data type is CodeableConcept because clinicalStatus has some clinical judgme
 <p>A provider SHALL include it in the istance and a consumer SHALL record this in its consuming system.  If needed codes can be used outside the given valueset, SNOMED-CT is preferred.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1 This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Causative agent codes as defined by NIHDI<br/>The codes SHALL be taken from <a href="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent">https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent</a>; other codes may be used where these codes are not suitable</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Causative agent codes as defined by NIHDI<br/>The codes SHALL be taken from <a href="valueset-be-causativeagent.html">BeCausativeAgent</a>; other codes may be used where these codes are not suitable</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td title="Other names by which this resource/element may be known">Alternate Names</td><td>Code</td></tr>
@@ -477,7 +477,7 @@ As the FHIR asserter is not the party taking responsibility, this is not equal t
 <p>When available, a provider SHOULD include it. When given, a consumer SHALL record this in its consuming system. If needed codes can be used outside the given valueset, SNOMED-CT is preferred.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..* This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Clinical symptoms and/or signs that are observed or associated with an Adverse Reaction Event.<br/>The codes SHALL be taken from <a href="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-riskmanifestation">https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-riskmanifestation</a>; other codes may be used where these codes are not suitable</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>Clinical symptoms and/or signs that are observed or associated with an Adverse Reaction Event.<br/>The codes SHALL be taken from <a href="valueset-be-riskmanifestation.html">BeRiskManifestation</a>; other codes may be used where these codes are not suitable</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td title="Other names by which this resource/element may be known">Alternate Names</td><td>Symptoms, Signs</td></tr>
@@ -613,7 +613,7 @@ As the FHIR asserter is not the party taking responsibility, this is not equal t
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 20, 2019 16:50+0100">2019-11-20</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 20, 2019 17:22+0100">2019-11-20</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
