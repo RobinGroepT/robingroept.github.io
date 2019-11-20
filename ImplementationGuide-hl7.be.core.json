@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-19T14:50:02+01:00",
+  "date": "2019-11-20T16:25:46+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -152,6 +152,69 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-observation.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-observation"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Patient core BE observation",
+        "description": "The Core BE profile for Observation",
+        "groupingId": "conditions"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-provenance.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-provenance"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Patient core BE provenance",
+        "description": "The Core BE profile for Provenance",
+        "groupingId": "core"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-organization.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-organization"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Patient core BE organization",
+        "description": "The Core BE profile for Organization",
+        "groupingId": "core"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
             "valueUri": "be-practitionerrole.html"
           }
         ],
@@ -164,6 +227,27 @@
         "name": "Practitioner Role core BE profile",
         "description": "The Core BE profile for Practitioner Role",
         "groupingId": "core"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "valueset-be-exposureroute.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/be-exposureroute"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Valueset exposureroute",
+        "description": "The valueset for exposureroute",
+        "groupingId": "terminology"
       }
     ],
     "page": {

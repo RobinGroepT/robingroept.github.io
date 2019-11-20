@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-19T14:50:02+01:00"/>
+  <date value="2019-11-20T16:25:46+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -112,6 +112,51 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-observation.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-observation"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Patient core BE observation"/>
+      <description value="The Core BE profile for Observation"/>
+      <groupingId value="conditions"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-provenance.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-provenance"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Patient core BE provenance"/>
+      <description value="The Core BE profile for Provenance"/>
+      <groupingId value="core"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-organization.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-organization"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Patient core BE organization"/>
+      <description value="The Core BE profile for Organization"/>
+      <groupingId value="core"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="be-practitionerrole.html"/>
       </extension>
       <reference>
@@ -121,6 +166,21 @@
       <name value="Practitioner Role core BE profile"/>
       <description value="The Core BE profile for Practitioner Role"/>
       <groupingId value="core"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-be-exposureroute.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/be-exposureroute"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Valueset exposureroute"/>
+      <description value="The valueset for exposureroute"/>
+      <groupingId value="terminology"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

@@ -223,28 +223,6 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:Practitioner/f:address/f:extension</sch:title>
-    <sch:rule context="f:Practitioner/f:address/f:extension">
-      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:url) &gt;= 1">url: minimum cardinality of 'url' is 1</sch:assert>
-      <sch:assert test="count(f:url) &lt;= 1">url: maximum cardinality of 'url' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Practitioner.address.extension.extension</sch:title>
-    <sch:rule context="f:Practitioner/f:address/f:extension/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>Practitioner.address.extension.value[x] 1</sch:title>
-    <sch:rule context="f:Practitioner/f:address/f:extension/f:value[x]">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>Practitioner.address.use</sch:title>
     <sch:rule context="f:Practitioner/f:address/f:use">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>

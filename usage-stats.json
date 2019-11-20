@@ -10,6 +10,18 @@
         "title": "BeAllergyIntolerance"
       }
     ],
+    "Observation": [
+      {
+        "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation",
+        "title": "BeObservation"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization",
+        "title": "BeOrganization"
+      }
+    ],
     "Patient": [
       {
         "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient",
@@ -26,6 +38,12 @@
       {
         "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole",
         "title": "BePractitionerRole"
+      }
+    ],
+    "Provenance": [
+      {
+        "url": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-provenance",
+        "title": "BeProvenance"
       }
     ]
   },
@@ -46,6 +64,7 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/language": [
+      "Organization.address",
       "Patient.address",
       "Practitioner.address"
     ],
