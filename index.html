@@ -148,16 +148,19 @@ The working groups of HL7 and the different interested parties are still definin
 
 This specification contains: 
 	<ul>
-    <li><a href="http://fhir.ivlab.ilabt.imec.be/be-fhir/artifacts.html#logical-models">Logical Models</a>, which describe describing several data sets and elements used in Belgian systems</li>
-    <li><a href="http://fhir.ivlab.ilabt.imec.be/be-fhir/artifacts.html#terminology">Value Sets and code systems</a>, containing specific Belgian value sets</li>
-    <li><a href="http://fhir.ivlab.ilabt.imec.be/be-fhir/artifacts.html#core-profiles">Core profiles</a>, which constitute the basis for Belgium FHIR profiling and can be reused in other profiles </li>
+    <li><a>Logical Models (in a future iteration)</a>, which describe describing several data sets and elements used in Belgian systems</li>
+    <li><a>Value Sets and code systems</a>, containing specific Belgian value sets</li>
+    <li><a>Core profiles</a>, which constitute the basis for Belgium FHIR profiling and can be reused in other profiles </li>
     <li>Functional Profiles, split by functional area for ease of access</li>
+	</ul>
+	<!--
 	<ul>
     <li><a href="http://fhir.ivlab.ilabt.imec.be/be-fhir/artifacts.html#communication">Care coordination and Communication</a>, </li>
     <li><a href="http://fhir.ivlab.ilabt.imec.be/be-fhir/artifacts.html#communication">Patient conditions</a></li>
 	</ul>
     <li>Required <a href="http://fhir.ivlab.ilabt.imec.be/be-fhir/artifacts.html#logical-models">Capability Statements</a> for systems to implement</li>
 	</ul>
+	-->
 	<p>
     The implementation guide is structured to allow implementers to pick and choose the capabilities they need and combine them as necessary.
 	</p>
@@ -182,6 +185,46 @@ This specification contains:
   </p>
   <p>
   </p>
+  
+  <h3>Generalities</h3>
+  <p>There will be no Belgian publications replacing or describing the overall
+base specifications of the HL7 FHIR standard – we consider the pages by HL7 to
+be sufficient.</p>
+
+<p>Unless stated otherwise, we consider the mapping between KMEHR
+elements and the corresponding elements in FHIR resources to be overall self-evident.
+Any mapping initiative SHOULD consider the fact the approach of information in
+a KMEHR element as part of an XML document is fundamentally different from a
+modular FHIR resource. </p>
+
+<p>Some particularities in this context are described when deemed
+necessary. Note the direction in this is how to functionally express that what
+is in KMEHR in FHIR, not the other way around.</p>
+
+<p>Implementers are encouraged to study the descriptions of the various
+FHIR resources published by HL7, the published Belgian “be-“ profiles here and to
+signal <a href="mailto:message-structure@ehealth.fgov.be">message-structure@ehealth.fgov.be</a>
+concerning any ambiguities or initiatives that go outside of that realm. </p>
+
+<p>Implementers SHALL take note every instance of a resource SHALL always
+explicitely mark when a Belgian or other profile has been used. Implementers SHALL
+be aware resources using different technical profiles might follow different
+rules.</p>
+
+<p>When needed and mature, eHealth Platform publishes specific profiles
+and implementation guidelines for federal initiatives. It also publishes
+technical formats of these profiles. These publications will take the form of
+downloadable technical profiles according to the FHIR specs. The eHealth
+Platform Standards website will publish the necessary links.</p>
+
+<p>The Belgian profiling effort consists of an iterative approach. A
+first iteration (2019) contains a basic set of profiles and guidelines on the resources
+Patient, Practitioner, PractitionerRole, Organization, Observation, Provenance
+and AllergyIntolerance.</p>
+
+<p>Other profiles will be created and/or validated and added to the Belgian
+set on on ongoing use case driven basis. </p>
+  
 
 	<a name="ip"> </a>
 	<h3>Intellectual Property Considerations</h3>
@@ -212,7 +255,7 @@ This specification contains:
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 20, 2019 17:22+0100">2019-11-20</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 20, 2019 21:04+0100">2019-11-20</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

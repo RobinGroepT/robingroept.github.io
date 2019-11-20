@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "3afbb176-80dc-4657-bef4-27cc2927092d",
+  "id" : "32498e7d-bb96-4075-96d2-f055f0dfdd4f",
   "meta" : {
-    "lastUpdated" : "2019-11-20T17:22:41.039+01:00"
+    "lastUpdated" : "2019-11-20T21:04:27.837+01:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -54,7 +54,7 @@
       "version" : "0.1.0",
       "name" : "BeCausativeAgent",
       "status" : "draft",
-      "date" : "2019-11-20T17:22:41+01:00",
+      "date" : "2019-11-20T21:04:27+01:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -70,8 +70,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d2efa059-9840-4f6f-a6b1-0d64285af580",
-        "timestamp" : "2019-11-20T17:23:09+01:00",
+        "identifier" : "urn:uuid:f6bd6c3d-6fc3-47bf-beb9-3a690a46caf5",
+        "timestamp" : "2019-11-20T21:04:53+01:00",
         "total" : 138,
         "parameter" : [{
           "name" : "excludeNested",
@@ -795,7 +795,7 @@
       "version" : "0.1.0",
       "name" : "BeCivilstate",
       "status" : "draft",
-      "date" : "2019-11-20T17:22:41+01:00",
+      "date" : "2019-11-20T21:04:27+01:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -811,8 +811,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:69c78b39-5a8c-4f8e-b8b5-d10211c09b2c",
-        "timestamp" : "2019-11-20T17:23:09+01:00",
+        "identifier" : "urn:uuid:e6a2f0e6-ff88-4058-81b6-10b5662be698",
+        "timestamp" : "2019-11-20T21:04:53+01:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -912,7 +912,7 @@
       "version" : "0.1.0",
       "name" : "BeContactPerson",
       "status" : "draft",
-      "date" : "2019-11-20T17:22:41+01:00",
+      "date" : "2019-11-20T21:04:27+01:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -928,8 +928,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:52bef878-b29a-4213-861b-763c1baa4bf0",
-        "timestamp" : "2019-11-20T17:23:09+01:00",
+        "identifier" : "urn:uuid:b1613ed1-1d02-438a-aa50-154e882d94e8",
+        "timestamp" : "2019-11-20T21:04:53+01:00",
         "total" : 30,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1086,7 +1086,7 @@
       "version" : "0.1.0",
       "name" : "BeRiskManifestation",
       "status" : "draft",
-      "date" : "2019-11-20T17:22:41+01:00",
+      "date" : "2019-11-20T21:04:27+01:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -1102,8 +1102,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4a85bb72-8462-4805-aa02-1967274af8e5",
-        "timestamp" : "2019-11-20T17:23:09+01:00",
+        "identifier" : "urn:uuid:eef3c974-b1e4-41d4-a464-3017008496c5",
+        "timestamp" : "2019-11-20T21:04:53+01:00",
         "total" : 30,
         "parameter" : [{
           "name" : "excludeNested",
