@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-21T10:46:41+01:00",
+  "date": "2019-11-21T11:03:34+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -182,7 +182,7 @@
         "fhirVersion": [
           "4.0.1"
         ],
-        "name": "Patient core BE provenance",
+        "name": "Provenance core BE profile",
         "description": "The Core BE profile for Provenance",
         "groupingId": "core"
       },
@@ -203,7 +203,7 @@
         "fhirVersion": [
           "4.0.1"
         ],
-        "name": "Patient core BE organization",
+        "name": "Organization core BE profile",
         "description": "The Core BE profile for Organization",
         "groupingId": "core"
       },
