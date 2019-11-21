@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-21T11:11:36+01:00",
+  "date": "2019-11-21T11:20:58+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -164,6 +164,27 @@
         "name": "Observation core BE profile",
         "description": "The Core BE profile for Observation",
         "groupingId": "condition"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-observationcodeableconcept.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-observationcodeableconcept"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Observation codeable concept code core BE profile",
+        "description": "The Core BE profile for Observation codeable concept",
+        "groupingId": "core"
       },
       {
         "extension": [

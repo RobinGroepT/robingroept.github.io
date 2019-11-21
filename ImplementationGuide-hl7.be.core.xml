@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-21T11:11:36+01:00"/>
+  <date value="2019-11-21T11:20:58+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -121,6 +121,21 @@
       <name value="Observation core BE profile"/>
       <description value="The Core BE profile for Observation"/>
       <groupingId value="condition"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-observationcodeableconcept.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-observationcodeableconcept"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Observation codeable concept code core BE profile"/>
+      <description value="The Core BE profile for Observation codeable concept"/>
+      <groupingId value="core"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

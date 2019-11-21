@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "HCPARTY"];
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2019-11-21T11:11:36+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2019-11-21T11:20:58+01:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "HL7 Belgium"];
   fhir:CodeSystem.contact [
      fhir:index 0;
