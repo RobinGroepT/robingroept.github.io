@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="cdd7daa3-e375-42b6-af6e-c90e67fd8f44"/>
+  <id value="90cc646a-d8fc-404d-8d7a-80101f7f0eec"/>
   <meta>
-    <lastUpdated value="2019-11-21T11:20:58.098+01:00"/>
+    <lastUpdated value="2019-11-21T16:52:42.238+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -1367,7 +1367,7 @@
         <version value="0.1.0"/>
         <name value="BeCausativeAgent"/>
         <status value="draft"/>
-        <date value="2019-11-21T11:20:58+01:00"/>
+        <date value="2019-11-21T16:52:42+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -1383,8 +1383,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c4701256-83c5-4e8d-9616-e21be551dfbd"/>
-          <timestamp value="2019-11-21T11:21:28+01:00"/>
+          <identifier value="urn:uuid:258ab488-914c-4b59-9c8e-ef78c064e267"/>
+          <timestamp value="2019-11-21T16:53:10+01:00"/>
           <total value="138"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2105,7 +2105,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 15 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/v3-MaritalStatus version 2018-08-12, https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE version 1.0, http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate version 1.0, http://terminology.hl7.org/CodeSystem/v3-MaritalStatus version 2018-08-12, http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2168,82 +2168,82 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-10"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-10"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-10">10</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-26"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-26"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-26">26</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-40"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-40"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-40">40</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-41"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-41"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-41">41</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-50"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-50"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-50">50</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-51"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-51"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-51">51</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-60"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-60"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-60">60</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-80"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-80"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-80">80</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CIVILSTATE-81"> </a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-civilstate-81"> </a>
                   <a href="cd-civilstate.html#cd-civilstate-81">81</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate</td>
                 <td/>
                 <td/>
               </tr>
@@ -2270,7 +2270,7 @@
         <version value="0.1.0"/>
         <name value="BeCivilstate"/>
         <status value="draft"/>
-        <date value="2019-11-21T11:20:58+01:00"/>
+        <date value="2019-11-21T16:52:42+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -2286,8 +2286,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5a4c37cd-1d99-4417-a2e3-3c80fd904b4d"/>
-          <timestamp value="2019-11-21T11:21:28+01:00"/>
+          <identifier value="urn:uuid:2026f99e-1b7c-4192-aa32-4fa8e8258316"/>
+          <timestamp value="2019-11-21T16:53:10+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2299,7 +2299,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE|1.0"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate|1.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -2331,39 +2331,39 @@
             <display value="Widowed"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="10"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="26"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="40"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="41"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="50"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="51"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="60"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="80"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
             <code value="81"/>
           </contains>
           <contains>
@@ -2384,7 +2384,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 30 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/v2-0131 version 2.9, https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON version 1.2</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person version 1.2, http://terminology.hl7.org/CodeSystem/v2-0131 version 2.9</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2465,208 +2465,208 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-father"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-father">father</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-father"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-father">father</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-mother"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-mother">mother</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-mother"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-mother">mother</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-child"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-child">child</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-child"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-child">child</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-spouse"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-spouse">spouse</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-spouse"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-spouse">spouse</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-husband"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-husband">husband</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-husband"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-husband">husband</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-partner"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-partner">partner</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-partner"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-partner">partner</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-brother"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-brother">brother</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-brother"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-brother">brother</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-sister"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-sister">sister</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-sister"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-sister">sister</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-brotherinlaw"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-brotherinlaw">brotherinlaw</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-brotherinlaw"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-brotherinlaw">brotherinlaw</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-tutor"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-tutor">tutor</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-tutor"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-tutor">tutor</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-notary"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-notary">notary</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-notary"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-notary">notary</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-lawyer"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-lawyer">lawyer</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-lawyer"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-lawyer">lawyer</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-employer"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-employer">employer</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-employer"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-employer">employer</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-grandparent"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-grandparent">grandparent</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-grandparent"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-grandparent">grandparent</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-son"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-son">son</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-son"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-son">son</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-daughter"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-daughter">daughter</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-daughter"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-daughter">daughter</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-grandchild"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-grandchild">grandchild</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-grandchild"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-grandchild">grandchild</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-neighbour"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-neighbour">neighbour</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-neighbour"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-neighbour">neighbour</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-stepson"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-stepson">stepson</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-stepson"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-stepson">stepson</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-stepdaughter"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-stepdaughter">stepdaughter</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-stepdaughter"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-stepdaughter">stepdaughter</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-stepfather"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-stepfather">stepfather</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-stepfather"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-stepfather">stepfather</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-stepmother"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-stepmother">stepmother</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-stepmother"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-stepmother">stepmother</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-CD-CONTACT-PERSON-sisterinlaw"> </a>
-                  <a href="cd-contactperson.html#cd-contactperson-sisterinlaw">sisterinlaw</a>
+                  <a name="https---www.ehealth.fgov.be-standards-fhir-CodeSystem-cd-contact-person-sisterinlaw"> </a>
+                  <a href="cd-contact-person.html#cd-contact-person-sisterinlaw">sisterinlaw</a>
                 </td>
-                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON</td>
+                <td>https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person</td>
                 <td/>
                 <td/>
               </tr>
@@ -2677,7 +2677,7 @@
         <version value="0.1.0"/>
         <name value="BeContactPerson"/>
         <status value="draft"/>
-        <date value="2019-11-21T11:20:58+01:00"/>
+        <date value="2019-11-21T16:52:42+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -2693,8 +2693,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b1c831fb-c900-464f-bf37-188f5a47ae38"/>
-          <timestamp value="2019-11-21T11:21:28+01:00"/>
+          <identifier value="urn:uuid:8c8240bc-6553-418a-9e21-164dbc8b28f3"/>
+          <timestamp value="2019-11-21T16:53:10+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2706,7 +2706,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON|1.2"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person|1.2"/>
           </parameter>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
@@ -2744,95 +2744,95 @@
             <display value="Unknown"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="father"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="mother"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="child"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="spouse"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="husband"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="partner"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="brother"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="sister"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="brotherinlaw"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="tutor"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="notary"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="lawyer"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="employer"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="grandparent"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="son"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="daughter"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="grandchild"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="neighbour"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="stepson"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="stepdaughter"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="stepfather"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="stepmother"/>
           </contains>
           <contains>
-            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CONTACT-PERSON"/>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"/>
             <code value="sisterinlaw"/>
           </contains>
         </expansion>
@@ -2915,7 +2915,7 @@
                   <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=271759003">271759003</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Bullous eruption</td>
+                <td>XX</td>
                 <td/>
               </tr>
               <tr>
@@ -3147,7 +3147,7 @@ en systemische symptomen</td>
         <version value="0.1.0"/>
         <name value="BeRiskManifestation"/>
         <status value="draft"/>
-        <date value="2019-11-21T11:20:58+01:00"/>
+        <date value="2019-11-21T16:52:42+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -3163,8 +3163,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1a64c01b-88a0-4820-8b25-95ec2e30b4d2"/>
-          <timestamp value="2019-11-21T11:21:28+01:00"/>
+          <identifier value="urn:uuid:1dd78a47-7cf9-45cd-8c35-6601410a5b7a"/>
+          <timestamp value="2019-11-21T16:53:11+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3210,7 +3210,7 @@ en systemische symptomen</td>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="271759003"/>
-            <display value="Bullous eruption"/>
+            <display value="XX"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>

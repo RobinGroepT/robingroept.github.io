@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-21T11:20:58+01:00"/>
+  <date value="2019-11-21T16:52:42+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -292,10 +292,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="cd-contactperson.html"/>
+        <valueUri value="cd-contact-person.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/cd-contactperson"/>
+        <reference value="CodeSystem/cd-contact-person"/>
       </reference>
       <fhirVersion value="4.0.1"/>
       <name value="Codesystem CD-CONTACT-PERSON"/>
@@ -307,14 +307,74 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="cd-fedcountry.html"/>
+        <valueUri value="cd-fed-country.html"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/cd-fedcountry"/>
+        <reference value="CodeSystem/cd-fed-country"/>
       </reference>
       <fhirVersion value="4.0.1"/>
       <name value="Codesystem CD-FED-COUNTRY"/>
       <description value="The CD-FED-COUNTRY codesystem"/>
+      <groupingId value="terminology"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-ehp.html"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ehp"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem EHP"/>
+      <description value="The EHP naming system"/>
+      <groupingId value="terminology"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-cbe.html"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-cbe"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem CBE"/>
+      <description value="The CBE naming system"/>
+      <groupingId value="terminology"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-ssin.html"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-ssin"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem SSIN"/>
+      <description value="The SSIN naming system"/>
+      <groupingId value="terminology"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-nihdi.html"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/be-nihdi"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="NamingSystem NIHDI"/>
+      <description value="The NIHDI naming system"/>
       <groupingId value="terminology"/>
     </resource>
     <page>

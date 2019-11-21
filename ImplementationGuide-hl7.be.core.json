@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-21T11:20:58+01:00",
+  "date": "2019-11-21T16:52:42+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -404,11 +404,11 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "cd-contactperson.html"
+            "valueUri": "cd-contact-person.html"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/cd-contactperson"
+          "reference": "CodeSystem/cd-contact-person"
         },
         "fhirVersion": [
           "4.0.1"
@@ -425,17 +425,101 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "cd-fedcountry.html"
+            "valueUri": "cd-fed-country.html"
           }
         ],
         "reference": {
-          "reference": "CodeSystem/cd-fedcountry"
+          "reference": "CodeSystem/cd-fed-country"
         },
         "fhirVersion": [
           "4.0.1"
         ],
         "name": "Codesystem CD-FED-COUNTRY",
         "description": "The CD-FED-COUNTRY codesystem",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-ehp.html"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ehp"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem EHP",
+        "description": "The EHP naming system",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-cbe.html"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-cbe"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem CBE",
+        "description": "The CBE naming system",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-ssin.html"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ssin"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem SSIN",
+        "description": "The SSIN naming system",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "be-nihdi.html"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-nihdi"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "NamingSystem NIHDI",
+        "description": "The NIHDI naming system",
         "groupingId": "terminology"
       }
     ],

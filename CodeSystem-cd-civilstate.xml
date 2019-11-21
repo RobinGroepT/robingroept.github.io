@@ -4,15 +4,15 @@
   <id value="cd-civilstate"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CivilState</h2><div><p>Civil state in Belgium.</p>
-</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">10<a name="cd-civilstate-10"> </a></td><td/></tr><tr><td style="white-space:nowrap">20<a name="cd-civilstate-20"> </a></td><td/></tr><tr><td style="white-space:nowrap">25<a name="cd-civilstate-25"> </a></td><td/></tr><tr><td style="white-space:nowrap">26<a name="cd-civilstate-26"> </a></td><td/></tr><tr><td style="white-space:nowrap">30<a name="cd-civilstate-30"> </a></td><td/></tr><tr><td style="white-space:nowrap">40<a name="cd-civilstate-40"> </a></td><td/></tr><tr><td style="white-space:nowrap">41<a name="cd-civilstate-41"> </a></td><td/></tr><tr><td style="white-space:nowrap">50<a name="cd-civilstate-50"> </a></td><td/></tr><tr><td style="white-space:nowrap">51<a name="cd-civilstate-51"> </a></td><td/></tr><tr><td style="white-space:nowrap">60<a name="cd-civilstate-60"> </a></td><td/></tr><tr><td style="white-space:nowrap">80<a name="cd-civilstate-80"> </a></td><td/></tr><tr><td style="white-space:nowrap">81<a name="cd-civilstate-81"> </a></td><td/></tr></table></div>
+</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">10<a name="cd-civilstate-10"> </a></td><td/></tr><tr><td style="white-space:nowrap">20<a name="cd-civilstate-20"> </a></td><td/></tr><tr><td style="white-space:nowrap">25<a name="cd-civilstate-25"> </a></td><td/></tr><tr><td style="white-space:nowrap">26<a name="cd-civilstate-26"> </a></td><td/></tr><tr><td style="white-space:nowrap">30<a name="cd-civilstate-30"> </a></td><td/></tr><tr><td style="white-space:nowrap">40<a name="cd-civilstate-40"> </a></td><td/></tr><tr><td style="white-space:nowrap">41<a name="cd-civilstate-41"> </a></td><td/></tr><tr><td style="white-space:nowrap">50<a name="cd-civilstate-50"> </a></td><td/></tr><tr><td style="white-space:nowrap">51<a name="cd-civilstate-51"> </a></td><td/></tr><tr><td style="white-space:nowrap">60<a name="cd-civilstate-60"> </a></td><td/></tr><tr><td style="white-space:nowrap">80<a name="cd-civilstate-80"> </a></td><td/></tr><tr><td style="white-space:nowrap">81<a name="cd-civilstate-81"> </a></td><td/></tr></table></div>
   </text>
-  <url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE"/>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"/>
   <version value="1.0"/>
   <name value="CivilState"/>
   <title value="CivilState"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-11-21T11:20:58+01:00"/>
+  <date value="2019-11-21T16:52:42+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>

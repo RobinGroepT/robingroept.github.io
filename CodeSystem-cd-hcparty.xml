@@ -4,15 +4,15 @@
   <id value="cd-hcparty"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HCPARTY</h2><div><p>healthcare party in Belgium.</p>
-</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-HCPARTY defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">deptanatomopathology<a name="cd-hcparty-deptanatomopathology"> </a></td><td>anatomopathology</td><td/></tr><tr><td style="white-space:nowrap">deptanesthesiology<a name="cd-hcparty-deptanesthesiology"> </a></td><td>anesthesiology</td><td/></tr><tr><td style="white-space:nowrap">deptbacteriology<a name="cd-hcparty-deptbacteriology"> </a></td><td>bacteriology</td><td/></tr><tr><td style="white-space:nowrap">deptcardiology<a name="cd-hcparty-deptcardiology"> </a></td><td>cardiology</td><td/></tr><tr><td style="white-space:nowrap">deptdermatology<a name="cd-hcparty-deptdermatology"> </a></td><td>dermatology</td><td/></tr><tr><td style="white-space:nowrap">deptdietetics<a name="cd-hcparty-deptdietetics"> </a></td><td>dietetics</td><td/></tr><tr><td style="white-space:nowrap">deptemergency<a name="cd-hcparty-deptemergency"> </a></td><td>emergency</td><td/></tr><tr><td style="white-space:nowrap">deptgastroenterology<a name="cd-hcparty-deptgastroenterology"> </a></td><td>gastroenterology</td><td/></tr><tr><td style="white-space:nowrap">deptgeneralpractice<a name="cd-hcparty-deptgeneralpractice"> </a></td><td>general practice</td><td/></tr><tr><td style="white-space:nowrap">deptgenetics<a name="cd-hcparty-deptgenetics"> </a></td><td>genetics</td><td/></tr><tr><td style="white-space:nowrap">deptgeriatry<a name="cd-hcparty-deptgeriatry"> </a></td><td>geriatry</td><td/></tr><tr><td style="white-space:nowrap">deptgynecology<a name="cd-hcparty-deptgynecology"> </a></td><td>gynecology</td><td/></tr><tr><td style="white-space:nowrap">depthematology<a name="cd-hcparty-depthematology"> </a></td><td>hematology</td><td/></tr><tr><td style="white-space:nowrap">deptintensivecare<a name="cd-hcparty-deptintensivecare"> </a></td><td>intensive care</td><td/></tr><tr><td style="white-space:nowrap">deptkinesitherapy<a name="cd-hcparty-deptkinesitherapy"> </a></td><td>kinesitherapy</td><td/></tr><tr><td style="white-space:nowrap">deptlaboratory<a name="cd-hcparty-deptlaboratory"> </a></td><td>Laboratory service or department within an organisation</td><td/></tr><tr><td style="white-space:nowrap">deptmedicine<a name="cd-hcparty-deptmedicine"> </a></td><td>internal medecine</td><td/></tr><tr><td style="white-space:nowrap">deptmolecularbiology<a name="cd-hcparty-deptmolecularbiology"> </a></td><td>molecular biology</td><td/></tr><tr><td style="white-space:nowrap">deptneonatalogy<a name="cd-hcparty-deptneonatalogy"> </a></td><td>neonatalogy</td><td/></tr><tr><td style="white-space:nowrap">deptnephrology<a name="cd-hcparty-deptnephrology"> </a></td><td>nephrology</td><td/></tr><tr><td style="white-space:nowrap">deptneurology<a name="cd-hcparty-deptneurology"> </a></td><td>neurology</td><td/></tr><tr><td style="white-space:nowrap">deptnte<a name="cd-hcparty-deptnte"> </a></td><td>nose-throat-ear</td><td/></tr><tr><td style="white-space:nowrap">deptnuclear<a name="cd-hcparty-deptnuclear"> </a></td><td>nuclear</td><td/></tr><tr><td style="white-space:nowrap">deptoncology<a name="cd-hcparty-deptoncology"> </a></td><td>oncology</td><td/></tr><tr><td style="white-space:nowrap">deptophtalmology<a name="cd-hcparty-deptophtalmology"> </a></td><td>ophtalmology</td><td/></tr><tr><td style="white-space:nowrap">deptpediatry<a name="cd-hcparty-deptpediatry"> </a></td><td>pediatry</td><td/></tr><tr><td style="white-space:nowrap">deptpharmacy<a name="cd-hcparty-deptpharmacy"> </a></td><td>Pharmacy service or department within an organisation</td><td/></tr><tr><td style="white-space:nowrap">deptphysiotherapy<a name="cd-hcparty-deptphysiotherapy"> </a></td><td>physiotherapy</td><td/></tr><tr><td style="white-space:nowrap">deptpneumology<a name="cd-hcparty-deptpneumology"> </a></td><td>pneumology</td><td/></tr><tr><td style="white-space:nowrap">deptpsychiatry<a name="cd-hcparty-deptpsychiatry"> </a></td><td>psychiatry</td><td/></tr><tr><td style="white-space:nowrap">deptradiology<a name="cd-hcparty-deptradiology"> </a></td><td>radiology</td><td/></tr><tr><td style="white-space:nowrap">deptradiotherapy<a name="cd-hcparty-deptradiotherapy"> </a></td><td>radiotherapy</td><td/></tr><tr><td style="white-space:nowrap">deptrhumatology (deprecated)<a name="cd-hcparty-deptrhumatology.40deprecated.41"> </a></td><td>rhumatology</td><td/></tr><tr><td style="white-space:nowrap">deptstomatology<a name="cd-hcparty-deptstomatology"> </a></td><td>stomatology</td><td/></tr><tr><td style="white-space:nowrap">deptsurgery<a name="cd-hcparty-deptsurgery"> </a></td><td>surgery</td><td/></tr><tr><td style="white-space:nowrap">depttoxicology<a name="cd-hcparty-depttoxicology"> </a></td><td>toxicology</td><td/></tr><tr><td style="white-space:nowrap">depturology<a name="cd-hcparty-depturology"> </a></td><td>urology</td><td/></tr><tr><td style="white-space:nowrap">orghospital<a name="cd-hcparty-orghospital"> </a></td><td>hospital</td><td/></tr><tr><td style="white-space:nowrap">orginsurance<a name="cd-hcparty-orginsurance"> </a></td><td>insurance</td><td/></tr><tr><td style="white-space:nowrap">orglaboratory<a name="cd-hcparty-orglaboratory"> </a></td><td>Independent laboratory</td><td/></tr><tr><td style="white-space:nowrap">orgpublichealth<a name="cd-hcparty-orgpublichealth"> </a></td><td>public health organisation</td><td/></tr><tr><td style="white-space:nowrap">persbiologist<a name="cd-hcparty-persbiologist"> </a></td><td>medical laboratory technician</td><td/></tr><tr><td style="white-space:nowrap">persdentist<a name="cd-hcparty-persdentist"> </a></td><td>dentist</td><td/></tr><tr><td style="white-space:nowrap">persnurse<a name="cd-hcparty-persnurse"> </a></td><td>nurse</td><td/></tr><tr><td style="white-space:nowrap">persparamedical<a name="cd-hcparty-persparamedical"> </a></td><td>paramedical</td><td/></tr><tr><td style="white-space:nowrap">perspharmacist<a name="cd-hcparty-perspharmacist"> </a></td><td>pharmacist</td><td/></tr><tr><td style="white-space:nowrap">persphysician<a name="cd-hcparty-persphysician"> </a></td><td>physician</td><td/></tr><tr><td style="white-space:nowrap">perssocialworker<a name="cd-hcparty-perssocialworker"> </a></td><td>social worker</td><td/></tr><tr><td style="white-space:nowrap">perstechnician<a name="cd-hcparty-perstechnician"> </a></td><td>Medical Imaging Technician</td><td/></tr><tr><td style="white-space:nowrap">persadministrative<a name="cd-hcparty-persadministrative"> </a></td><td>administrative</td><td/></tr><tr><td style="white-space:nowrap">persmidwife<a name="cd-hcparty-persmidwife"> </a></td><td>midwife</td><td/></tr><tr><td style="white-space:nowrap">application<a name="cd-hcparty-application"> </a></td><td>software application</td><td/></tr><tr><td style="white-space:nowrap">deptorthopedy<a name="cd-hcparty-deptorthopedy"> </a></td><td>orthopedy</td><td/></tr><tr><td style="white-space:nowrap">orgpractice<a name="cd-hcparty-orgpractice"> </a></td><td>practice organisation</td><td/></tr><tr><td style="white-space:nowrap">orgpharmacy<a name="cd-hcparty-orgpharmacy"> </a></td><td>Independent pharmacy</td><td/></tr><tr><td style="white-space:nowrap">deptalgology<a name="cd-hcparty-deptalgology"> </a></td><td>algology</td><td/></tr><tr><td style="white-space:nowrap">deptcardiacsurgery<a name="cd-hcparty-deptcardiacsurgery"> </a></td><td>cardiac surgery</td><td/></tr><tr><td style="white-space:nowrap">depthandsurgery<a name="cd-hcparty-depthandsurgery"> </a></td><td>hand surgery</td><td/></tr><tr><td style="white-space:nowrap">deptmaxillofacialsurgery<a name="cd-hcparty-deptmaxillofacialsurgery"> </a></td><td>maxillofacial surgery</td><td/></tr><tr><td style="white-space:nowrap">deptpediatricsurgery<a name="cd-hcparty-deptpediatricsurgery"> </a></td><td>pediatric surgery</td><td/></tr><tr><td style="white-space:nowrap">deptplasticandreparatorysurgery<a name="cd-hcparty-deptplasticandreparatorysurgery"> </a></td><td>plastic and reparatory surgery</td><td/></tr><tr><td style="white-space:nowrap">deptthoracicsurgery<a name="cd-hcparty-deptthoracicsurgery"> </a></td><td>thoracic surgery</td><td/></tr><tr><td style="white-space:nowrap">deptvascularsurgery<a name="cd-hcparty-deptvascularsurgery"> </a></td><td>vascular surgery</td><td/></tr><tr><td style="white-space:nowrap">deptvisceraldigestiveabdominalsurgery<a name="cd-hcparty-deptvisceraldigestiveabdominalsurgery"> </a></td><td>visceral digestive abdominal surgery</td><td/></tr><tr><td style="white-space:nowrap">deptdentistry<a name="cd-hcparty-deptdentistry"> </a></td><td>dentistry</td><td/></tr><tr><td style="white-space:nowrap">deptdiabetology<a name="cd-hcparty-deptdiabetology"> </a></td><td>diabetology</td><td/></tr><tr><td style="white-space:nowrap">deptendocrinology<a name="cd-hcparty-deptendocrinology"> </a></td><td>endocrinology</td><td/></tr><tr><td style="white-space:nowrap">deptoccupationaltherapy<a name="cd-hcparty-deptoccupationaltherapy"> </a></td><td>occupational therapy</td><td/></tr><tr><td style="white-space:nowrap">deptmajorburns<a name="cd-hcparty-deptmajorburns"> </a></td><td>major burns</td><td/></tr><tr><td style="white-space:nowrap">deptinfectiousdisease<a name="cd-hcparty-deptinfectiousdisease"> </a></td><td>infectious disease</td><td/></tr><tr><td style="white-space:nowrap">deptspeechtherapy<a name="cd-hcparty-deptspeechtherapy"> </a></td><td>speech therapy</td><td/></tr><tr><td style="white-space:nowrap">deptsportsmedecine<a name="cd-hcparty-deptsportsmedecine"> </a></td><td>sports medecine</td><td/></tr><tr><td style="white-space:nowrap">deptphysicalmedecine<a name="cd-hcparty-deptphysicalmedecine"> </a></td><td>physical medecine</td><td/></tr><tr><td style="white-space:nowrap">depttropicalmedecine<a name="cd-hcparty-depttropicalmedecine"> </a></td><td>tropical medecine</td><td/></tr><tr><td style="white-space:nowrap">deptneurosurgery<a name="cd-hcparty-deptneurosurgery"> </a></td><td>neuro surgery</td><td/></tr><tr><td style="white-space:nowrap">deptnutritiondietetics<a name="cd-hcparty-deptnutritiondietetics"> </a></td><td>nutrition dietetics</td><td/></tr><tr><td style="white-space:nowrap">deptobstetrics<a name="cd-hcparty-deptobstetrics"> </a></td><td>obstetrics</td><td/></tr><tr><td style="white-space:nowrap">deptchildandadolescentpsychiatry<a name="cd-hcparty-deptchildandadolescentpsychiatry"> </a></td><td>child and adolescent psychiatry</td><td/></tr><tr><td style="white-space:nowrap">deptpodiatry<a name="cd-hcparty-deptpodiatry"> </a></td><td>podiatry</td><td/></tr><tr><td style="white-space:nowrap">deptpsychology<a name="cd-hcparty-deptpsychology"> </a></td><td>psychology</td><td/></tr><tr><td style="white-space:nowrap">deptrevalidation<a name="cd-hcparty-deptrevalidation"> </a></td><td>revalidation</td><td/></tr><tr><td style="white-space:nowrap">deptsenology<a name="cd-hcparty-deptsenology"> </a></td><td>senology</td><td/></tr><tr><td style="white-space:nowrap">deptsocialservice<a name="cd-hcparty-deptsocialservice"> </a></td><td>social service</td><td/></tr><tr><td style="white-space:nowrap">deptpediatricintensivecare<a name="cd-hcparty-deptpediatricintensivecare"> </a></td><td>pediatric intensive care</td><td/></tr><tr><td style="white-space:nowrap">deptpalliativecare<a name="cd-hcparty-deptpalliativecare"> </a></td><td>palliative care</td><td/></tr><tr><td style="white-space:nowrap">deptrheumatology<a name="cd-hcparty-deptrheumatology"> </a></td><td>rheumatology</td><td/></tr><tr><td style="white-space:nowrap">persambulancefirstaid<a name="cd-hcparty-persambulancefirstaid"> </a></td><td>ambulance first aid</td><td/></tr><tr><td style="white-space:nowrap">persaudician<a name="cd-hcparty-persaudician"> </a></td><td>audician</td><td/></tr><tr><td style="white-space:nowrap">persaudiologist<a name="cd-hcparty-persaudiologist"> </a></td><td>audiologist</td><td/></tr><tr><td style="white-space:nowrap">perscaregiver<a name="cd-hcparty-perscaregiver"> </a></td><td>caregiver</td><td/></tr><tr><td style="white-space:nowrap">persdietician<a name="cd-hcparty-persdietician"> </a></td><td>dietician</td><td/></tr><tr><td style="white-space:nowrap">perseducator<a name="cd-hcparty-perseducator"> </a></td><td>educator</td><td/></tr><tr><td style="white-space:nowrap">perslogopedist<a name="cd-hcparty-perslogopedist"> </a></td><td>logopedist</td><td/></tr><tr><td style="white-space:nowrap">persoccupationaltherapist<a name="cd-hcparty-persoccupationaltherapist"> </a></td><td>occupational therapist</td><td/></tr><tr><td style="white-space:nowrap">persorthopedist (deprecated)<a name="cd-hcparty-persorthopedist.40deprecated.41"> </a></td><td>orthopedist</td><td/></tr><tr><td style="white-space:nowrap">persorthoptist<a name="cd-hcparty-persorthoptist"> </a></td><td>orthoptist</td><td/></tr><tr><td style="white-space:nowrap">persoptician<a name="cd-hcparty-persoptician"> </a></td><td>optician</td><td/></tr><tr><td style="white-space:nowrap">perspharmacyassistant<a name="cd-hcparty-perspharmacyassistant"> </a></td><td>pharmacy assistant</td><td/></tr><tr><td style="white-space:nowrap">persphysiotherapist<a name="cd-hcparty-persphysiotherapist"> </a></td><td>physiotherapist</td><td/></tr><tr><td style="white-space:nowrap">perspodologist<a name="cd-hcparty-perspodologist"> </a></td><td>podologist</td><td/></tr><tr><td style="white-space:nowrap">perspracticalnurse<a name="cd-hcparty-perspracticalnurse"> </a></td><td>practical nurse</td><td/></tr><tr><td style="white-space:nowrap">perspsychologist<a name="cd-hcparty-perspsychologist"> </a></td><td>psychologist</td><td/></tr><tr><td style="white-space:nowrap">orgprimaryhealthcarecenter<a name="cd-hcparty-orgprimaryhealthcarecenter"> </a></td><td>primary health care center</td><td/></tr><tr><td style="white-space:nowrap">guardpost<a name="cd-hcparty-guardpost"> </a></td><td>Guard post</td><td/></tr><tr><td style="white-space:nowrap">groupofphysicianssameaddress<a name="cd-hcparty-groupofphysicianssameaddress"> </a></td><td>Group of physicians same address</td><td/></tr><tr><td style="white-space:nowrap">groupofphysiciansdifferentaddress<a name="cd-hcparty-groupofphysiciansdifferentaddress"> </a></td><td>Group of physicians different address</td><td/></tr><tr><td style="white-space:nowrap">groupofnurses<a name="cd-hcparty-groupofnurses"> </a></td><td>Group of nurses</td><td/></tr><tr><td style="white-space:nowrap">certificateholder<a name="cd-hcparty-certificateholder"> </a></td><td>Certificate holder</td><td/></tr><tr><td style="white-space:nowrap">perstrussmaker<a name="cd-hcparty-perstrussmaker"> </a></td><td>Truss maker</td><td/></tr><tr><td style="white-space:nowrap">patient<a name="cd-hcparty-patient"> </a></td><td>Patient</td><td/></tr><tr><td style="white-space:nowrap">persorthotist<a name="cd-hcparty-persorthotist"> </a></td><td>Orthotist</td><td/></tr><tr><td style="white-space:nowrap">perspatientdriver<a name="cd-hcparty-perspatientdriver"> </a></td><td>Patient driver (not urgent)</td><td/></tr><tr><td style="white-space:nowrap">orgprevention<a name="cd-hcparty-orgprevention"> </a></td><td>Prevention organisation</td><td/></tr><tr><td style="white-space:nowrap">perspharmacistclinicalbiologist<a name="cd-hcparty-perspharmacistclinicalbiologist"> </a></td><td>pharmacist-clinical biologist</td><td/></tr><tr><td style="white-space:nowrap">hub<a name="cd-hcparty-hub"> </a></td><td>hub</td><td/></tr><tr><td style="white-space:nowrap">deptnursing<a name="cd-hcparty-deptnursing"> </a></td><td>nursing</td><td/></tr><tr><td style="white-space:nowrap">persoraldentalhygienist<a name="cd-hcparty-persoraldentalhygienist"> </a></td><td>Oral dental hygienist</td><td/></tr><tr><td style="white-space:nowrap">persclinicalpsychologist<a name="cd-hcparty-persclinicalpsychologist"> </a></td><td>Clinical psychologist</td><td/></tr><tr><td style="white-space:nowrap">persclinicalorthopedagogist<a name="cd-hcparty-persclinicalorthopedagogist"> </a></td><td>Clinical orthopedagogist</td><td/></tr></table></div>
+</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">deptanatomopathology<a name="cd-hcparty-deptanatomopathology"> </a></td><td>anatomopathology</td><td/></tr><tr><td style="white-space:nowrap">deptanesthesiology<a name="cd-hcparty-deptanesthesiology"> </a></td><td>anesthesiology</td><td/></tr><tr><td style="white-space:nowrap">deptbacteriology<a name="cd-hcparty-deptbacteriology"> </a></td><td>bacteriology</td><td/></tr><tr><td style="white-space:nowrap">deptcardiology<a name="cd-hcparty-deptcardiology"> </a></td><td>cardiology</td><td/></tr><tr><td style="white-space:nowrap">deptdermatology<a name="cd-hcparty-deptdermatology"> </a></td><td>dermatology</td><td/></tr><tr><td style="white-space:nowrap">deptdietetics<a name="cd-hcparty-deptdietetics"> </a></td><td>dietetics</td><td/></tr><tr><td style="white-space:nowrap">deptemergency<a name="cd-hcparty-deptemergency"> </a></td><td>emergency</td><td/></tr><tr><td style="white-space:nowrap">deptgastroenterology<a name="cd-hcparty-deptgastroenterology"> </a></td><td>gastroenterology</td><td/></tr><tr><td style="white-space:nowrap">deptgeneralpractice<a name="cd-hcparty-deptgeneralpractice"> </a></td><td>general practice</td><td/></tr><tr><td style="white-space:nowrap">deptgenetics<a name="cd-hcparty-deptgenetics"> </a></td><td>genetics</td><td/></tr><tr><td style="white-space:nowrap">deptgeriatry<a name="cd-hcparty-deptgeriatry"> </a></td><td>geriatry</td><td/></tr><tr><td style="white-space:nowrap">deptgynecology<a name="cd-hcparty-deptgynecology"> </a></td><td>gynecology</td><td/></tr><tr><td style="white-space:nowrap">depthematology<a name="cd-hcparty-depthematology"> </a></td><td>hematology</td><td/></tr><tr><td style="white-space:nowrap">deptintensivecare<a name="cd-hcparty-deptintensivecare"> </a></td><td>intensive care</td><td/></tr><tr><td style="white-space:nowrap">deptkinesitherapy<a name="cd-hcparty-deptkinesitherapy"> </a></td><td>kinesitherapy</td><td/></tr><tr><td style="white-space:nowrap">deptlaboratory<a name="cd-hcparty-deptlaboratory"> </a></td><td>Laboratory service or department within an organisation</td><td/></tr><tr><td style="white-space:nowrap">deptmedicine<a name="cd-hcparty-deptmedicine"> </a></td><td>internal medecine</td><td/></tr><tr><td style="white-space:nowrap">deptmolecularbiology<a name="cd-hcparty-deptmolecularbiology"> </a></td><td>molecular biology</td><td/></tr><tr><td style="white-space:nowrap">deptneonatalogy<a name="cd-hcparty-deptneonatalogy"> </a></td><td>neonatalogy</td><td/></tr><tr><td style="white-space:nowrap">deptnephrology<a name="cd-hcparty-deptnephrology"> </a></td><td>nephrology</td><td/></tr><tr><td style="white-space:nowrap">deptneurology<a name="cd-hcparty-deptneurology"> </a></td><td>neurology</td><td/></tr><tr><td style="white-space:nowrap">deptnte<a name="cd-hcparty-deptnte"> </a></td><td>nose-throat-ear</td><td/></tr><tr><td style="white-space:nowrap">deptnuclear<a name="cd-hcparty-deptnuclear"> </a></td><td>nuclear</td><td/></tr><tr><td style="white-space:nowrap">deptoncology<a name="cd-hcparty-deptoncology"> </a></td><td>oncology</td><td/></tr><tr><td style="white-space:nowrap">deptophtalmology<a name="cd-hcparty-deptophtalmology"> </a></td><td>ophtalmology</td><td/></tr><tr><td style="white-space:nowrap">deptpediatry<a name="cd-hcparty-deptpediatry"> </a></td><td>pediatry</td><td/></tr><tr><td style="white-space:nowrap">deptpharmacy<a name="cd-hcparty-deptpharmacy"> </a></td><td>Pharmacy service or department within an organisation</td><td/></tr><tr><td style="white-space:nowrap">deptphysiotherapy<a name="cd-hcparty-deptphysiotherapy"> </a></td><td>physiotherapy</td><td/></tr><tr><td style="white-space:nowrap">deptpneumology<a name="cd-hcparty-deptpneumology"> </a></td><td>pneumology</td><td/></tr><tr><td style="white-space:nowrap">deptpsychiatry<a name="cd-hcparty-deptpsychiatry"> </a></td><td>psychiatry</td><td/></tr><tr><td style="white-space:nowrap">deptradiology<a name="cd-hcparty-deptradiology"> </a></td><td>radiology</td><td/></tr><tr><td style="white-space:nowrap">deptradiotherapy<a name="cd-hcparty-deptradiotherapy"> </a></td><td>radiotherapy</td><td/></tr><tr><td style="white-space:nowrap">deptrhumatology (deprecated)<a name="cd-hcparty-deptrhumatology.40deprecated.41"> </a></td><td>rhumatology</td><td/></tr><tr><td style="white-space:nowrap">deptstomatology<a name="cd-hcparty-deptstomatology"> </a></td><td>stomatology</td><td/></tr><tr><td style="white-space:nowrap">deptsurgery<a name="cd-hcparty-deptsurgery"> </a></td><td>surgery</td><td/></tr><tr><td style="white-space:nowrap">depttoxicology<a name="cd-hcparty-depttoxicology"> </a></td><td>toxicology</td><td/></tr><tr><td style="white-space:nowrap">depturology<a name="cd-hcparty-depturology"> </a></td><td>urology</td><td/></tr><tr><td style="white-space:nowrap">orghospital<a name="cd-hcparty-orghospital"> </a></td><td>hospital</td><td/></tr><tr><td style="white-space:nowrap">orginsurance<a name="cd-hcparty-orginsurance"> </a></td><td>insurance</td><td/></tr><tr><td style="white-space:nowrap">orglaboratory<a name="cd-hcparty-orglaboratory"> </a></td><td>Independent laboratory</td><td/></tr><tr><td style="white-space:nowrap">orgpublichealth<a name="cd-hcparty-orgpublichealth"> </a></td><td>public health organisation</td><td/></tr><tr><td style="white-space:nowrap">persbiologist<a name="cd-hcparty-persbiologist"> </a></td><td>medical laboratory technician</td><td/></tr><tr><td style="white-space:nowrap">persdentist<a name="cd-hcparty-persdentist"> </a></td><td>dentist</td><td/></tr><tr><td style="white-space:nowrap">persnurse<a name="cd-hcparty-persnurse"> </a></td><td>nurse</td><td/></tr><tr><td style="white-space:nowrap">persparamedical<a name="cd-hcparty-persparamedical"> </a></td><td>paramedical</td><td/></tr><tr><td style="white-space:nowrap">perspharmacist<a name="cd-hcparty-perspharmacist"> </a></td><td>pharmacist</td><td/></tr><tr><td style="white-space:nowrap">persphysician<a name="cd-hcparty-persphysician"> </a></td><td>physician</td><td/></tr><tr><td style="white-space:nowrap">perssocialworker<a name="cd-hcparty-perssocialworker"> </a></td><td>social worker</td><td/></tr><tr><td style="white-space:nowrap">perstechnician<a name="cd-hcparty-perstechnician"> </a></td><td>Medical Imaging Technician</td><td/></tr><tr><td style="white-space:nowrap">persadministrative<a name="cd-hcparty-persadministrative"> </a></td><td>administrative</td><td/></tr><tr><td style="white-space:nowrap">persmidwife<a name="cd-hcparty-persmidwife"> </a></td><td>midwife</td><td/></tr><tr><td style="white-space:nowrap">application<a name="cd-hcparty-application"> </a></td><td>software application</td><td/></tr><tr><td style="white-space:nowrap">deptorthopedy<a name="cd-hcparty-deptorthopedy"> </a></td><td>orthopedy</td><td/></tr><tr><td style="white-space:nowrap">orgpractice<a name="cd-hcparty-orgpractice"> </a></td><td>practice organisation</td><td/></tr><tr><td style="white-space:nowrap">orgpharmacy<a name="cd-hcparty-orgpharmacy"> </a></td><td>Independent pharmacy</td><td/></tr><tr><td style="white-space:nowrap">deptalgology<a name="cd-hcparty-deptalgology"> </a></td><td>algology</td><td/></tr><tr><td style="white-space:nowrap">deptcardiacsurgery<a name="cd-hcparty-deptcardiacsurgery"> </a></td><td>cardiac surgery</td><td/></tr><tr><td style="white-space:nowrap">depthandsurgery<a name="cd-hcparty-depthandsurgery"> </a></td><td>hand surgery</td><td/></tr><tr><td style="white-space:nowrap">deptmaxillofacialsurgery<a name="cd-hcparty-deptmaxillofacialsurgery"> </a></td><td>maxillofacial surgery</td><td/></tr><tr><td style="white-space:nowrap">deptpediatricsurgery<a name="cd-hcparty-deptpediatricsurgery"> </a></td><td>pediatric surgery</td><td/></tr><tr><td style="white-space:nowrap">deptplasticandreparatorysurgery<a name="cd-hcparty-deptplasticandreparatorysurgery"> </a></td><td>plastic and reparatory surgery</td><td/></tr><tr><td style="white-space:nowrap">deptthoracicsurgery<a name="cd-hcparty-deptthoracicsurgery"> </a></td><td>thoracic surgery</td><td/></tr><tr><td style="white-space:nowrap">deptvascularsurgery<a name="cd-hcparty-deptvascularsurgery"> </a></td><td>vascular surgery</td><td/></tr><tr><td style="white-space:nowrap">deptvisceraldigestiveabdominalsurgery<a name="cd-hcparty-deptvisceraldigestiveabdominalsurgery"> </a></td><td>visceral digestive abdominal surgery</td><td/></tr><tr><td style="white-space:nowrap">deptdentistry<a name="cd-hcparty-deptdentistry"> </a></td><td>dentistry</td><td/></tr><tr><td style="white-space:nowrap">deptdiabetology<a name="cd-hcparty-deptdiabetology"> </a></td><td>diabetology</td><td/></tr><tr><td style="white-space:nowrap">deptendocrinology<a name="cd-hcparty-deptendocrinology"> </a></td><td>endocrinology</td><td/></tr><tr><td style="white-space:nowrap">deptoccupationaltherapy<a name="cd-hcparty-deptoccupationaltherapy"> </a></td><td>occupational therapy</td><td/></tr><tr><td style="white-space:nowrap">deptmajorburns<a name="cd-hcparty-deptmajorburns"> </a></td><td>major burns</td><td/></tr><tr><td style="white-space:nowrap">deptinfectiousdisease<a name="cd-hcparty-deptinfectiousdisease"> </a></td><td>infectious disease</td><td/></tr><tr><td style="white-space:nowrap">deptspeechtherapy<a name="cd-hcparty-deptspeechtherapy"> </a></td><td>speech therapy</td><td/></tr><tr><td style="white-space:nowrap">deptsportsmedecine<a name="cd-hcparty-deptsportsmedecine"> </a></td><td>sports medecine</td><td/></tr><tr><td style="white-space:nowrap">deptphysicalmedecine<a name="cd-hcparty-deptphysicalmedecine"> </a></td><td>physical medecine</td><td/></tr><tr><td style="white-space:nowrap">depttropicalmedecine<a name="cd-hcparty-depttropicalmedecine"> </a></td><td>tropical medecine</td><td/></tr><tr><td style="white-space:nowrap">deptneurosurgery<a name="cd-hcparty-deptneurosurgery"> </a></td><td>neuro surgery</td><td/></tr><tr><td style="white-space:nowrap">deptnutritiondietetics<a name="cd-hcparty-deptnutritiondietetics"> </a></td><td>nutrition dietetics</td><td/></tr><tr><td style="white-space:nowrap">deptobstetrics<a name="cd-hcparty-deptobstetrics"> </a></td><td>obstetrics</td><td/></tr><tr><td style="white-space:nowrap">deptchildandadolescentpsychiatry<a name="cd-hcparty-deptchildandadolescentpsychiatry"> </a></td><td>child and adolescent psychiatry</td><td/></tr><tr><td style="white-space:nowrap">deptpodiatry<a name="cd-hcparty-deptpodiatry"> </a></td><td>podiatry</td><td/></tr><tr><td style="white-space:nowrap">deptpsychology<a name="cd-hcparty-deptpsychology"> </a></td><td>psychology</td><td/></tr><tr><td style="white-space:nowrap">deptrevalidation<a name="cd-hcparty-deptrevalidation"> </a></td><td>revalidation</td><td/></tr><tr><td style="white-space:nowrap">deptsenology<a name="cd-hcparty-deptsenology"> </a></td><td>senology</td><td/></tr><tr><td style="white-space:nowrap">deptsocialservice<a name="cd-hcparty-deptsocialservice"> </a></td><td>social service</td><td/></tr><tr><td style="white-space:nowrap">deptpediatricintensivecare<a name="cd-hcparty-deptpediatricintensivecare"> </a></td><td>pediatric intensive care</td><td/></tr><tr><td style="white-space:nowrap">deptpalliativecare<a name="cd-hcparty-deptpalliativecare"> </a></td><td>palliative care</td><td/></tr><tr><td style="white-space:nowrap">deptrheumatology<a name="cd-hcparty-deptrheumatology"> </a></td><td>rheumatology</td><td/></tr><tr><td style="white-space:nowrap">persambulancefirstaid<a name="cd-hcparty-persambulancefirstaid"> </a></td><td>ambulance first aid</td><td/></tr><tr><td style="white-space:nowrap">persaudician<a name="cd-hcparty-persaudician"> </a></td><td>audician</td><td/></tr><tr><td style="white-space:nowrap">persaudiologist<a name="cd-hcparty-persaudiologist"> </a></td><td>audiologist</td><td/></tr><tr><td style="white-space:nowrap">perscaregiver<a name="cd-hcparty-perscaregiver"> </a></td><td>caregiver</td><td/></tr><tr><td style="white-space:nowrap">persdietician<a name="cd-hcparty-persdietician"> </a></td><td>dietician</td><td/></tr><tr><td style="white-space:nowrap">perseducator<a name="cd-hcparty-perseducator"> </a></td><td>educator</td><td/></tr><tr><td style="white-space:nowrap">perslogopedist<a name="cd-hcparty-perslogopedist"> </a></td><td>logopedist</td><td/></tr><tr><td style="white-space:nowrap">persoccupationaltherapist<a name="cd-hcparty-persoccupationaltherapist"> </a></td><td>occupational therapist</td><td/></tr><tr><td style="white-space:nowrap">persorthopedist (deprecated)<a name="cd-hcparty-persorthopedist.40deprecated.41"> </a></td><td>orthopedist</td><td/></tr><tr><td style="white-space:nowrap">persorthoptist<a name="cd-hcparty-persorthoptist"> </a></td><td>orthoptist</td><td/></tr><tr><td style="white-space:nowrap">persoptician<a name="cd-hcparty-persoptician"> </a></td><td>optician</td><td/></tr><tr><td style="white-space:nowrap">perspharmacyassistant<a name="cd-hcparty-perspharmacyassistant"> </a></td><td>pharmacy assistant</td><td/></tr><tr><td style="white-space:nowrap">persphysiotherapist<a name="cd-hcparty-persphysiotherapist"> </a></td><td>physiotherapist</td><td/></tr><tr><td style="white-space:nowrap">perspodologist<a name="cd-hcparty-perspodologist"> </a></td><td>podologist</td><td/></tr><tr><td style="white-space:nowrap">perspracticalnurse<a name="cd-hcparty-perspracticalnurse"> </a></td><td>practical nurse</td><td/></tr><tr><td style="white-space:nowrap">perspsychologist<a name="cd-hcparty-perspsychologist"> </a></td><td>psychologist</td><td/></tr><tr><td style="white-space:nowrap">orgprimaryhealthcarecenter<a name="cd-hcparty-orgprimaryhealthcarecenter"> </a></td><td>primary health care center</td><td/></tr><tr><td style="white-space:nowrap">guardpost<a name="cd-hcparty-guardpost"> </a></td><td>Guard post</td><td/></tr><tr><td style="white-space:nowrap">groupofphysicianssameaddress<a name="cd-hcparty-groupofphysicianssameaddress"> </a></td><td>Group of physicians same address</td><td/></tr><tr><td style="white-space:nowrap">groupofphysiciansdifferentaddress<a name="cd-hcparty-groupofphysiciansdifferentaddress"> </a></td><td>Group of physicians different address</td><td/></tr><tr><td style="white-space:nowrap">groupofnurses<a name="cd-hcparty-groupofnurses"> </a></td><td>Group of nurses</td><td/></tr><tr><td style="white-space:nowrap">certificateholder<a name="cd-hcparty-certificateholder"> </a></td><td>Certificate holder</td><td/></tr><tr><td style="white-space:nowrap">perstrussmaker<a name="cd-hcparty-perstrussmaker"> </a></td><td>Truss maker</td><td/></tr><tr><td style="white-space:nowrap">patient<a name="cd-hcparty-patient"> </a></td><td>Patient</td><td/></tr><tr><td style="white-space:nowrap">persorthotist<a name="cd-hcparty-persorthotist"> </a></td><td>Orthotist</td><td/></tr><tr><td style="white-space:nowrap">perspatientdriver<a name="cd-hcparty-perspatientdriver"> </a></td><td>Patient driver (not urgent)</td><td/></tr><tr><td style="white-space:nowrap">orgprevention<a name="cd-hcparty-orgprevention"> </a></td><td>Prevention organisation</td><td/></tr><tr><td style="white-space:nowrap">perspharmacistclinicalbiologist<a name="cd-hcparty-perspharmacistclinicalbiologist"> </a></td><td>pharmacist-clinical biologist</td><td/></tr><tr><td style="white-space:nowrap">hub<a name="cd-hcparty-hub"> </a></td><td>hub</td><td/></tr><tr><td style="white-space:nowrap">deptnursing<a name="cd-hcparty-deptnursing"> </a></td><td>nursing</td><td/></tr><tr><td style="white-space:nowrap">persoraldentalhygienist<a name="cd-hcparty-persoraldentalhygienist"> </a></td><td>Oral dental hygienist</td><td/></tr><tr><td style="white-space:nowrap">persclinicalpsychologist<a name="cd-hcparty-persclinicalpsychologist"> </a></td><td>Clinical psychologist</td><td/></tr><tr><td style="white-space:nowrap">persclinicalorthopedagogist<a name="cd-hcparty-persclinicalorthopedagogist"> </a></td><td>Clinical orthopedagogist</td><td/></tr></table></div>
   </text>
-  <url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-HCPARTY"/>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty"/>
   <version value="1.15"/>
   <name value="HCParty"/>
   <title value="HCPARTY"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-11-21T11:20:58+01:00"/>
+  <date value="2019-11-21T16:52:42+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -45,7 +45,7 @@
       <value value="anatomopathologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="pathologische Anatomie "/>
     </designation>
   </concept>
@@ -65,7 +65,7 @@
       <value value="anesth&#xE9;siologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="An&#xE4;sthesiologe"/>
     </designation>
   </concept>
@@ -85,7 +85,7 @@
       <value value="bact&#xE9;riologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Bakteriologie"/>
     </designation>
   </concept>
@@ -105,7 +105,7 @@
       <value value="cardiologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Kardiologie"/>
     </designation>
   </concept>
@@ -125,7 +125,7 @@
       <value value="dermatologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Dermatologie"/>
     </designation>
   </concept>
@@ -145,7 +145,7 @@
       <value value="di&#xE9;t&#xE9;tique"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Di&#xE4;tetik"/>
     </designation>
   </concept>
@@ -165,7 +165,7 @@
       <value value="services d&#39;urgence"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Notfalldienst"/>
     </designation>
   </concept>
@@ -185,7 +185,7 @@
       <value value="gastroent&#xE9;rologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Gastroenterologie"/>
     </designation>
   </concept>
@@ -205,7 +205,7 @@
       <value value="m&#xE9;decine g&#xE9;n&#xE9;rale"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Allgemeinmedizin"/>
     </designation>
   </concept>
@@ -225,7 +225,7 @@
       <value value="g&#xE9;n&#xE9;tique"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Genetik"/>
     </designation>
   </concept>
@@ -245,7 +245,7 @@
       <value value="g&#xE9;riatrie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Geriatrie"/>
     </designation>
   </concept>
@@ -265,7 +265,7 @@
       <value value="gyn&#xE9;cologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Gyn&#xE4;kologie"/>
     </designation>
   </concept>
@@ -285,7 +285,7 @@
       <value value="h&#xE9;matologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="H&#xE4;matologie"/>
     </designation>
   </concept>
@@ -305,7 +305,7 @@
       <value value="soins intensifs"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Intensivmedizin"/>
     </designation>
   </concept>
@@ -325,7 +325,7 @@
       <value value="kin&#xE9;sith&#xE9;rapie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Bewegungstherapie"/>
     </designation>
   </concept>
@@ -345,7 +345,7 @@
       <value value="Service / D&#xE9;partement laboratoire au sein d&#39;une organisation"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Laboratorium Dienst/Abteilung in einer Organisation"/>
     </designation>
   </concept>
@@ -365,7 +365,7 @@
       <value value="m&#xE9;dicine interne"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Innere Medizin"/>
     </designation>
   </concept>
@@ -385,7 +385,7 @@
       <value value="biologie mol&#xE9;culaire"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Molekularbiologie"/>
     </designation>
   </concept>
@@ -405,7 +405,7 @@
       <value value="n&#xE9;onatologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Neonatologie"/>
     </designation>
   </concept>
@@ -425,7 +425,7 @@
       <value value="n&#xE9;phrologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Nephrologie"/>
     </designation>
   </concept>
@@ -445,7 +445,7 @@
       <value value="neurologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Neurologie"/>
     </designation>
   </concept>
@@ -465,7 +465,7 @@
       <value value="oto-rhino-laryngologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Otorhinolaryngologie"/>
     </designation>
   </concept>
@@ -485,7 +485,7 @@
       <value value="m&#xE9;decine nucl&#xE9;aire"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Nuklearmedizin"/>
     </designation>
   </concept>
@@ -505,7 +505,7 @@
       <value value="oncologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Onkologie"/>
     </designation>
   </concept>
@@ -525,7 +525,7 @@
       <value value="ophtalmologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Augenheilkunde"/>
     </designation>
   </concept>
@@ -545,7 +545,7 @@
       <value value="p&#xE9;diatrie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="P&#xE4;diatrie"/>
     </designation>
   </concept>
@@ -565,7 +565,7 @@
       <value value="Service / D&#xE9;partement pharmacie au sein d&#39;une organisation"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Pharmazie Dienst/Abteilung in einer Organisation"/>
     </designation>
   </concept>
@@ -585,7 +585,7 @@
       <value value="physioth&#xE9;rapie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Physiotherapie"/>
     </designation>
   </concept>
@@ -605,7 +605,7 @@
       <value value="pneumologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Pulmonologie"/>
     </designation>
   </concept>
@@ -625,7 +625,7 @@
       <value value="psychiatrie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Psychiatrie"/>
     </designation>
   </concept>
@@ -645,7 +645,7 @@
       <value value="radiologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Radiologie"/>
     </designation>
   </concept>
@@ -665,7 +665,7 @@
       <value value="radioth&#xE9;rapie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Strahlentherapie"/>
     </designation>
   </concept>
@@ -685,7 +685,7 @@
       <value value="rhumatologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Rheumatologie"/>
     </designation>
   </concept>
@@ -705,7 +705,7 @@
       <value value="stomatologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Stomatologie"/>
     </designation>
   </concept>
@@ -725,7 +725,7 @@
       <value value="chirurgie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Chirurgie"/>
     </designation>
   </concept>
@@ -745,7 +745,7 @@
       <value value="toxicologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Toxikologie"/>
     </designation>
   </concept>
@@ -765,7 +765,7 @@
       <value value="urologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Urologie"/>
     </designation>
   </concept>
@@ -785,7 +785,7 @@
       <value value="h&#xF4;pital"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Krankenhaus"/>
     </designation>
   </concept>
@@ -805,7 +805,7 @@
       <value value="assurance"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Versicherung"/>
     </designation>
   </concept>
@@ -825,7 +825,7 @@
       <value value="laboratoire ind&#xE9;pendant"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Unabh&#xE4;ngiges Laboratorium"/>
     </designation>
   </concept>
@@ -845,7 +845,7 @@
       <value value="service public de sant&#xE9;"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Gesundheitsbeh&#xF6;rde"/>
     </designation>
   </concept>
@@ -865,7 +865,7 @@
       <value value="technicien de laboratoire m&#xE9;dical"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="medizinischer Labortechniker"/>
     </designation>
   </concept>
@@ -885,7 +885,7 @@
       <value value="dentiste"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Zahnarzt"/>
     </designation>
   </concept>
@@ -905,7 +905,7 @@
       <value value="infirmier"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Krankenpfleger/in"/>
     </designation>
   </concept>
@@ -925,7 +925,7 @@
       <value value="personnel param&#xE9;dical"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="medizinisches Hilfspersonal "/>
     </designation>
   </concept>
@@ -945,7 +945,7 @@
       <value value="pharmacien"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Apotheker"/>
     </designation>
   </concept>
@@ -965,7 +965,7 @@
       <value value="m&#xE9;decin"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Arzt"/>
     </designation>
   </concept>
@@ -985,7 +985,7 @@
       <value value="travailleur social"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Sozialarbeiter"/>
     </designation>
   </concept>
@@ -1005,7 +1005,7 @@
       <value value="Technicien d&#39;imagerie m&#xE9;dicale"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="medizinische Bildgebung Techniker"/>
     </designation>
   </concept>
@@ -1025,7 +1025,7 @@
       <value value="personnel admistratif"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="B&#xFC;roangestellte(r) "/>
     </designation>
   </concept>
@@ -1045,7 +1045,7 @@
       <value value="sage-femme"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Hebamme"/>
     </designation>
   </concept>
@@ -1065,7 +1065,7 @@
       <value value="application logicielle"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Softwareapplikation"/>
     </designation>
   </concept>
@@ -1085,7 +1085,7 @@
       <value value="orthop&#xE9;die"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Orthop&#xE4;die"/>
     </designation>
   </concept>
@@ -1105,7 +1105,7 @@
       <value value="cabinet"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Praxis"/>
     </designation>
   </concept>
@@ -1125,7 +1125,7 @@
       <value value="Pharmacie ind&#xE9;pendante"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Unabh&#xE4;ngige Apotheke"/>
     </designation>
   </concept>
@@ -1145,7 +1145,7 @@
       <value value="algologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Algologie"/>
     </designation>
   </concept>
@@ -1165,7 +1165,7 @@
       <value value="chirurgie cardiaque"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Herzchirurgie"/>
     </designation>
   </concept>
@@ -1185,7 +1185,7 @@
       <value value="chirurgie de la main"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Handchirurgie"/>
     </designation>
   </concept>
@@ -1205,7 +1205,7 @@
       <value value="chirurgie maxillofaciale"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Mund-Kiefer-Gesichtschirurgie "/>
     </designation>
   </concept>
@@ -1225,7 +1225,7 @@
       <value value="chirurgie p&#xE9;diatrique"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Kinderchirurgie "/>
     </designation>
   </concept>
@@ -1245,7 +1245,7 @@
       <value value="chirurgie esth&#xE9;tique et r&#xE9;paratrice"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="plastische Chirurgie und Reparaturchirurgie"/>
     </designation>
   </concept>
@@ -1265,7 +1265,7 @@
       <value value="chirurgie thoracique"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Thoraxchirurgie "/>
     </designation>
   </concept>
@@ -1285,7 +1285,7 @@
       <value value="chirurgie vasculaire"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Vaskul&#xE4;re Chirurgie"/>
     </designation>
   </concept>
@@ -1305,7 +1305,7 @@
       <value value="chirurgie abdominale, digestive et visc&#xE9;rale"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Viszeralchirurgie/Abdominalchirurgie/Bauchchirurgie"/>
     </designation>
   </concept>
@@ -1325,7 +1325,7 @@
       <value value="dentisterie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Zahnheilkunde"/>
     </designation>
   </concept>
@@ -1345,7 +1345,7 @@
       <value value="diab&#xE9;tologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Diabetologie"/>
     </designation>
   </concept>
@@ -1365,7 +1365,7 @@
       <value value="endocrinologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Endokrinologie"/>
     </designation>
   </concept>
@@ -1385,7 +1385,7 @@
       <value value="ergoth&#xE9;rapie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Ergotherapie"/>
     </designation>
   </concept>
@@ -1405,7 +1405,7 @@
       <value value="grands br&#xFB;l&#xE9;s"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Zentrum f&#xFC;r Schwerbrandverletzte"/>
     </designation>
   </concept>
@@ -1425,7 +1425,7 @@
       <value value="maladie infectieuse"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Infektionskrankheit "/>
     </designation>
   </concept>
@@ -1445,7 +1445,7 @@
       <value value="logop&#xE9;die"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Sprachtherapie"/>
     </designation>
   </concept>
@@ -1465,7 +1465,7 @@
       <value value="m&#xE9;decine des sports"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Sportmedizin"/>
     </designation>
   </concept>
@@ -1485,7 +1485,7 @@
       <value value="m&#xE9;decine physique"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="physikalische Medizin"/>
     </designation>
   </concept>
@@ -1505,7 +1505,7 @@
       <value value="m&#xE9;decine tropicale"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Tropenmedizin"/>
     </designation>
   </concept>
@@ -1525,7 +1525,7 @@
       <value value="neurologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Neurologie"/>
     </designation>
   </concept>
@@ -1545,7 +1545,7 @@
       <value value="di&#xE9;t&#xE9;tique nutritionnelle"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Di&#xE4;tetik"/>
     </designation>
   </concept>
@@ -1565,7 +1565,7 @@
       <value value="obst&#xE9;trique"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Geburtshilfe"/>
     </designation>
   </concept>
@@ -1585,7 +1585,7 @@
       <value value="psychiatrie de l&#39;enfant et de l&#39;adolescent"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Kinder-und Jugendpsychologie "/>
     </designation>
   </concept>
@@ -1605,7 +1605,7 @@
       <value value="podiatrie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Podiatrie"/>
     </designation>
   </concept>
@@ -1625,7 +1625,7 @@
       <value value="psychologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Psychologie"/>
     </designation>
   </concept>
@@ -1645,7 +1645,7 @@
       <value value="r&#xE9;&#xE9;ducation"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Rehabilitation"/>
     </designation>
   </concept>
@@ -1665,7 +1665,7 @@
       <value value="s&#xE9;nologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Senologie"/>
     </designation>
   </concept>
@@ -1685,7 +1685,7 @@
       <value value="service social"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Sozialdienst"/>
     </designation>
   </concept>
@@ -1705,7 +1705,7 @@
       <value value="soins intensifs p&#xE9;diatriques"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Intensivpflege f&#xFC;r Kinder"/>
     </designation>
   </concept>
@@ -1725,7 +1725,7 @@
       <value value="soins palliatifs"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Palliativpflege"/>
     </designation>
   </concept>
@@ -1745,7 +1745,7 @@
       <value value="rhumatologie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Rheumatologie"/>
     </designation>
   </concept>
@@ -1765,7 +1765,7 @@
       <value value="ambulance premier secours"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Krankenwagen erste Hilfe"/>
     </designation>
   </concept>
@@ -1785,7 +1785,7 @@
       <value value="audicien"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="H&#xF6;rger&#xE4;teakustiker"/>
     </designation>
   </concept>
@@ -1805,7 +1805,7 @@
       <value value="audiologue"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Audiologe"/>
     </designation>
   </concept>
@@ -1825,7 +1825,7 @@
       <value value="soignant informel"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Pflegeperson"/>
     </designation>
   </concept>
@@ -1845,7 +1845,7 @@
       <value value="di&#xE9;t&#xE9;ticien"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Di&#xE4;tist"/>
     </designation>
   </concept>
@@ -1865,7 +1865,7 @@
       <value value="&#xE9;ducateur"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Erzieher"/>
     </designation>
   </concept>
@@ -1885,7 +1885,7 @@
       <value value="logop&#xE8;de"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Logop&#xE4;de"/>
     </designation>
   </concept>
@@ -1905,7 +1905,7 @@
       <value value="ergoth&#xE9;rapeute"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Ergotherapeut"/>
     </designation>
   </concept>
@@ -1925,7 +1925,7 @@
       <value value="orthop&#xE9;diste"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Orthop&#xE4;dist"/>
     </designation>
   </concept>
@@ -1945,7 +1945,7 @@
       <value value="orthoptiste"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Orthoptist"/>
     </designation>
   </concept>
@@ -1965,7 +1965,7 @@
       <value value="opticien"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Optiker"/>
     </designation>
   </concept>
@@ -1985,7 +1985,7 @@
       <value value="assistant en pharmacie"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Apothekenhelfer"/>
     </designation>
   </concept>
@@ -2005,7 +2005,7 @@
       <value value="kin&#xE9;sith&#xE9;rapeute"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Krankengymnast"/>
     </designation>
   </concept>
@@ -2025,7 +2025,7 @@
       <value value="podologue"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Podologe"/>
     </designation>
   </concept>
@@ -2045,7 +2045,7 @@
       <value value="aide-soignante"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Pfleger"/>
     </designation>
   </concept>
@@ -2065,7 +2065,7 @@
       <value value="psychologue"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Psychologe "/>
     </designation>
   </concept>
@@ -2085,7 +2085,7 @@
       <value value="Maison m&#xE9;dicale"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Gesundheitspflege der ersten Linie"/>
     </designation>
   </concept>
@@ -2105,7 +2105,7 @@
       <value value="poste de garde"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Wachposten"/>
     </designation>
   </concept>
@@ -2125,7 +2125,7 @@
       <value value="regroupement de m&#xE9;decins m&#xEA;me adresse"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Gruppierung von &#xC4;rzten gleiche Adresse"/>
     </designation>
   </concept>
@@ -2145,7 +2145,7 @@
       <value value="Regroupement de m&#xE9;decins adresse diff&#xE9;rente"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Gruppierung von &#xC4;rzten andere Adresse"/>
     </designation>
   </concept>
@@ -2165,7 +2165,7 @@
       <value value="Regroupement d&#39;infirmiers"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Krankenpflegeverein"/>
     </designation>
   </concept>
@@ -2185,7 +2185,7 @@
       <value value="Titulaire du certificat"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Zertifikatsinhaber"/>
     </designation>
   </concept>
@@ -2205,7 +2205,7 @@
       <value value="Bandagiste"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Bandagist"/>
     </designation>
   </concept>
@@ -2225,7 +2225,7 @@
       <value value="Patient"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Patient"/>
     </designation>
   </concept>
@@ -2245,7 +2245,7 @@
       <value value="Orth&#xE9;siste/Proth&#xE9;siste"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Orthop&#xE4;dietechniker"/>
     </designation>
   </concept>
@@ -2265,7 +2265,7 @@
       <value value="Transporteur de patient (non urgent)"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Patientenfahrer (nicht dringend)"/>
     </designation>
   </concept>
@@ -2285,7 +2285,7 @@
       <value value="Service de p&#xE9;vention"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Pr&#xE4;ventionsdienst"/>
     </designation>
   </concept>
@@ -2305,7 +2305,7 @@
       <value value="pharmacien-biologiste clinicien"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Apotheker-klinische Biologe"/>
     </designation>
   </concept>
@@ -2325,7 +2325,7 @@
       <value value="hub"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="hub"/>
     </designation>
   </concept>
@@ -2345,7 +2345,7 @@
       <value value="soins infirmiers"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Krankenpflege"/>
     </designation>
   </concept>
@@ -2365,7 +2365,7 @@
       <value value="Hygi&#xE9;niste bucco-dentaire"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Dentalhygieniker"/>
     </designation>
   </concept>
@@ -2385,7 +2385,7 @@
       <value value="Psychologue clinicien"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Klinischer Psychologe"/>
     </designation>
   </concept>
@@ -2405,7 +2405,7 @@
       <value value="Orthop&#xE9;dagogue clinicien"/>
     </designation>
     <designation>
-      <language value="de-BE"/>
+      <language value="de"/>
       <value value="Klinischer Orthop&#xE4;dagoge"/>
     </designation>
   </concept>
