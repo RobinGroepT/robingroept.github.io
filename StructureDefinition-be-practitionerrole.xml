@@ -35,7 +35,7 @@ If needed codes can be used from a different system, SNOMED-CT is preferred.">co
   <version value="0.1.0"/>
   <name value="BePractitionerRole"/>
   <status value="draft"/>
-  <date value="2019-11-21T11:03:34+01:00"/>
+  <date value="2019-11-21T11:11:36+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>

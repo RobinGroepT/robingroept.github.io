@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-21T11:03:34+01:00"/>
+  <date value="2019-11-21T11:11:36+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -120,7 +120,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="Observation core BE profile"/>
       <description value="The Core BE profile for Observation"/>
-      <groupingId value="conditions"/>
+      <groupingId value="condition"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

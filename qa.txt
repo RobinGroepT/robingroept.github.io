@@ -1,12 +1,12 @@
 ﻿BaseIG : Validation Results
 =========================================
 
-err = 60, warn = 296, info = 354
+err = 58, warn = 296, info = 354
 IG Publisher Version: v0.9.96-SNAPSHOT Out of date - current version is v1.0.2-SNAPSHOT
-Generated Thu Nov 21 11:04:48 CET 2019. FHIR version 4.0.1 for hl7.be.core# (canonical = https://www.ehealth.fgov.be/standards/fhir)
+Generated Thu Nov 21 11:13:00 CET 2019. FHIR version 4.0.1 for hl7.be.core# (canonical = https://www.ehealth.fgov.be/standards/fhir)
 
  Build Errors : 127 / 1
- C:\Users\EH074\Documents\GitHub\onlyTest\input\be.base.ig : 14 / 0
+ C:\Users\EH074\Documents\GitHub\onlyTest\input\be.base.ig : 13 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\resources\structuredefinition-be-allergyintolerance : 0 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\resources\structuredefinition-be-observation : 0 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\resources\structuredefinition-be-organization : 3 / 0
@@ -154,7 +154,6 @@ ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\valueset-be-riskmanifesta
 ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\valueset-be-riskmanifestation.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
 ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\valueset-be-riskmanifestation.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\be.base.ig.xml ==
-ERROR: ImplementationGuide/hl7.be.core: ImplementationGuide.definition: ig-1: If a resource has a groupingId, it must refer to a grouping defined in the Implementation Guide [resource.groupingId.all(%context.grouping.id contains $this)]
 ERROR: ImplementationGuide/hl7.be.core: ImplementationGuide.definition.parameter[10].code: The value provided ('path-qa') is not in the value set http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1 (http://hl7.org/fhir/ValueSet/guide-parameter-code, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-qa in http://hl7.org/fhir/guide-parameter-code)
 ERROR: ImplementationGuide/hl7.be.core: ImplementationGuide.definition.parameter[11].code: The value provided ('path-temp') is not in the value set http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1 (http://hl7.org/fhir/ValueSet/guide-parameter-code, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-temp in http://hl7.org/fhir/guide-parameter-code)
 ERROR: ImplementationGuide/hl7.be.core: ImplementationGuide.definition.parameter[12].code: The value provided ('path-output') is not in the value set http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1 (http://hl7.org/fhir/ValueSet/guide-parameter-code, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#path-output in http://hl7.org/fhir/guide-parameter-code)
