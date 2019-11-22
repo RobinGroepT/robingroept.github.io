@@ -24,11 +24,7 @@ Typically RECOMMENDED to include one familyname and at least one given name and 
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="{{[id]}}-definitions.html#Practitioner.telecom" title="A contact detail for the practitioner, e.g. a telephone number or an email address.
 
 It is RECOMMENDED to at least add one phone or email address.">telecom</a><a name="Practitioner.telecom"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="{{[id]}}-definitions.html#Practitioner.address" title="Address(es) of the practitioner that are not role specific (typically home address). Work addresses are not typically entered in this property as they are usually role dependent.
-
-It is RECOMMENDED to include this when available. This address should never be the work address (use the Organization resource for the work address.)">address</a><a name="Practitioner.address"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck112.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_extension_simple.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Simple Extension" class="hierarchy"/> <a href="{{[id]}}-definitions.html#Practitioner.address.extension" title="null">extension</a><a name="Practitioner.address.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck104.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="{{[id]}}-definitions.html#Practitioner.address.extension:language" title="Extension URL = http://hl7.org/fhir/StructureDefinition/language">language</a><a name="Practitioner.address.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Human Language for the item<br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R4/extension-language.html">http://hl7.org/fhir/StructureDefinition/language</a><br/><span style="font-weight:bold">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a> (<a href="http://hl7.org/fhir/R4/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.">preferred</a>)<br/><a style="font-weight:bold" href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="Max Value Set Extension">Max Binding: </a><a href="http://hl7.org/fhir/R4/valueset-all-languages.html">AllLanguages</a></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="{{[id]}}-definitions.html#Practitioner.address" title="null">address</a><a name="Practitioner.address"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="be-address.html" title="Address">BeAddress</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="{{[id]}}-definitions.html#Practitioner.gender" title="null">gender</a><a name="Practitioner.gender"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="{{[id]}}-definitions.html#Practitioner.communication" title="A language the practitioner can use in patient communication.
 
@@ -39,7 +35,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
   <version value="0.1.0"/>
   <name value="BePractitioner"/>
   <status value="draft"/>
-  <date value="2019-11-21T16:52:42+01:00"/>
+  <date value="2019-11-22T15:18:57+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -78,7 +74,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If the resource is contained in another resource, it SHALL NOT contain nested Resources"/>
         <expression value="contained.contained.empty()"/>
         <xpath value="not(parent::f:contained and f:contained)"/>
-        <source value="DomainResource"/>
       </constraint>
       <constraint>
         <key value="dom-4"/>
@@ -86,7 +81,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated"/>
         <expression value="contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()"/>
         <xpath value="not(exists(f:contained/*/f:meta/f:versionId)) and not(exists(f:contained/*/f:meta/f:lastUpdated))"/>
-        <source value="DomainResource"/>
       </constraint>
       <constraint>
         <key value="dom-3"/>
@@ -94,7 +88,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource"/>
         <expression value="contained.where(((&#39;#&#39;+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = &#39;#&#39;).exists() or descendants().where(as(canonical) = &#39;#&#39;).exists() or descendants().where(as(canonical) = &#39;#&#39;).exists()).not()).trace(&#39;unmatched&#39;, id).empty()"/>
         <xpath value="not(exists(for $contained in f:contained return $contained[not(parent::*/descendant::f:reference/@value=concat(&#39;#&#39;, $contained/*/id/@value) or descendant::f:reference[@value=&#39;#&#39;])]))"/>
-        <source value="DomainResource"/>
       </constraint>
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice">
@@ -108,7 +101,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="A resource should have narrative for robust management"/>
         <expression value="text.div.exists()"/>
         <xpath value="exists(f:text/h:div)"/>
-        <source value="DomainResource"/>
       </constraint>
       <constraint>
         <key value="dom-5"/>
@@ -116,7 +108,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If a resource is contained in another resource, it SHALL NOT have a security label"/>
         <expression value="contained.meta.security.empty()"/>
         <xpath value="not(exists(f:contained/*/f:meta/f:security))"/>
-        <source value="DomainResource"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -136,6 +127,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.id">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.id"/>
       <short value="Logical id of this artifact"/>
       <definition value="The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes."/>
@@ -145,7 +142,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Resource.id"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="id"/>
@@ -157,7 +154,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -166,6 +162,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.meta">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.meta"/>
       <short value="Metadata about the resource"/>
       <definition value="The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource."/>
@@ -174,7 +176,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Resource.meta"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Meta"/>
@@ -186,7 +188,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -199,6 +200,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.implicitRules">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.implicitRules"/>
       <short value="A set of rules under which this content was created"/>
       <definition value="A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc."/>
@@ -208,7 +215,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Resource.implicitRules"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="uri"/>
@@ -220,7 +227,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isModifier value="true"/>
       <isModifierReason value="This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it&#39;s meaning or interpretation"/>
@@ -231,6 +237,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.language">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.language"/>
       <short value="Language of the resource content"/>
       <definition value="The base language in which the resource is written."/>
@@ -240,7 +252,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Resource.language"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="code"/>
@@ -252,9 +264,17 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet">
+          <valueCanonical value="http://hl7.org/fhir/ValueSet/all-languages"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="Language"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
+        </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
@@ -265,6 +285,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.text">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.text"/>
       <short value="Text summary of the resource, for human interpretation"/>
       <definition value="A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety."/>
@@ -278,7 +304,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="DomainResource.text"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Narrative"/>
@@ -290,7 +316,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -333,6 +358,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.extension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.extension"/>
       <slicing>
         <discriminator>
@@ -364,7 +395,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ext-1"/>
@@ -372,7 +402,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -384,6 +413,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.modifierExtension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.modifierExtension"/>
       <slicing>
         <discriminator>
@@ -416,7 +451,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ext-1"/>
@@ -424,7 +458,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
       </constraint>
       <isModifier value="true"/>
       <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them"/>
@@ -438,6 +471,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier"/>
       <slicing>
         <discriminator>
@@ -466,7 +505,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -503,6 +541,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:NIHDI">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier"/>
       <sliceName value="NIHDI"/>
       <short value="An identifier for the person as this agent"/>
@@ -525,7 +569,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -592,6 +635,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:NIHDI.extension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.extension"/>
       <slicing>
         <discriminator>
@@ -623,7 +672,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ext-1"/>
@@ -631,7 +679,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -643,6 +690,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:NIHDI.use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.use"/>
       <short value="usual | official | temp | secondary | old (If known)"/>
       <definition value="The purpose of this identifier."/>
@@ -653,7 +706,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.use"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="code"/>
@@ -665,12 +718,14 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isModifier value="true"/>
       <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because applications should not mistake a temporary id for a permanent one."/>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="IdentifierUse"/>
+        </extension>
         <strength value="required"/>
         <description value="Identifies the purpose for this identifier, if known ."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-use|4.0.0"/>
@@ -689,6 +744,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:NIHDI.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.type"/>
       <short value="Description of identifier"/>
       <definition value="A coded type for the identifier that can be used to determine which identifier to use for a specific purpose."/>
@@ -699,7 +760,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.type"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="CodeableConcept"/>
@@ -711,10 +772,15 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="IdentifierType"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
+        </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
@@ -745,6 +811,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:NIHDI.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.system"/>
       <short value="The namespace for the identifier value"/>
       <definition value="Establishes the namespace for the value - that is, a URL that describes a set values that are unique."/>
@@ -755,7 +827,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.system"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="uri"/>
@@ -772,7 +844,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -793,6 +864,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:NIHDI.value">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.value"/>
       <short value="The value that is unique"/>
       <definition value="The portion of the identifier typically relevant to the user and which is unique within the context of the system."/>
@@ -802,7 +879,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.value"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -818,7 +895,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -839,6 +915,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:NIHDI.period">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.period"/>
       <short value="Time period when id is/was valid for use"/>
       <definition value="Time period during which identifier is/was valid for use."/>
@@ -848,7 +930,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.period"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Period"/>
@@ -860,7 +942,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="per-1"/>
@@ -868,7 +949,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If present, start SHALL have a lower value than end"/>
         <expression value="start.hasValue().not() or end.hasValue().not() or (start &lt;= end)"/>
         <xpath value="not(exists(f:start/@value)) or not(exists(f:end/@value)) or (xs:dateTime(f:start/@value) &lt;= xs:dateTime(f:end/@value))"/>
-        <source value="Period"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -897,6 +977,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:NIHDI.assigner">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.assigner"/>
       <short value="Organization that issued id (may be just text)"/>
       <definition value="Organization that issued/manages the identifier."/>
@@ -906,7 +992,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.assigner"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Reference"/>
@@ -919,7 +1005,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ref-1"/>
@@ -927,7 +1012,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="SHALL have a contained resource if a local reference is provided"/>
         <expression value="reference.startsWith(&#39;#&#39;).not() or (reference.substring(1).trace(&#39;url&#39;) in %resource.contained.id.trace(&#39;ids&#39;))"/>
         <xpath value="not(starts-with(f:reference/@value, &#39;#&#39;)) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, &#39;#&#39;)]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, &#39;#&#39;)])"/>
-        <source value="Reference"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -952,6 +1036,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:SSIN">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier"/>
       <sliceName value="SSIN"/>
       <short value="An identifier for the person as this agent"/>
@@ -974,7 +1064,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1041,6 +1130,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:SSIN.extension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.extension"/>
       <slicing>
         <discriminator>
@@ -1072,7 +1167,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ext-1"/>
@@ -1080,7 +1174,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -1092,6 +1185,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:SSIN.use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.use"/>
       <short value="usual | official | temp | secondary | old (If known)"/>
       <definition value="The purpose of this identifier."/>
@@ -1102,7 +1201,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.use"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="code"/>
@@ -1114,12 +1213,14 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isModifier value="true"/>
       <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because applications should not mistake a temporary id for a permanent one."/>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="IdentifierUse"/>
+        </extension>
         <strength value="required"/>
         <description value="Identifies the purpose for this identifier, if known ."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-use|4.0.0"/>
@@ -1138,6 +1239,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:SSIN.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.type"/>
       <short value="Description of identifier"/>
       <definition value="A coded type for the identifier that can be used to determine which identifier to use for a specific purpose."/>
@@ -1148,7 +1255,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.type"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="CodeableConcept"/>
@@ -1160,10 +1267,15 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="IdentifierType"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
+        </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
@@ -1194,6 +1306,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:SSIN.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.system"/>
       <short value="The namespace for the identifier value"/>
       <definition value="Establishes the namespace for the value - that is, a URL that describes a set values that are unique."/>
@@ -1204,7 +1322,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.system"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="uri"/>
@@ -1221,7 +1339,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1242,6 +1359,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:SSIN.value">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.value"/>
       <short value="The value that is unique"/>
       <definition value="The portion of the identifier typically relevant to the user and which is unique within the context of the system."/>
@@ -1251,7 +1374,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.value"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -1267,7 +1390,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1288,6 +1410,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:SSIN.period">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.period"/>
       <short value="Time period when id is/was valid for use"/>
       <definition value="Time period during which identifier is/was valid for use."/>
@@ -1297,7 +1425,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.period"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Period"/>
@@ -1309,7 +1437,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="per-1"/>
@@ -1317,7 +1444,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If present, start SHALL have a lower value than end"/>
         <expression value="start.hasValue().not() or end.hasValue().not() or (start &lt;= end)"/>
         <xpath value="not(exists(f:start/@value)) or not(exists(f:end/@value)) or (xs:dateTime(f:start/@value) &lt;= xs:dateTime(f:end/@value))"/>
-        <source value="Period"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1346,6 +1472,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:SSIN.assigner">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.assigner"/>
       <short value="Organization that issued id (may be just text)"/>
       <definition value="Organization that issued/manages the identifier."/>
@@ -1355,7 +1487,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.assigner"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Reference"/>
@@ -1368,7 +1500,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ref-1"/>
@@ -1376,7 +1507,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="SHALL have a contained resource if a local reference is provided"/>
         <expression value="reference.startsWith(&#39;#&#39;).not() or (reference.substring(1).trace(&#39;url&#39;) in %resource.contained.id.trace(&#39;ids&#39;))"/>
         <xpath value="not(starts-with(f:reference/@value, &#39;#&#39;)) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, &#39;#&#39;)]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, &#39;#&#39;)])"/>
-        <source value="Reference"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1401,6 +1531,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:CBE">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier"/>
       <sliceName value="CBE"/>
       <short value="An identifier for the person as this agent"/>
@@ -1423,7 +1559,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1490,6 +1625,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:CBE.extension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.extension"/>
       <slicing>
         <discriminator>
@@ -1521,7 +1662,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ext-1"/>
@@ -1529,7 +1669,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -1541,6 +1680,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:CBE.use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.use"/>
       <short value="usual | official | temp | secondary | old (If known)"/>
       <definition value="The purpose of this identifier."/>
@@ -1551,7 +1696,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.use"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="code"/>
@@ -1563,12 +1708,14 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isModifier value="true"/>
       <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because applications should not mistake a temporary id for a permanent one."/>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="IdentifierUse"/>
+        </extension>
         <strength value="required"/>
         <description value="Identifies the purpose for this identifier, if known ."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-use|4.0.0"/>
@@ -1587,6 +1734,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:CBE.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.type"/>
       <short value="Description of identifier"/>
       <definition value="A coded type for the identifier that can be used to determine which identifier to use for a specific purpose."/>
@@ -1597,7 +1750,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.type"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="CodeableConcept"/>
@@ -1609,10 +1762,15 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="IdentifierType"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
+        </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/identifier-type"/>
@@ -1643,6 +1801,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:CBE.system">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.system"/>
       <short value="The namespace for the identifier value"/>
       <definition value="Establishes the namespace for the value - that is, a URL that describes a set values that are unique."/>
@@ -1653,7 +1817,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.system"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="uri"/>
@@ -1670,7 +1834,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1691,6 +1854,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:CBE.value">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.value"/>
       <short value="The value that is unique"/>
       <definition value="The portion of the identifier typically relevant to the user and which is unique within the context of the system."/>
@@ -1700,7 +1869,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.value"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -1716,7 +1885,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1737,6 +1905,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:CBE.period">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.period"/>
       <short value="Time period when id is/was valid for use"/>
       <definition value="Time period during which identifier is/was valid for use."/>
@@ -1746,7 +1920,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.period"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Period"/>
@@ -1758,7 +1932,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="per-1"/>
@@ -1766,7 +1939,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If present, start SHALL have a lower value than end"/>
         <expression value="start.hasValue().not() or end.hasValue().not() or (start &lt;= end)"/>
         <xpath value="not(exists(f:start/@value)) or not(exists(f:end/@value)) or (xs:dateTime(f:start/@value) &lt;= xs:dateTime(f:end/@value))"/>
-        <source value="Period"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1795,6 +1967,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.identifier:CBE.assigner">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.identifier.assigner"/>
       <short value="Organization that issued id (may be just text)"/>
       <definition value="Organization that issued/manages the identifier."/>
@@ -1804,7 +1982,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Identifier.assigner"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Reference"/>
@@ -1817,7 +1995,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ref-1"/>
@@ -1825,7 +2002,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="SHALL have a contained resource if a local reference is provided"/>
         <expression value="reference.startsWith(&#39;#&#39;).not() or (reference.substring(1).trace(&#39;url&#39;) in %resource.contained.id.trace(&#39;ids&#39;))"/>
         <xpath value="not(starts-with(f:reference/@value, &#39;#&#39;)) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, &#39;#&#39;)]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, &#39;#&#39;)])"/>
-        <source value="Reference"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1850,6 +2026,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.active">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.active"/>
       <short value="Whether this practitioner&#39;s record is in active use"/>
       <definition value="Whether this practitioner&#39;s record is in active use. &#xD;&#xA;&#xD;&#xA;It is RECOMMENDED to keep the value &#x2018;true&#x2019; as long as the practitioner is still being treated by the provider of the data."/>
@@ -1860,7 +2042,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Practitioner.active"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="boolean"/>
@@ -1873,7 +2055,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1890,6 +2071,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.name">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.name"/>
       <short value="The name(s) associated with the practitioner"/>
       <definition value="The name(s) associated with the practitioner.&#xD;&#xA;&#xD;&#xA;Typically RECOMMENDED to include one familyname and at least one given name and to define this use as &#x2018;official&#x2019;."/>
@@ -1912,7 +2099,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -1945,6 +2131,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.telecom">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.telecom"/>
       <short value="A contact detail for the practitioner (that apply to all roles)"/>
       <definition value="A contact detail for the practitioner, e.g. a telephone number or an email address.&#xD;&#xA;&#xD;&#xA;It is RECOMMENDED to at least add one phone or email address."/>
@@ -1967,7 +2159,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="cpt-2"/>
@@ -1975,7 +2166,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="A system is required if a value is provided."/>
         <expression value="value.empty() or system.exists()"/>
         <xpath value="not(exists(f:value)) or exists(f:system)"/>
-        <source value="ContactPoint"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2008,6 +2198,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address"/>
       <short value="Address(es) of the practitioner that are not role specific (typically home address)"/>
       <definition value="Address(es) of the practitioner that are not role specific (typically home address). &#xD;Work addresses are not typically entered in this property as they are usually role dependent.&#xD;&#xA;&#xD;&#xA;It is RECOMMENDED to include this when available. This address should never be the work address (use the Organization resource for the work address.)"/>
@@ -2022,6 +2218,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </base>
       <type>
         <code value="Address"/>
+        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address"/>
       </type>
       <condition value="ele-1"/>
       <constraint>
@@ -2030,7 +2227,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2093,6 +2289,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.extension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.extension"/>
       <slicing>
         <discriminator>
@@ -2124,7 +2326,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ext-1"/>
@@ -2132,52 +2333,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
-      </constraint>
-      <mapping>
-        <identity value="rim"/>
-        <map value="n/a"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value="N/A"/>
-      </mapping>
-    </element>
-    <element id="Practitioner.address.extension:language">
-      <path value="Practitioner.address.extension"/>
-      <sliceName value="language"/>
-      <short value="Human Language for the item"/>
-      <definition value="The Human Language of the item."/>
-      <comment value="This is used where an item may repeat to indicate the language of each repeat."/>
-      <alias value="extensions"/>
-      <alias value="user content"/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="Element.extension"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Extension"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/language"/>
-      </type>
-      <condition value="ele-1"/>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
-      </constraint>
-      <constraint>
-        <key value="ext-1"/>
-        <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
-        <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -2189,6 +2344,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.use"/>
       <short value="home | work | temp | old | billing - purpose of this address"/>
       <definition value="The purpose of this address."/>
@@ -2199,7 +2360,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.use"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="code"/>
@@ -2215,12 +2376,14 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isModifier value="true"/>
       <isModifierReason value="This is labeled as &quot;Is Modifier&quot; because applications should not mistake a temporary or old address etc.for a current/permanent one"/>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="AddressUse"/>
+        </extension>
         <strength value="required"/>
         <description value="The use of an address."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/address-use|4.0.0"/>
@@ -2243,6 +2406,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.type">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.type"/>
       <short value="postal | physical | both"/>
       <definition value="Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both."/>
@@ -2252,7 +2421,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.type"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="code"/>
@@ -2268,10 +2437,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="AddressType"/>
+        </extension>
         <strength value="required"/>
         <description value="The type of an address (physical / postal)."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/address-type|4.0.0"/>
@@ -2294,6 +2465,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.text">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.text"/>
       <short value="Text representation of the address"/>
       <definition value="Specifies the entire address as it should be displayed e.g. on a postal label. This may be provided instead of or as well as the specific parts."/>
@@ -2304,7 +2481,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.text"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -2320,7 +2497,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2341,6 +2517,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.line">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.line"/>
       <short value="Street name, number, direction &amp; P.O. Box etc."/>
       <definition value="This component contains the house number, apartment number, street name, street direction,  P.O. Box number, delivery hints, and similar address information."/>
@@ -2367,7 +2549,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2392,6 +2573,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.city">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.city"/>
       <short value="Name of city, town etc."/>
       <definition value="The name of the city, town, suburb, village or other community or delivery center."/>
@@ -2402,7 +2589,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.city"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -2418,7 +2605,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2443,6 +2629,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.district">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.district"/>
       <short value="District name (aka county)"/>
       <definition value="The name of the administrative area (county)."/>
@@ -2453,7 +2645,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.district"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -2469,7 +2661,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2486,6 +2677,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.state">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.state"/>
       <short value="Sub-unit of country (abbreviations ok)"/>
       <definition value="Sub-unit of a country with limited sovereignty in a federally organized country. A code may be used if codes are in common use (e.g. US 2 letter state codes)."/>
@@ -2497,7 +2694,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.state"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -2509,7 +2706,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2534,6 +2730,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.postalCode">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.postalCode"/>
       <short value="Postal code for area"/>
       <definition value="A postal code designating a region defined by the postal service."/>
@@ -2544,7 +2746,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.postalCode"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -2560,7 +2762,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2585,6 +2786,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.country">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.country"/>
       <short value="Country (e.g. can be ISO 3166 2 or 3 letter code)"/>
       <definition value="Country - a nation as commonly understood or generally accepted."/>
@@ -2594,7 +2801,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.country"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="string"/>
@@ -2606,7 +2813,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2631,6 +2837,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.address.period">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.address.period"/>
       <short value="Time period when address was/is in use"/>
       <definition value="Time period when address was/is in use."/>
@@ -2641,7 +2853,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Address.period"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Period"/>
@@ -2660,7 +2872,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="per-1"/>
@@ -2668,7 +2879,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If present, start SHALL have a lower value than end"/>
         <expression value="start.hasValue().not() or end.hasValue().not() or (start &lt;= end)"/>
         <xpath value="not(exists(f:start/@value)) or not(exists(f:end/@value)) or (xs:dateTime(f:start/@value) &lt;= xs:dateTime(f:end/@value))"/>
-        <source value="Period"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2697,6 +2907,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.gender">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.gender"/>
       <short value="male | female | other | unknown"/>
       <definition value="Administrative Gender - the gender that the person is considered to have for administration and record keeping purposes."/>
@@ -2707,7 +2923,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Practitioner.gender"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="code"/>
@@ -2719,10 +2935,15 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="AdministrativeGender"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
+        </extension>
         <strength value="required"/>
         <description value="The gender of a person used for administrative purposes."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.0"/>
@@ -2745,6 +2966,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.birthDate">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.birthDate"/>
       <short value="The date  on which the practitioner was born"/>
       <definition value="The date of birth for the practitioner."/>
@@ -2754,7 +2981,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Practitioner.birthDate"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="date"/>
@@ -2766,7 +2993,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <isSummary value="true"/>
       <mapping>
@@ -2787,6 +3013,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.photo">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.photo"/>
       <short value="Image of the person"/>
       <definition value="Image of the person."/>
@@ -2809,7 +3041,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="att-1"/>
@@ -2817,7 +3048,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If the Attachment has data, it SHALL have a contentType"/>
         <expression value="data.empty() or contentType.exists()"/>
         <xpath value="not(exists(f:data)) or exists(f:contentType)"/>
-        <source value="Attachment"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -2841,6 +3071,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.qualification">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.qualification"/>
       <short value="Certification, licenses, or training pertaining to the provision of care"/>
       <definition value="The official certifications, training, and licenses that authorize or otherwise pertain to the provision of care by the practitioner.  For example, a medical license issued by a medical board authorizing the practitioner to practice medicine within a certian locality."/>
@@ -2861,7 +3097,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -2911,6 +3146,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.qualification.extension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.qualification.extension"/>
       <slicing>
         <discriminator>
@@ -2942,7 +3183,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ext-1"/>
@@ -2950,7 +3190,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -2962,6 +3201,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.qualification.modifierExtension">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.qualification.modifierExtension"/>
       <short value="Extensions that cannot be ignored even if unrecognized"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
@@ -2987,7 +3232,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ext-1"/>
@@ -2995,7 +3239,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
-        <source value="Extension"/>
       </constraint>
       <isModifier value="true"/>
       <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
@@ -3010,6 +3253,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.qualification.identifier">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.qualification.identifier"/>
       <short value="An identifier for this qualification for the practitioner"/>
       <definition value="An identifier that applies to this person&#39;s qualification in this role."/>
@@ -3031,7 +3280,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -3055,6 +3303,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.qualification.code">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.qualification.code"/>
       <short value="Coded representation of the qualification"/>
       <definition value="Coded representation of the qualification."/>
@@ -3063,8 +3317,8 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <max value="1"/>
       <base>
         <path value="Practitioner.qualification.code"/>
-        <min value="1"/>
-        <max value="1"/>
+        <min value="0"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="CodeableConcept"/>
@@ -3076,9 +3330,11 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="Qualification"/>
+        </extension>
         <strength value="example"/>
         <description value="Specific qualification the practitioner has to provide a service."/>
         <valueSet value="http://terminology.hl7.org/ValueSet/v2-2.7-0360"/>
@@ -3109,6 +3365,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.qualification.period">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.qualification.period"/>
       <short value="Period during which the qualification is valid"/>
       <definition value="Period during which the qualification is valid."/>
@@ -3119,7 +3381,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Practitioner.qualification.period"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Period"/>
@@ -3131,7 +3393,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="per-1"/>
@@ -3139,7 +3400,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="If present, start SHALL have a lower value than end"/>
         <expression value="start.hasValue().not() or end.hasValue().not() or (start &lt;= end)"/>
         <xpath value="not(exists(f:start/@value)) or not(exists(f:end/@value)) or (xs:dateTime(f:start/@value) &lt;= xs:dateTime(f:end/@value))"/>
-        <source value="Period"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -3163,6 +3423,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.qualification.issuer">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.qualification.issuer"/>
       <short value="Organization that regulates and issues the qualification"/>
       <definition value="Organization that regulates and issues the qualification."/>
@@ -3172,7 +3438,7 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       <base>
         <path value="Practitioner.qualification.issuer"/>
         <min value="0"/>
-        <max value="1"/>
+        <max value="*"/>
       </base>
       <type>
         <code value="Reference"/>
@@ -3185,7 +3451,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <constraint>
         <key value="ref-1"/>
@@ -3193,7 +3458,6 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="SHALL have a contained resource if a local reference is provided"/>
         <expression value="reference.startsWith(&#39;#&#39;).not() or (reference.substring(1).trace(&#39;url&#39;) in %resource.contained.id.trace(&#39;ids&#39;))"/>
         <xpath value="not(starts-with(f:reference/@value, &#39;#&#39;)) or exists(ancestor::*[self::f:entry or self::f:parameter]/f:resource/f:*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, &#39;#&#39;)]|/*/f:contained/f:*[f:id/@value=substring-after(current()/f:reference/@value, &#39;#&#39;)])"/>
-        <source value="Reference"/>
       </constraint>
       <mapping>
         <identity value="rim"/>
@@ -3209,6 +3473,12 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
       </mapping>
     </element>
     <element id="Practitioner.communication">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="normative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+        <valueCode value="4.0.0"/>
+      </extension>
       <path value="Practitioner.communication"/>
       <short value="A language the practitioner can use in patient communication"/>
       <definition value="A language the practitioner can use in patient communication.&#xD;&#xA;&#xD;&#xA;It is RECOMMENDED to include this when available"/>
@@ -3231,9 +3501,17 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
         <human value="All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
-        <source value="Element"/>
       </constraint>
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet">
+          <valueCanonical value="http://hl7.org/fhir/ValueSet/all-languages"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="Language"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
+        </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
@@ -3331,25 +3609,9 @@ It is RECOMMENDED to include this when available">communication</a><a name="Prac
     </element>
     <element id="Practitioner.address">
       <path value="Practitioner.address"/>
-      <definition value="Address(es) of the practitioner that are not role specific (typically home address). &#xD;Work addresses are not typically entered in this property as they are usually role dependent.&#xD;&#xA;&#xD;&#xA;It is RECOMMENDED to include this when available. This address should never be the work address (use the Organization resource for the work address.)"/>
-    </element>
-    <element id="Practitioner.address.extension">
-      <path value="Practitioner.address.extension"/>
-      <slicing>
-        <discriminator>
-          <type value="value"/>
-          <path value="url"/>
-        </discriminator>
-        <rules value="open"/>
-      </slicing>
-    </element>
-    <element id="Practitioner.address.extension:language">
-      <path value="Practitioner.address.extension"/>
-      <sliceName value="language"/>
-      <min value="0"/>
       <type>
-        <code value="Extension"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/language"/>
+        <code value="Address"/>
+        <profile value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address"/>
       </type>
     </element>
     <element id="Practitioner.gender">

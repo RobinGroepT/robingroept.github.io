@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-21T16:52:42+01:00"/>
+  <date value="2019-11-22T15:18:57+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -165,6 +165,21 @@
       <fhirVersion value="4.0.1"/>
       <name value="Organization core BE profile"/>
       <description value="The Core BE profile for Organization"/>
+      <groupingId value="core"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="be-address.html"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/be-address"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Address core BE profile"/>
+      <description value="The Core BE profile for Address"/>
       <groupingId value="core"/>
     </resource>
     <resource>
