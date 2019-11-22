@@ -2,6 +2,7 @@
 "Address","","","",0,*,"","","","","An address expressed using postal conventions (as opposed to GPS or other location definition formats)","An address expressed using postal conventions (as opposed to GPS or other location definition formats).  This data type may be used to convey addresses for use in delivering mail as well as for visiting locations which might not be valid for mail delivery.  There are a variety of postal address formats defined around the world.","Note: address is intended to describe postal addresses for administrative purposes, not to describe absolute geographical coordinates.  Postal addresses are often used as proxies for physical locations (also see the [Location](location.html#) resource).
 
 Special remarks for KMEHR users:
+
 Note when .use and .type are used they SHALL use the FHIR defined valuesets as per their required binding level in the FHIR specification. In a KMEHR address, the use was defined by CD-ADDRESS but those values can be found in the FHIR valueset.
 KMEHR values 'careadress', 'other' and 'vacation' are not directly present in the FHIR address-use table but can be mapped to the value 'temp' in FHIR. In those cases, it is RECOMMENDED to also add a .period.
 In KMEHR, an address might be expressed using free text or a totally structured approach where the streetname and housenumber are put in separate fields. FHIR prefers a more pragmatic approach where the ‘text’ element is used to print on labels. Also, streetname and number are not separate fields as in KMEHR but in a structural approach are given as one or moren ‘line’ elements. It is however RECOMMENDED to use the Streetname, Housenumber and Postbox extensions to express them seperately.
@@ -11,10 +12,10 @@ Note the FHIR address also allows to optionally define whether the address is a 
 "Address.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Address.extension","","","",0,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extension","The Human Language of the item. Can be used to express the same address in multiple languages (e.g. in a Brussels setting)","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"",""
 "Address.extension","language","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/language]]} {[]}
-","Human Language for the item","The Human Language of the item. Can be used to express the same address in multiple languages (e.g. in a Brussels setting)","This is used where an item may repeat to indicate the language of each repeat.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"",""
+","Human Language for the item","The Human Language of the item.","This is used where an item may repeat to indicate the language of each repeat.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"",""
 "Address.extension.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Address.extension.extension","","","",0,0,"","","","Extension {[]} {[]}
@@ -35,7 +36,7 @@ Note the FHIR address also allows to optionally define whether the address is a 
 "Address.line.id","","","",0,1,"","","","string {[]} {[]}
 ","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
 "Address.line.extension","","","",0,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extension","RECOMMENDED to use these extensions to define address elements.","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"",""
 "Address.line.extension","Streetname","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName]]} {[]}
 ","streetName","streetName.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1

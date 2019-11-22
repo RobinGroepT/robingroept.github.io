@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0974d7de-c764-4fae-ac68-34e2a7c651ab"/>
+  <id value="26681f46-a3ef-4857-a3b1-d471acd426dd"/>
   <meta>
-    <lastUpdated value="2019-11-22T16:36:16.342+01:00"/>
+    <lastUpdated value="2019-11-22T16:55:59.968+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -1367,7 +1367,7 @@
         <version value="0.1.0"/>
         <name value="BeCausativeAgent"/>
         <status value="draft"/>
-        <date value="2019-11-22T16:36:16+01:00"/>
+        <date value="2019-11-22T16:55:59+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -1383,8 +1383,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:eafde706-386d-4888-bd9d-d00d881f93c9"/>
-          <timestamp value="2019-11-22T16:36:43+01:00"/>
+          <identifier value="urn:uuid:69a5cb80-b2f8-4001-9b5e-e325b64c2325"/>
+          <timestamp value="2019-11-22T16:56:27+01:00"/>
           <total value="138"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2270,7 +2270,7 @@
         <version value="0.1.0"/>
         <name value="BeCivilstate"/>
         <status value="draft"/>
-        <date value="2019-11-22T16:36:16+01:00"/>
+        <date value="2019-11-22T16:55:59+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -2286,8 +2286,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:47f34c5b-09cb-4330-927a-ff0a7cdb2f77"/>
-          <timestamp value="2019-11-22T16:36:43+01:00"/>
+          <identifier value="urn:uuid:cb608a65-0eb8-4782-85a5-fc7c2776cb09"/>
+          <timestamp value="2019-11-22T16:56:27+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2677,7 +2677,7 @@
         <version value="0.1.0"/>
         <name value="BeContactPerson"/>
         <status value="draft"/>
-        <date value="2019-11-22T16:36:16+01:00"/>
+        <date value="2019-11-22T16:55:59+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -2693,8 +2693,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6edf797d-19d5-4efc-87d8-c69192686fb2"/>
-          <timestamp value="2019-11-22T16:36:43+01:00"/>
+          <identifier value="urn:uuid:8bcc0116-54a6-4f21-92c6-aa46de1c768a"/>
+          <timestamp value="2019-11-22T16:56:27+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3147,7 +3147,7 @@ en systemische symptomen</td>
         <version value="0.1.0"/>
         <name value="BeRiskManifestation"/>
         <status value="draft"/>
-        <date value="2019-11-22T16:36:16+01:00"/>
+        <date value="2019-11-22T16:55:59+01:00"/>
         <publisher value="HL7 Belgium"/>
         <contact>
           <telecom>
@@ -3163,8 +3163,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0f4dc4e0-98d9-44c7-a371-22cdd110f8a4"/>
-          <timestamp value="2019-11-22T16:36:43+01:00"/>
+          <identifier value="urn:uuid:4f18f22f-4b7d-4079-83fb-c03e84576932"/>
+          <timestamp value="2019-11-22T16:56:27+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
