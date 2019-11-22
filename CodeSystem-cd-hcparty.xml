@@ -12,7 +12,7 @@
   <title value="HCPARTY"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-11-22T16:02:01+01:00"/>
+  <date value="2019-11-22T16:36:16+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -46,7 +46,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="pathologische Anatomie "/>
+      <value value="pathologische Anatomie"/>
     </designation>
   </concept>
   <concept>
@@ -926,7 +926,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="medizinisches Hilfspersonal "/>
+      <value value="medizinisches Hilfspersonal"/>
     </designation>
   </concept>
   <concept>
@@ -1026,7 +1026,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="B&#xFC;roangestellte(r) "/>
+      <value value="B&#xFC;roangestellte(r)"/>
     </designation>
   </concept>
   <concept>
@@ -1206,7 +1206,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="Mund-Kiefer-Gesichtschirurgie "/>
+      <value value="Mund-Kiefer-Gesichtschirurgie"/>
     </designation>
   </concept>
   <concept>
@@ -1226,7 +1226,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="Kinderchirurgie "/>
+      <value value="Kinderchirurgie"/>
     </designation>
   </concept>
   <concept>
@@ -1266,7 +1266,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="Thoraxchirurgie "/>
+      <value value="Thoraxchirurgie"/>
     </designation>
   </concept>
   <concept>
@@ -1426,7 +1426,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="Infektionskrankheit "/>
+      <value value="Infektionskrankheit"/>
     </designation>
   </concept>
   <concept>
@@ -1538,7 +1538,7 @@
     </designation>
     <designation>
       <language value="nl-BE"/>
-      <value value="di&#xEB;tetiek "/>
+      <value value="di&#xEB;tetiek"/>
     </designation>
     <designation>
       <language value="fr-BE"/>
@@ -1586,7 +1586,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="Kinder-und Jugendpsychologie "/>
+      <value value="Kinder-und Jugendpsychologie"/>
     </designation>
   </concept>
   <concept>
@@ -2066,7 +2066,7 @@
     </designation>
     <designation>
       <language value="de"/>
-      <value value="Psychologe "/>
+      <value value="Psychologe"/>
     </designation>
   </concept>
   <concept>

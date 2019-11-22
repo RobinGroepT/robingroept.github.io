@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "HCPARTY"];
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2019-11-22T16:02:01+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2019-11-22T16:36:16+01:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "HL7 Belgium"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -58,7 +58,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "pathologische Anatomie " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "pathologische Anatomie" ]
      ]
   ], [
      fhir:index 1;
@@ -982,7 +982,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "medizinisches Hilfspersonal " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "medizinisches Hilfspersonal" ]
      ]
   ], [
      fhir:index 45;
@@ -1087,7 +1087,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Büroangestellte(r) " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Büroangestellte(r)" ]
      ]
   ], [
      fhir:index 50;
@@ -1276,7 +1276,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Mund-Kiefer-Gesichtschirurgie " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Mund-Kiefer-Gesichtschirurgie" ]
      ]
   ], [
      fhir:index 59;
@@ -1297,7 +1297,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Kinderchirurgie " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Kinderchirurgie" ]
      ]
   ], [
      fhir:index 60;
@@ -1339,7 +1339,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Thoraxchirurgie " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Thoraxchirurgie" ]
      ]
   ], [
      fhir:index 62;
@@ -1507,7 +1507,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Infektionskrankheit " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Infektionskrankheit" ]
      ]
   ], [
      fhir:index 70;
@@ -1625,7 +1625,7 @@
      ], [
        fhir:index 1;
        fhir:CodeSystem.concept.designation.language [ fhir:value "nl-BE" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "diëtetiek " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "diëtetiek" ]
      ], [
        fhir:index 2;
        fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ];
@@ -1675,7 +1675,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Kinder-und Jugendpsychologie " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Kinder-und Jugendpsychologie" ]
      ]
   ], [
      fhir:index 78;
@@ -2179,7 +2179,7 @@
      ], [
        fhir:index 3;
        fhir:CodeSystem.concept.designation.language [ fhir:value "de" ];
-       fhir:CodeSystem.concept.designation.value [ fhir:value "Psychologe " ]
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Psychologe" ]
      ]
   ], [
      fhir:index 102;

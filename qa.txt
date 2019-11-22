@@ -1,9 +1,9 @@
 ﻿BaseIG : Validation Results
 =========================================
 
-err = 34, warn = 304, info = 0
+err = 34, warn = 276, info = 0
 IG Publisher Version: v0.9.96-SNAPSHOT Out of date - current version is v1.0.2-SNAPSHOT
-Generated Fri Nov 22 16:03:26 CET 2019. FHIR version 4.0.1 for hl7.be.core# (canonical = https://www.ehealth.fgov.be/standards/fhir)
+Generated Fri Nov 22 16:37:23 CET 2019. FHIR version 4.0.1 for hl7.be.core# (canonical = https://www.ehealth.fgov.be/standards/fhir)
 
  Build Errors : 166 / 1
  C:\Users\EH074\Documents\GitHub\onlyTest\input\be.base.ig : 13 / 0
@@ -19,11 +19,11 @@ Generated Fri Nov 22 16:03:26 CET 2019. FHIR version 4.0.1 for hl7.be.core# (can
  C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\codesystem-cd-civilstate : 0 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\codesystem-cd-contact-person : 0 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\codesystem-cd-fed-country : 0 / 0
- C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\codesystem-cd-hcparty : 0 / 10
- C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-cbe : 0 / 1
- C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-ehp : 0 / 1
- C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-nihdi : 0 / 1
- C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-ssin : 0 / 1
+ C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\codesystem-cd-hcparty : 0 / 0
+ C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-cbe : 0 / 0
+ C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-ehp : 0 / 0
+ C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-nihdi : 0 / 0
+ C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-ssin : 0 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\valueset-be-causativeagent : 0 / 138
  C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\valueset-be-civilstate : 0 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\valueset-be-contactperson : 0 / 0
@@ -229,24 +229,10 @@ ERROR: StructureDefinition/be-address: StructureDefinition.differential.element[
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\codesystem-cd-contact-person.xml ==
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\codesystem-cd-fed-country.xml ==
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\codesystem-cd-hcparty.xml ==
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[0].designation[3].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[44].designation[3].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[49].designation[3].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[58].designation[3].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[59].designation[3].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[61].designation[3].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[69].designation[3].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[75].designation[1].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[77].designation[3].value: value should not start or finish with whitespace
-WARNING: CodeSystem/cd-hcparty: CodeSystem.concept[101].designation[3].value: value should not start or finish with whitespace
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-cbe.xml ==
-WARNING: NamingSystem/be-cbe: NamingSystem: nsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-ehp.xml ==
-WARNING: NamingSystem/be-ehp: NamingSystem: nsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-nihdi.xml ==
-WARNING: NamingSystem/be-nihdi: NamingSystem: nsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\namingsystem-be-ssin.xml ==
-WARNING: NamingSystem/be-ssin: NamingSystem: nsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\vocabulary\valueset-be-causativeagent.xml ==
 WARNING: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[0].designation[1].value: value should not start or finish with whitespace
 WARNING: ValueSet/be-causativeagent: ValueSet.compose.include[0].concept[1].designation[2].value: value should not start or finish with whitespace

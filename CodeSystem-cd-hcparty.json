@@ -11,7 +11,7 @@
   "title": "HCPARTY",
   "status": "active",
   "experimental": false,
-  "date": "2019-11-22T16:02:01+01:00",
+  "date": "2019-11-22T16:36:16+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -55,7 +55,7 @@
         },
         {
           "language": "de",
-          "value": "pathologische Anatomie "
+          "value": "pathologische Anatomie"
         }
       ]
     },
@@ -1023,7 +1023,7 @@
         },
         {
           "language": "de",
-          "value": "medizinisches Hilfspersonal "
+          "value": "medizinisches Hilfspersonal"
         }
       ]
     },
@@ -1133,7 +1133,7 @@
         },
         {
           "language": "de",
-          "value": "Büroangestellte(r) "
+          "value": "Büroangestellte(r)"
         }
       ]
     },
@@ -1331,7 +1331,7 @@
         },
         {
           "language": "de",
-          "value": "Mund-Kiefer-Gesichtschirurgie "
+          "value": "Mund-Kiefer-Gesichtschirurgie"
         }
       ]
     },
@@ -1353,7 +1353,7 @@
         },
         {
           "language": "de",
-          "value": "Kinderchirurgie "
+          "value": "Kinderchirurgie"
         }
       ]
     },
@@ -1397,7 +1397,7 @@
         },
         {
           "language": "de",
-          "value": "Thoraxchirurgie "
+          "value": "Thoraxchirurgie"
         }
       ]
     },
@@ -1573,7 +1573,7 @@
         },
         {
           "language": "de",
-          "value": "Infektionskrankheit "
+          "value": "Infektionskrankheit"
         }
       ]
     },
@@ -1697,7 +1697,7 @@
         },
         {
           "language": "nl-BE",
-          "value": "diëtetiek "
+          "value": "diëtetiek"
         },
         {
           "language": "fr-BE",
@@ -1749,7 +1749,7 @@
         },
         {
           "language": "de",
-          "value": "Kinder-und Jugendpsychologie "
+          "value": "Kinder-und Jugendpsychologie"
         }
       ]
     },
@@ -2277,7 +2277,7 @@
         },
         {
           "language": "de",
-          "value": "Psychologe "
+          "value": "Psychologe"
         }
       ]
     },
