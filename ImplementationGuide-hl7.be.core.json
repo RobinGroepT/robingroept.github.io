@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-25T11:45:14+01:00",
+  "date": "2019-11-25T13:33:51+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -362,6 +362,50 @@
         "name": "PractitionerRole1",
         "description": "PractitionerRole",
         "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitionerrole",
+        "groupingId": "examples"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "observation1.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/observation1"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Observation1",
+        "description": "Observation heart rate",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation",
+        "groupingId": "examples"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "observation2.html"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/observation2"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Observation2",
+        "description": "Observation hard of hearing",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation",
         "groupingId": "examples"
       },
       {

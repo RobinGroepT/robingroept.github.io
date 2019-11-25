@@ -1,12 +1,14 @@
 ﻿BaseIG : Validation Results
 =========================================
 
-err = 30, warn = 276, info = 6
+err = 38, warn = 278, info = 12
 IG Publisher Version: v0.9.96-SNAPSHOT Out of date - current version is v1.0.2-SNAPSHOT
-Generated Mon Nov 25 11:46:23 CET 2019. FHIR version 4.0.1 for hl7.be.core# (canonical = https://www.ehealth.fgov.be/standards/fhir)
+Generated Mon Nov 25 13:35:11 CET 2019. FHIR version 4.0.1 for hl7.be.core# (canonical = https://www.ehealth.fgov.be/standards/fhir)
 
- Build Errors : 184 / 1
+ Build Errors : 192 / 1
  C:\Users\EH074\Documents\GitHub\onlyTest\input\be.base.ig : 13 / 0
+ C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\observation-observation1 : 2 / 4
+ C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\observation-observation2 : 2 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\organization-organization1 : 0 / 0
  C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\patient-patient1 : 1 / 1
  C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\patient-patient2 : 0 / 1
@@ -180,6 +182,14 @@ ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\example-scenarios.html#/h
 ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\functional-overview.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
 ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
 ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\logical-models.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
+ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\observation1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
+ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\observation1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
+ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\observation1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
+ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\observation1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
+ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\observation2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
+ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\observation2.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
+ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\observation2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
+ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\observation2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
 ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\organization1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
 ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\organization1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
 ERROR: C:\Users\EH074\Documents\GitHub\onlyTest\output\organization1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 94, column 10: The link 'guidance.html' for "Guidance" cannot be resolved
@@ -235,6 +245,16 @@ ERROR: ImplementationGuide/hl7.be.core: ImplementationGuide.definition.parameter
 ERROR: ImplementationGuide/hl7.be.core: ImplementationGuide.definition.parameter[21].code: The value provided ('apply-license') is not in the value set http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1 (http://hl7.org/fhir/ValueSet/guide-parameter-code, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-license in http://hl7.org/fhir/guide-parameter-code)
 ERROR: ImplementationGuide/hl7.be.core: ImplementationGuide.definition.parameter[22].code: The value provided ('apply-publisher') is not in the value set http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1 (http://hl7.org/fhir/ValueSet/guide-parameter-code, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-publisher in http://hl7.org/fhir/guide-parameter-code)
 ERROR: ImplementationGuide/hl7.be.core: ImplementationGuide.definition.parameter[23].code: The value provided ('apply-version') is not in the value set http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1 (http://hl7.org/fhir/ValueSet/guide-parameter-code, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/guide-parameter-code#apply-version in http://hl7.org/fhir/guide-parameter-code)
+== C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\Observation-observation1.xml ==
+INFORMATION: Observation/observation1: Observation.code.coding[2]: This element does not match any known slice for the profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observationcodeableconcept
+ERROR: Observation/observation1: Observation.subject: Unable to resolve resource 'Patient/example'
+ERROR: Observation/observation1: Observation.performer[0]: Unable to resolve resource 'Practitioner/example'
+WARNING: Observation/observation1: Observation.code: The code system "http://my-own-custom-codes" is not known (encountered paired with code = "H-RATE")
+INFORMATION: Observation/observation1: Observation.code.coding[1]: This element does not match any known slice for the profile http://hl7.org/fhir/StructureDefinition/heartrate
+INFORMATION: Observation/observation1: Observation.code.coding[2]: This element does not match any known slice for the profile http://hl7.org/fhir/StructureDefinition/heartrate
+== C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\Observation-observation2.xml ==
+ERROR: Observation/observation2: Observation.subject: Unable to resolve resource 'Patient/example'
+ERROR: Observation/observation2: Observation.performer[0]: Unable to resolve resource 'Practitioner/564654654'
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\Organization-organization1.xml ==
 == C:\Users\EH074\Documents\GitHub\onlyTest\input\examples\Patient-patient1.xml ==
 INFORMATION: Patient/patient1: Patient.identifier[1]: This element does not match any known slice for the profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient

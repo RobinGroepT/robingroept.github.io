@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-11-25T11:45:14+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-11-25T13:33:51+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Belgium"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -399,6 +399,58 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "observation1.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/Observation/observation1>;
+         fhir:Reference.reference [ fhir:value "Observation/observation1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.fhirVersion [
+         fhir:value "4.0.1";
+         fhir:index 0
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Observation heart rate" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation";
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation>
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "examples" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "observation2.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/Observation/observation2>;
+         fhir:Reference.reference [ fhir:value "Observation/observation2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.fhirVersion [
+         fhir:value "4.0.1";
+         fhir:index 0
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Observation hard of hearing" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation";
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation>
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "examples" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ], [
          fhir:index 1;
@@ -417,7 +469,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Core BE profile for Practitioner Role" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "core" ]
      ], [
-       fhir:index 14;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -439,7 +491,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The valueset for exposureroute" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 15;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -461,7 +513,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The valueset for causative agent" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 16;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -483,7 +535,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The valueset for civil state" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 17;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -505,7 +557,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The valueset for contact person" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 18;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -527,7 +579,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The valueset for risk manifestation" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 19;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -549,7 +601,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-HCPARTY codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 20;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -571,7 +623,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-CIVILSTATE codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 21;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -593,7 +645,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-CONTACT-PERSON codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 22;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -615,7 +667,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-FED-COUNTRY codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 23;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -637,7 +689,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The EHP naming system" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 24;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -659,7 +711,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CBE naming system" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 25;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -681,7 +733,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The SSIN naming system" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 26;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
