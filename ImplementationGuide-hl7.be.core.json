@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-25T13:33:51+01:00",
+  "date": "2019-11-25T14:29:29+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -405,6 +405,50 @@
         ],
         "name": "Observation2",
         "description": "Observation hard of hearing",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation",
+        "groupingId": "examples"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AllergyIntolerance"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "allergyintolerance1.html"
+          }
+        ],
+        "reference": {
+          "reference": "AllergyIntolerance/allergyintolerance1"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "AllergyIntolerance1",
+        "description": "Food allergy",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation",
+        "groupingId": "examples"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AllergyIntolerance"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "allergyintolerance2.html"
+          }
+        ],
+        "reference": {
+          "reference": "AllergyIntolerance/allergyintolerance2"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "AllergyIntolerance2",
+        "description": "Pollen allergy with multiple reactions",
         "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation",
         "groupingId": "examples"
       },

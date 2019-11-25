@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-25T13:33:51+01:00"/>
+  <date value="2019-11-25T14:29:29+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -295,6 +295,38 @@
       <fhirVersion value="4.0.1"/>
       <name value="Observation2"/>
       <description value="Observation hard of hearing"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <groupingId value="examples"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AllergyIntolerance"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="allergyintolerance1.html"/>
+      </extension>
+      <reference>
+        <reference value="AllergyIntolerance/allergyintolerance1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="AllergyIntolerance1"/>
+      <description value="Food allergy"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <groupingId value="examples"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AllergyIntolerance"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="allergyintolerance2.html"/>
+      </extension>
+      <reference>
+        <reference value="AllergyIntolerance/allergyintolerance2"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="AllergyIntolerance2"/>
+      <description value="Pollen allergy with multiple reactions"/>
       <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
       <groupingId value="examples"/>
     </resource>
