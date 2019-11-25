@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "26681f46-a3ef-4857-a3b1-d471acd426dd",
+  "id" : "f48ad381-b0a5-4684-9f99-cca75fa569b7",
   "meta" : {
-    "lastUpdated" : "2019-11-22T16:55:59.968+01:00"
+    "lastUpdated" : "2019-11-25T10:17:55.658+01:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -13,8 +13,8 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT 11000201108 edition 06-Mar 2017</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-447694001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447694001\">447694001</a></td><td>Respiratory tract route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6064005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6064005\">6064005</a></td><td>Topical route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26643006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26643006\">26643006</a></td><td>Oral route</td><td/></tr></table></div>"
       },
       "expansion" : {
-        "identifier" : "urn:uuid:727cb8bc-cfd7-4253-ad82-7f2471936aa2",
-        "timestamp" : "2019-11-20T15:26:07.997Z",
+        "identifier" : "urn:uuid:4e00a97a-df74-4827-9e02-5e6c74a9943e",
+        "timestamp" : "2019-11-25T08:29:35.253Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueString" : "-1"
@@ -54,7 +54,7 @@
       "version" : "0.1.0",
       "name" : "BeCausativeAgent",
       "status" : "draft",
-      "date" : "2019-11-22T16:55:59+01:00",
+      "date" : "2019-11-25T10:17:55+01:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -70,8 +70,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:69a5cb80-b2f8-4001-9b5e-e325b64c2325",
-        "timestamp" : "2019-11-22T16:56:27+01:00",
+        "identifier" : "urn:uuid:de38de52-fdc3-4098-9c72-22ffed401d33",
+        "timestamp" : "2019-11-25T10:18:25+01:00",
         "total" : 138,
         "parameter" : [{
           "name" : "excludeNested",
@@ -795,7 +795,7 @@
       "version" : "0.1.0",
       "name" : "BeCivilstate",
       "status" : "draft",
-      "date" : "2019-11-22T16:55:59+01:00",
+      "date" : "2019-11-25T10:17:55+01:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -811,8 +811,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cb608a65-0eb8-4782-85a5-fc7c2776cb09",
-        "timestamp" : "2019-11-22T16:56:27+01:00",
+        "identifier" : "urn:uuid:279a9ae8-82d3-47b5-8aff-b66cc3950c21",
+        "timestamp" : "2019-11-25T10:18:25+01:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -912,7 +912,7 @@
       "version" : "0.1.0",
       "name" : "BeContactPerson",
       "status" : "draft",
-      "date" : "2019-11-22T16:55:59+01:00",
+      "date" : "2019-11-25T10:17:55+01:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -928,8 +928,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8bcc0116-54a6-4f21-92c6-aa46de1c768a",
-        "timestamp" : "2019-11-22T16:56:27+01:00",
+        "identifier" : "urn:uuid:516c2b7f-20a9-4043-ab51-33f0ba0894ea",
+        "timestamp" : "2019-11-25T10:18:25+01:00",
         "total" : 30,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1086,7 +1086,7 @@
       "version" : "0.1.0",
       "name" : "BeRiskManifestation",
       "status" : "draft",
-      "date" : "2019-11-22T16:55:59+01:00",
+      "date" : "2019-11-25T10:17:55+01:00",
       "publisher" : "HL7 Belgium",
       "contact" : [{
         "telecom" : [{
@@ -1102,8 +1102,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4f18f22f-4b7d-4079-83fb-c03e84576932",
-        "timestamp" : "2019-11-22T16:56:27+01:00",
+        "identifier" : "urn:uuid:fea4be2a-ee91-49b6-9ad3-849cfd47c63d",
+        "timestamp" : "2019-11-25T10:18:25+01:00",
         "total" : 30,
         "parameter" : [{
           "name" : "excludeNested",

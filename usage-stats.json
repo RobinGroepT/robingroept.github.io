@@ -64,17 +64,20 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber": [
-      "Address.line"
+      "Address.line",
+      "Patient.address.line"
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox": [
       "Address.line"
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName": [
-      "Address.line"
+      "Address.line",
+      "Patient.address.line"
     ],
     "http://hl7.org/fhir/StructureDefinition/language": [
       "Address",
-      "Organization.address"
+      "Organization.address",
+      "Patient.address"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"

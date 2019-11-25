@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-22T16:55:59+01:00"/>
+  <date value="2019-11-25T10:17:55+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -61,6 +61,10 @@
     <grouping id="terminology">
       <name value="Terminology"/>
       <description value="Terminology resources - ValueSets and CodeSystems"/>
+    </grouping>
+    <grouping id="examples">
+      <name value="Examples"/>
+      <description value="Examples for the different resources"/>
     </grouping>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -181,6 +185,38 @@
       <name value="Address core BE profile"/>
       <description value="The Core BE profile for Address"/>
       <groupingId value="core"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="patient1.html"/>
+      </extension>
+      <reference>
+        <reference value="Patient/patient1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Patient1"/>
+      <description value="Patient1"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"/>
+      <groupingId value="examples"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="patient2.html"/>
+      </extension>
+      <reference>
+        <reference value="Patient/patient2"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Patient2"/>
+      <description value="Patient with logical identifier for GP"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"/>
+      <groupingId value="examples"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
