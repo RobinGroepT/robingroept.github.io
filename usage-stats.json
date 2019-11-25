@@ -65,14 +65,16 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber": [
       "Address.line",
-      "Patient.address.line"
+      "Patient.address.line",
+      "Practitioner.address.line"
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox": [
       "Address.line"
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName": [
       "Address.line",
-      "Patient.address.line"
+      "Patient.address.line",
+      "Practitioner.address.line"
     ],
     "http://hl7.org/fhir/StructureDefinition/language": [
       "Address",

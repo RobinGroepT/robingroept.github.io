@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "CivilState"];
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2019-11-25T10:17:55+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2019-11-25T10:52:21+01:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "HL7 Belgium"];
   fhir:CodeSystem.contact [
      fhir:index 0;

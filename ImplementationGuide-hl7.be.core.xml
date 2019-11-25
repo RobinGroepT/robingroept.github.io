@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-25T10:17:55+01:00"/>
+  <date value="2019-11-25T10:52:21+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -198,7 +198,7 @@
       </reference>
       <fhirVersion value="4.0.1"/>
       <name value="Patient1"/>
-      <description value="Patient1"/>
+      <description value="Patient"/>
       <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"/>
       <groupingId value="examples"/>
     </resource>
@@ -216,6 +216,22 @@
       <name value="Patient2"/>
       <description value="Patient with logical identifier for GP"/>
       <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient"/>
+      <groupingId value="examples"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="practitioner1.html"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/practitioner1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Practitioner1"/>
+      <description value="Practitioner"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner"/>
       <groupingId value="examples"/>
     </resource>
     <resource>

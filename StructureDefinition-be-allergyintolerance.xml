@@ -51,7 +51,7 @@ A note on this level SHOULD be avoided when not absolutely necessary. Preferably
   <version value="0.1.0"/>
   <name value="BeAllergyIntolerance"/>
   <status value="draft"/>
-  <date value="2019-11-25T10:17:55+01:00"/>
+  <date value="2019-11-25T10:52:21+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>

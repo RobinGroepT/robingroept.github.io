@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-25T10:17:55+01:00",
+  "date": "2019-11-25T10:52:21+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -272,7 +272,7 @@
           "4.0.1"
         ],
         "name": "Patient1",
-        "description": "Patient1",
+        "description": "Patient",
         "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient",
         "groupingId": "examples"
       },
@@ -296,6 +296,28 @@
         "name": "Patient2",
         "description": "Patient with logical identifier for GP",
         "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient",
+        "groupingId": "examples"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "practitioner1.html"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/practitioner1"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Practitioner1",
+        "description": "Practitioner",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner",
         "groupingId": "examples"
       },
       {
