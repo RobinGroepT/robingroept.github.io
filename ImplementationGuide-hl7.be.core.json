@@ -10,7 +10,7 @@
   "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
   "status": "draft",
   "experimental": false,
-  "date": "2019-11-25T14:29:29+01:00",
+  "date": "2019-11-25T16:49:23+01:00",
   "publisher": "HL7 Belgium",
   "contact": [
     {
@@ -427,7 +427,7 @@
         ],
         "name": "AllergyIntolerance1",
         "description": "Food allergy",
-        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance",
         "groupingId": "examples"
       },
       {
@@ -449,7 +449,51 @@
         ],
         "name": "AllergyIntolerance2",
         "description": "Pollen allergy with multiple reactions",
-        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance",
+        "groupingId": "examples"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Provenance"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "provenance1.html"
+          }
+        ],
+        "reference": {
+          "reference": "Provenance/provenance1"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Provenance1",
+        "description": "Provenance",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-provenance",
+        "groupingId": "examples"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "bundle1.html"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/bundle1"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Bundle1",
+        "description": "Bundle transaction upload with provenance of creation of practitioner",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization",
         "groupingId": "examples"
       },
       {

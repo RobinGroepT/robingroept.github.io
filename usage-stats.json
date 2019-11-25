@@ -65,6 +65,7 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber": [
       "Address.line",
+      "Bundle.entry.resource.address.line",
       "Organization.address.line",
       "Patient.address.line",
       "Practitioner.address.line"
@@ -74,12 +75,14 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName": [
       "Address.line",
+      "Bundle.entry.resource.address.line",
       "Organization.address.line",
       "Patient.address.line",
       "Practitioner.address.line"
     ],
     "http://hl7.org/fhir/StructureDefinition/language": [
       "Address",
+      "Bundle.entry.resource.address",
       "Organization.address",
       "Patient.address"
     ],

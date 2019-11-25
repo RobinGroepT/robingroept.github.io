@@ -11,7 +11,7 @@
   <title value="ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-11-25T14:29:29+01:00"/>
+  <date value="2019-11-25T16:49:23+01:00"/>
   <publisher value="HL7 Belgium"/>
   <contact>
     <telecom>
@@ -311,7 +311,7 @@
       <fhirVersion value="4.0.1"/>
       <name value="AllergyIntolerance1"/>
       <description value="Food allergy"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance"/>
       <groupingId value="examples"/>
     </resource>
     <resource>
@@ -327,7 +327,39 @@
       <fhirVersion value="4.0.1"/>
       <name value="AllergyIntolerance2"/>
       <description value="Pollen allergy with multiple reactions"/>
-      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observation"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-allergyintolerance"/>
+      <groupingId value="examples"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Provenance"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="provenance1.html"/>
+      </extension>
+      <reference>
+        <reference value="Provenance/provenance1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Provenance1"/>
+      <description value="Provenance"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-provenance"/>
+      <groupingId value="examples"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="bundle1.html"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/bundle1"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Bundle1"/>
+      <description value="Bundle transaction upload with provenance of creation of practitioner"/>
+      <exampleCanonical value="https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization"/>
       <groupingId value="examples"/>
     </resource>
     <resource>
