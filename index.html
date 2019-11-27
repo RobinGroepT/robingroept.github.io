@@ -124,13 +124,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <!--ReleaseHeader--><p id="publish-box">ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!! - Local Development build (vnull). See the <a href="https://www.ehealth.fgov.be/standards/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>BE Core Home Page</h2>
   
-  <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd">
+  <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" >
   <a name="scope"> </a>
   <h3>Scope</h3>
 	<p>
     THIS IS ONLY A TESTING PAGE!!!!!! NO OFFICIAL CONTENT HERE - THANK YOU FOR VISITING!!!!!!!!!!!!!!</p>
 	<p>eHealth Platform publishes specific profiles and underlying valuesets, codesystems etc. and implementation guidelines as a federal initiative.</p>
-	
+	<!-- -->
 <p>As such, they are the base Belgian federal profiles and projects can use them, refer to them and build on them in their use cases.</p>
 
 <p>
@@ -208,8 +208,7 @@ This specification contains:
     Bread-crumb navigation is provided in the gray bar just below the menu at the top of each page, allowing
     easy navigation back to the main page.
   </p>
-  <p>
-  </p>
+
   
 
   
@@ -289,13 +288,14 @@ Depending on the information available, the period can include a start dateTime 
 FHIR resources often contain canonical identifiers. This datatype uses an URI to refer to the used system. Note when these take the form of a URL they are not by definition resolvable.
 Specific URIs to use in Belgian profiles can be found here: <a href="https://www.ehealth.fgov.be/standards/kmehr/en/page/oid-overview">oid-overview</a>.</p>
 <p>Example:
-<br>To refer to a number of the national registry:
-<br>&lt;identifier&gt;</br>   
+<br>To refer to a number of the national registry:</br>
+&lt;identifier&gt;  
 <br>&lt;use value=&quot;official&quot;/&gt; </br>
-<br>&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin&quot;/&gt;</br>
+&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin&quot;/&gt;
 <br>&lt;value value=&quot;7031966696&quot;/&gt;</br>
-<br>&lt;/identifier&gt;</br>
-</br>
+&lt;/identifier&gt;
+</p>
+
 <p>Special Remarks for KMEHR users:
 <br>Note there is no S=’LOCAL’ way in FHIR. A local system will be identified by its own unique URI.</br>
 </p>
@@ -430,7 +430,7 @@ In KMEHR, an address might be expressed using free text or a totally structured 
     This draft is provided without warranty of completeness or consistency, and the official publication supersedes this draft.
     No liability can be inferred from the use or misuse of this specification, or its consequences.
   </p>
-  </p>
+  
 </div>
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -443,7 +443,7 @@ In KMEHR, an address might be expressed using free text or a totally structured 
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 27, 2019 17:20+0100">2019-11-27</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 27, 2019 17:41+0100">2019-11-27</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
