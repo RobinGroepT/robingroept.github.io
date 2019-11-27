@@ -98,6 +98,53 @@ modular FHIR resource. </p>
 necessary. Note the direction in this is how to functionally express that what
 is in KMEHR in FHIR, not the other way around. Attention points that could not directly be incorporated in the seperate artefacts follow here.</p>
 
+
+<h4>Use of extensions</h4>
+<p>“Note that, unlike in many other specifications, there can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions. 
+The use of extensions is what allows the <a href="http://www.hl7.org/fhir/r4/extensibility.html">FHIR specification</a> to retain a core simplicity for everyone.”</p>
+<p>The FHIR standard has a strict way to define extensions in resources.This is the only way to define extensions. An implementer SHALL take extra note of the <a href="http://hl7.org/fhir/r4/defining-extensions.html">rules</a> concerning Modifier Extension.</p>
+<p>Any project SHALL at least try to express its data using the bare FHIR standard and adapt its business rules accordingly.</p>
+<p>When an extension is needed and <a href="http://www.hl7.org/fhir/r4/extensibility-registry.html">there is already</a> an extension: this existing extension SHALL be used. In general, Belgian profiling on resources will endeavour to – when needed – only use the extensions already defined by HL7.
+In the Belgian profiling documentation, some available standard HL7 extensions of certain resources are recommended.</p>
+
+<h4>Valuesets binding</h4>
+<p>The <a href="https://www.hl7.org/fhir/r4/terminologies.html#strength">concept of valueset binding</a> is extremely important in the FHIR specification. The FHIR standards defines different levels of recommendation/ obligation towards the use of valuesets. 
+They are defined on the pages of HL7 but are partly copied here for easy reference.</p>
+<p>Almost all the elements that have a coded data type are bound to a value set. The bindings are associated with various degrees of flexibility as to how closely the value set SHALL be followed:</p>
+<table style="width:100%;border: 1px solid black;border-collapse: collapse;" >
+
+<tr>
+<td>required</td>
+<td>To be conformant, the concept in this element SHALL be from the specified value set.</td>
+</tr>
+<tr>
+<td>extensible</td>
+<td>To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated. 
+If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.</td>
+</tr>
+<tr>
+<td>preferred</td>
+<td>Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.</td>
+</tr>
+<tr>
+<td>example</td>
+<td>Instances are not expected or even encouraged to draw from the specified value set. The value set merely provides examples of the types of concepts intended to be included.</td>
+</tr>
+</table>
+<p>Important note: there can be differences concerning the precise conformance of ‘required’ and ‘extensible’ depending to which datatype they are applied. 
+Consult the <a href="https://www.hl7.org/fhir/r4/terminologies.html#strength">HL7 pages</a> for extensive information.</p>
+
+<h4>SNOMED-CT usage</h4>
+<p>As SNOMED-CT is the preferred coding in the Belgian context and supported by the <a href="http://terminology-center.be">FPS Health</a>, it SHALL be clear there are some strict rules concerning its usage in a FHIR context 
+as defined by the FHIR specifications and <a href="https://www.hl7.org/fhir/R4/snomedct.html">they can be found</a> on the HL7 pages.</p>
+<p>This page does not aim to be exhaustive concerning the use of SNOMED-CT in FHIR but only lists some attention points that are in those specifications.</p>
+<ul>
+<li>Only SNOMED-CT Concept ID’s and SNOMED-CT expressions are valid in FHIR.</li>
+<li>The HL7 datatypes description contains <a href="https://www.hl7.org/fhir/datatypes-examples.html#codeableconcept">some examples of SNOMED-CT expressions</a> and how to use it in combination with other coding systems.</li>
+<li>Besides the pages describing specific SNOMED-CT usage, implementers SHALL also take note of the recommendations concerning SNOMED-CT use 
+in the observation resource, in particular, <a href="https://hl7.org/fhir/R4/observation.html#code-interop">the different patterns</a> that are described.</li>
+</ul>
+
 <h4>Period</h4>
 <p>Period is a FHIR field and datatype that is often used in FHIR to describe the period of validity of something. 
 Depending on the information available, the period can include a start dateTime and/or an end dateTime.</p>
