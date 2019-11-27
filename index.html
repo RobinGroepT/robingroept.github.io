@@ -314,7 +314,7 @@ applications SHALL ensure that when both text and parts are present, no content 
 <table style="width:100%;border: 1px solid black;border-collapse: collapse;" >
 <tr>
 <th>KMEHR: CD-ADDRESS</th>
-<th>FHIR: http://hl7.org/fhir/contact-point-use</th>
+<th>FHIR: http://hl7.org/fhir/ValueSet/contact-point-use</th>
 </tr>
 <tr>
 <td>careaddress</td>
@@ -354,7 +354,7 @@ applications SHALL ensure that when both text and parts are present, no content 
 </table>
 
 <table style="width:100%;border: 1px solid black;border-collapse: collapse;" >
-<tr><th>KMEHR CD-TELECOM</th><th>FHIR: https://www.hl7.org/fhir/r4/valueset-contact-point-system.html</th></tr> 
+<tr><th>KMEHR CD-TELECOM</th><th>FHIR: http://hl7.org/fhir/ValueSet/contact-point-system</th></tr> 
 <tr><td>email</td><td>email</td></tr>
 <tr><td>fax</td><td>fax</td></tr>
 <tr><td>mobile</td><td>N/A (use ‘phone’ from this table + ‘mobile’ in table supra. In case of doubt or when needed to specifically specify it is a work or private mobile, it is RECOMMENDED to use ‘phone’ with ‘home’ or ‘work’.)</td></tr>
@@ -392,7 +392,7 @@ In KMEHR, an address might be expressed using free text or a totally structured 
 <br>Note the FHIR address also allows to optionally define whether the address is a physical, postal or ‘both’ address using the Address.type field.</br>
 </p>
 <table style="width:100%;border: 1px solid black;border-collapse: collapse;" >
-<tr><th>KMEHR CD-ADDRESS</th><th>FHIR: http://hl7.org/fhir/address-usel</th></tr> 
+<tr><th>KMEHR CD-ADDRESS</th><th>FHIR: http://hl7.org/fhir/ValueSet/address-use</th></tr> 
 <tr><td>home</td><td>home</td></tr>
 <tr><td>other</td><td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period’</td></tr>
 <tr><td>vacation</td><td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period’</td></tr>
@@ -443,7 +443,7 @@ In KMEHR, an address might be expressed using free text or a totally structured 
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 27, 2019 17:41+0100">2019-11-27</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/fiwg"/>HL7 Belgium</a>.  Package hl7.be.core# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 27, 2019 20:57+0100">2019-11-27</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
