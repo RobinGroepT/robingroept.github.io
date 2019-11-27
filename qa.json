@@ -2,7 +2,7 @@
   "url": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/be.base.ig",
   "name": "BaseIG",
   "package-id": "hl7.be.core",
-  "date": "Wed, 27 Nov, 2019 09:51:12 +0100",
+  "date": "Wed, 27 Nov, 2019 17:20:38 +0100",
   "errs": 54,
   "warnings": 278,
   "hints": 12,
