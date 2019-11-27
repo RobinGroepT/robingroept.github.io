@@ -267,6 +267,10 @@ In KMEHR, an address might be expressed using free text or a totally structured 
 </p>
 <table style="width:100%;border: 1px solid black;border-collapse: collapse;" >
 <tr><th>KMEHR CD-ADDRESS</th><th>FHIR: http://hl7.org/fhir/ValueSet/address-use</th></tr> 
+<tr>
+<td>careaddress</td>
+<td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period’</td>
+</tr>
 <tr><td>home</td><td>home</td></tr>
 <tr><td>other</td><td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period’</td></tr>
 <tr><td>vacation</td><td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period’</td></tr>
@@ -274,6 +278,10 @@ In KMEHR, an address might be expressed using free text or a totally structured 
 <tr><td>work</td><td>work</td></tr>
 <tr><td>N/A</td><td>old (RECOMMENDED to also use ‘period’ when using this)</td></tr>
 <tr><td>N/A</td><td>billing</td></tr>
+<tr>
+<td>N/A</td>
+<td>temp (RECOMMENDED to also use ‘period’ when using this)</td>
+</tr>
 </table>
 <h4>Country codes</h4>
 <p>Concerning the codification of the country, the FHIR specification defines its country field as a string and suggests using a ISO 3166 2 or 3 letter codes.</p>
