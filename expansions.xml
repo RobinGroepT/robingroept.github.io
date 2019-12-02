@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f991d0eb-19cd-40dd-bafb-24dec92e1020"/>
+  <id value="369c86c4-5aae-4ebe-aac4-bb8b8d63b0b8"/>
   <meta>
-    <lastUpdated value="2019-11-27T21:21:47.757+01:00"/>
+    <lastUpdated value="2019-12-02T15:57:43.343+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,7 +13,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on SNOMED CT 11000201108 edition 06-Mar 2017</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on SNOMED CT International edition 31-Jul 2019</p>
             <p>All codes from system 
               <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
                 <code>http://snomed.info/sct</code>
@@ -59,15 +59,15 @@
           </div>
         </text>
         <expansion>
-          <identifier value="urn:uuid:4e00a97a-df74-4827-9e02-5e6c74a9943e"/>
-          <timestamp value="2019-11-25T08:29:35.253Z"/>
+          <identifier value="urn:uuid:a9b76cba-33a9-4f20-b4c5-88f02083dab3"/>
+          <timestamp value="2019-12-02T12:39:58.954Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -97,7 +97,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 138 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12, SNOMED CT 11000201108 edition 06-Mar 2017</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12, SNOMED CT International edition 31-Jul 2019</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1367,8 +1367,8 @@
         <version value="0.1.0"/>
         <name value="BeCausativeAgent"/>
         <status value="draft"/>
-        <date value="2019-11-27T21:21:47+01:00"/>
-        <publisher value="HL7 Belgium"/>
+        <date value="2019-12-02T15:57:43+01:00"/>
+        <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -1383,8 +1383,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:df8b90f6-05db-4cfa-b8dc-b57c77ac707f"/>
-          <timestamp value="2019-11-27T21:22:29+01:00"/>
+          <identifier value="urn:uuid:87d968db-bec6-4260-bf15-e5349348e8a7"/>
+          <timestamp value="2019-12-02T15:58:12+01:00"/>
           <total value="138"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1396,7 +1396,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -2270,8 +2270,8 @@
         <version value="0.1.0"/>
         <name value="BeCivilstate"/>
         <status value="draft"/>
-        <date value="2019-11-27T21:21:47+01:00"/>
-        <publisher value="HL7 Belgium"/>
+        <date value="2019-12-02T15:57:43+01:00"/>
+        <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -2286,8 +2286,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3cf0b1eb-c1e8-4221-934f-f5c9fad77c64"/>
-          <timestamp value="2019-11-27T21:22:29+01:00"/>
+          <identifier value="urn:uuid:95bbfb65-0805-4edd-9392-c1547fb3c126"/>
+          <timestamp value="2019-12-02T15:58:13+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2677,8 +2677,8 @@
         <version value="0.1.0"/>
         <name value="BeContactPerson"/>
         <status value="draft"/>
-        <date value="2019-11-27T21:21:47+01:00"/>
-        <publisher value="HL7 Belgium"/>
+        <date value="2019-12-02T15:57:43+01:00"/>
+        <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -2693,8 +2693,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c6869433-76c3-40ce-a691-139c8cc0abec"/>
-          <timestamp value="2019-11-27T21:22:29+01:00"/>
+          <identifier value="urn:uuid:06880b60-29e3-47b9-a39b-e99f99469ec5"/>
+          <timestamp value="2019-12-02T15:58:13+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2848,7 +2848,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 30 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12, SNOMED CT 11000201108 edition 06-Mar 2017</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12, SNOMED CT International edition 31-Jul 2019</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -3147,8 +3147,8 @@ en systemische symptomen</td>
         <version value="0.1.0"/>
         <name value="BeRiskManifestation"/>
         <status value="draft"/>
-        <date value="2019-11-27T21:21:47+01:00"/>
-        <publisher value="HL7 Belgium"/>
+        <date value="2019-12-02T15:57:43+01:00"/>
+        <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -3163,8 +3163,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f88d4ef1-8675-440c-b67f-ce7183c54feb"/>
-          <timestamp value="2019-11-27T21:22:29+01:00"/>
+          <identifier value="urn:uuid:24e9e135-2b83-48ed-bef0-5643d95e6c2c"/>
+          <timestamp value="2019-12-02T15:58:13+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3176,7 +3176,7 @@ en systemische symptomen</td>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct|http://snomed.info/sct/11000201108/version/20170306"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"/>
           </parameter>
           <parameter>
             <name value="version"/>

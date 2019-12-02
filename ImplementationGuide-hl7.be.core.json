@@ -3,15 +3,15 @@
   "id": "hl7.be.core",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BaseIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core</pre><div><p>The Core Belgian Profiles provide the essential and common requirement for FHIR implementations in Belgium</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Core IG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core</pre><div><p>The Core Belgian Profiles provide the essential and common requirement for FHIR implementations in Belgium</p>\n</div></div>"
   },
   "url": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core",
-  "name": "BaseIG",
-  "title": "ONLY TESTING PAGE - NO OFFICIAL CONTENT - THANK YOU FOR VISITING!!!!",
-  "status": "draft",
+  "name": "Core IG",
+  "title": "The Core Belgian Federal Profiles",
+  "status": "active",
   "experimental": false,
-  "date": "2019-11-27T21:21:47+01:00",
-  "publisher": "HL7 Belgium",
+  "date": "2019-12-02T15:57:43+01:00",
+  "publisher": "eHealth Platform",
   "contact": [
     {
       "telecom": [
@@ -804,16 +804,6 @@
         {
           "nameUrl": "conventions.html",
           "title": "Conventions",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "functional-overview.html",
-          "title": "Functional Description",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "logical-models.html",
-          "title": "Logical Data Models",
           "generation": "markdown"
         },
         {
