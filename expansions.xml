@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1e7e5b1d-a5f1-4531-8432-fbcee26b06f0"/>
+  <id value="604d5681-6fd3-40f1-a975-60c156c7b26c"/>
   <meta>
-    <lastUpdated value="2019-12-03T12:10:01.083+01:00"/>
+    <lastUpdated value="2019-12-03T14:44:50.381+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -59,8 +59,8 @@
           </div>
         </text>
         <expansion>
-          <identifier value="urn:uuid:a9b76cba-33a9-4f20-b4c5-88f02083dab3"/>
-          <timestamp value="2019-12-02T12:39:58.954Z"/>
+          <identifier value="urn:uuid:bf257462-131e-4de5-823d-efe9dbb93025"/>
+          <timestamp value="2019-12-03T13:32:22.540Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -1367,7 +1367,7 @@
         <version value="0.1.0"/>
         <name value="BeCausativeAgent"/>
         <status value="draft"/>
-        <date value="2019-12-03T12:10:01+01:00"/>
+        <date value="2019-12-03T14:44:50+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -1383,8 +1383,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:310d1184-332f-45b9-9b1d-1dfe7686df9d"/>
-          <timestamp value="2019-12-03T12:10:32+01:00"/>
+          <identifier value="urn:uuid:ee538158-ff72-4947-ab3d-ddf59d61c60c"/>
+          <timestamp value="2019-12-03T14:45:20+01:00"/>
           <total value="138"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2270,7 +2270,7 @@
         <version value="0.1.0"/>
         <name value="BeCivilstate"/>
         <status value="draft"/>
-        <date value="2019-12-03T12:10:01+01:00"/>
+        <date value="2019-12-03T14:44:50+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -2286,8 +2286,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:fc01a56a-c6fb-412f-b865-0170fb8f989a"/>
-          <timestamp value="2019-12-03T12:10:32+01:00"/>
+          <identifier value="urn:uuid:7adc56e6-96d5-4858-9eab-3fe18505a73a"/>
+          <timestamp value="2019-12-03T14:45:20+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2677,7 +2677,7 @@
         <version value="0.1.0"/>
         <name value="BeContactPerson"/>
         <status value="draft"/>
-        <date value="2019-12-03T12:10:01+01:00"/>
+        <date value="2019-12-03T14:44:50+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -2693,8 +2693,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2347477f-493c-4bbe-97fe-2d670426ab27"/>
-          <timestamp value="2019-12-03T12:10:32+01:00"/>
+          <identifier value="urn:uuid:459f05af-0c77-463c-9353-ab53e8de1f0d"/>
+          <timestamp value="2019-12-03T14:45:20+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3147,7 +3147,7 @@ en systemische symptomen</td>
         <version value="0.1.0"/>
         <name value="BeRiskManifestation"/>
         <status value="draft"/>
-        <date value="2019-12-03T12:10:01+01:00"/>
+        <date value="2019-12-03T14:44:50+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -3163,8 +3163,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a8b84c15-9473-45d2-9465-b02df58f1ca2"/>
-          <timestamp value="2019-12-03T12:10:32+01:00"/>
+          <identifier value="urn:uuid:ad7b61ea-bf3c-456f-9ace-2cb9d20452c7"/>
+          <timestamp value="2019-12-03T14:45:20+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>

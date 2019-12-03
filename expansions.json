@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "1e7e5b1d-a5f1-4531-8432-fbcee26b06f0",
+  "id" : "604d5681-6fd3-40f1-a975-60c156c7b26c",
   "meta" : {
-    "lastUpdated" : "2019-12-03T12:10:01.083+01:00"
+    "lastUpdated" : "2019-12-03T14:44:50.381+01:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -13,8 +13,8 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-447694001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447694001\">447694001</a></td><td>Respiratory tract route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6064005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6064005\">6064005</a></td><td>Topical route</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-26643006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26643006\">26643006</a></td><td>Oral route</td><td/></tr></table></div>"
       },
       "expansion" : {
-        "identifier" : "urn:uuid:a9b76cba-33a9-4f20-b4c5-88f02083dab3",
-        "timestamp" : "2019-12-02T12:39:58.954Z",
+        "identifier" : "urn:uuid:bf257462-131e-4de5-823d-efe9dbb93025",
+        "timestamp" : "2019-12-03T13:32:22.540Z",
         "parameter" : [{
           "name" : "limitedExpansion",
           "valueString" : "-1"
@@ -54,7 +54,7 @@
       "version" : "0.1.0",
       "name" : "BeCausativeAgent",
       "status" : "draft",
-      "date" : "2019-12-03T12:10:01+01:00",
+      "date" : "2019-12-03T14:44:50+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -70,8 +70,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:310d1184-332f-45b9-9b1d-1dfe7686df9d",
-        "timestamp" : "2019-12-03T12:10:32+01:00",
+        "identifier" : "urn:uuid:ee538158-ff72-4947-ab3d-ddf59d61c60c",
+        "timestamp" : "2019-12-03T14:45:20+01:00",
         "total" : 138,
         "parameter" : [{
           "name" : "excludeNested",
@@ -795,7 +795,7 @@
       "version" : "0.1.0",
       "name" : "BeCivilstate",
       "status" : "draft",
-      "date" : "2019-12-03T12:10:01+01:00",
+      "date" : "2019-12-03T14:44:50+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -811,8 +811,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fc01a56a-c6fb-412f-b865-0170fb8f989a",
-        "timestamp" : "2019-12-03T12:10:32+01:00",
+        "identifier" : "urn:uuid:7adc56e6-96d5-4858-9eab-3fe18505a73a",
+        "timestamp" : "2019-12-03T14:45:20+01:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -912,7 +912,7 @@
       "version" : "0.1.0",
       "name" : "BeContactPerson",
       "status" : "draft",
-      "date" : "2019-12-03T12:10:01+01:00",
+      "date" : "2019-12-03T14:44:50+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -928,8 +928,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2347477f-493c-4bbe-97fe-2d670426ab27",
-        "timestamp" : "2019-12-03T12:10:32+01:00",
+        "identifier" : "urn:uuid:459f05af-0c77-463c-9353-ab53e8de1f0d",
+        "timestamp" : "2019-12-03T14:45:20+01:00",
         "total" : 30,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1086,7 +1086,7 @@
       "version" : "0.1.0",
       "name" : "BeRiskManifestation",
       "status" : "draft",
-      "date" : "2019-12-03T12:10:01+01:00",
+      "date" : "2019-12-03T14:44:50+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -1102,8 +1102,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a8b84c15-9473-45d2-9465-b02df58f1ca2",
-        "timestamp" : "2019-12-03T12:10:32+01:00",
+        "identifier" : "urn:uuid:ad7b61ea-bf3c-456f-9ace-2cb9d20452c7",
+        "timestamp" : "2019-12-03T14:45:20+01:00",
         "total" : 30,
         "parameter" : [{
           "name" : "excludeNested",
