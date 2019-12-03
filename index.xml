@@ -47,7 +47,7 @@ set on on ongoing use case driven basis. </p>
 This specification contains: 
 	<ul>
     <!--<li>Logical Models (in a future iteration), which describe describing several data sets and elements used in Belgian systems</li>-->
-<li>Generalities and guidelines (on this page)</li>    
+<li>Generalities and guidance (on this page and on the <a href="guidance.html">Guidance page</a>)</li>    
     <li>Value Sets and code systems, containing specific Belgian value sets</li>
     <li>Core profiles, which constitute the basis for Belgium FHIR profiling and can be reused in other profiles </li>
     <li>Functional Profiles, split by functional area for ease of access</li>
@@ -76,7 +76,7 @@ This specification contains:
     A <a href="toc.html">Table of Contents</a> page is provided that lists all of the pages defined as part of this implementation guide.  (Do be aware 
     that some pages have multiple tabs.)  A table of contents is also available for the full <a href="{{site.data.fhir.path}}toc.html">FHIR specification</a> 
     if you really want to read absolutely everything.  There's also an <a href="artifacts.html">Artifact index</a> that lists all formal FHIR artifacts 
-    defined within this implementation guide.  The <i>Support</i> menu provides links to the HL7 standards used by this implementation guide as well as
+    defined within this implementation guide. General guidelines can be found on the <a href="guidance.html">Guidance page</a> that lists all guidelines and attention points that are not explicitely linked to a specific profile. The <i>Support</i> menu provides links to the HL7 standards used by this implementation guide as well as
     providing a <a href="downloads.html">downloads</a> link to retrieve a local copy of this implementation guide and/or particular subsets of it.
   </p>
 	<p>
