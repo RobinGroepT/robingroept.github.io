@@ -7,10 +7,10 @@
   },
   "url": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core",
   "name": "Core IG",
-  "title": "The Core Belgian Federal Profiles",
+  "title": "The Core Belgian Federal FHIR Profiles",
   "status": "active",
   "experimental": false,
-  "date": "2019-12-06T15:03:12+01:00",
+  "date": "2019-12-06T15:14:22+01:00",
   "publisher": "eHealth Platform",
   "contact": [
     {
