@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.title [ fhir:value "The Core Belgian Federal Profiles"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-03T15:57:16+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-06T14:38:40+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "eHealth Platform"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -195,7 +195,7 @@
          fhir:value "4.0.1";
          fhir:index 0
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation codeable concept code core BE profile" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Observation codeable concept core BE profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Core BE profile for Observation codeable concept" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "core" ]
      ], [
@@ -687,6 +687,50 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "valueset-be-allergyintolerancecode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-allergyintolerancecode>;
+         fhir:Reference.reference [ fhir:value "ValueSet/be-allergyintolerancecode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.fhirVersion [
+         fhir:value "4.0.1";
+         fhir:index 0
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Valueset allergy intolerance code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The valueset for the code for allergy/intolerance" ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "valueset-be-noallergy.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy>;
+         fhir:Reference.reference [ fhir:value "ValueSet/be-noallergy" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.fhirVersion [
+         fhir:value "4.0.1";
+         fhir:index 0
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Valueset no allergies" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The valueset for the code for no allergies" ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ], [
          fhir:index 1;
@@ -705,7 +749,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-HCPARTY codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 26;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -727,7 +771,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-CIVILSTATE codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 27;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -749,7 +793,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-CONTACT-PERSON codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 28;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -771,7 +815,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CD-FED-COUNTRY codesystem" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 29;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -793,7 +837,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The EHP naming system" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 30;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -815,7 +859,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CBE naming system" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 31;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -837,7 +881,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The SSIN naming system" ];
        fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "terminology" ]
      ], [
-       fhir:index 32;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

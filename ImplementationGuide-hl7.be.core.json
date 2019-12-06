@@ -10,7 +10,7 @@
   "title": "The Core Belgian Federal Profiles",
   "status": "active",
   "experimental": false,
-  "date": "2019-12-03T15:57:16+01:00",
+  "date": "2019-12-06T14:38:40+01:00",
   "publisher": "eHealth Platform",
   "contact": [
     {
@@ -187,7 +187,7 @@
         "fhirVersion": [
           "4.0.1"
         ],
-        "name": "Observation codeable concept code core BE profile",
+        "name": "Observation codeable concept core BE profile",
         "description": "The Core BE profile for Observation codeable concept",
         "groupingId": "core"
       },
@@ -620,6 +620,48 @@
         ],
         "name": "Valueset risk manifestation",
         "description": "The valueset for risk manifestation",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "valueset-be-allergyintolerancecode.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/be-allergyintolerancecode"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Valueset allergy intolerance code",
+        "description": "The valueset for the code for allergy/intolerance",
+        "groupingId": "terminology"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "valueset-be-noallergy.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/be-noallergy"
+        },
+        "fhirVersion": [
+          "4.0.1"
+        ],
+        "name": "Valueset no allergies",
+        "description": "The valueset for the code for no allergies",
         "groupingId": "terminology"
       },
       {

@@ -52,20 +52,20 @@ body {
   position: relative;
 }
 #segment-header {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 #segment-header > .container {
   background-color: #ffffff;
 }
 #segment-footer {
-  background-color: #707070;
+  background-color: #ececec;
 }
 #segment-footer > .container {
-  background-color: #ad1f2f;
-  color: #ffffff;
+  background-color: #ececec;
+  color: #333333;
 }
 #segment-footer > .container .inner-wrapper {
-  padding: 11px 20px;
+  padding: 50px 20px;
 }
 #segment-post-footer {
   background-color: #f5f5f5;
@@ -165,14 +165,14 @@ body {
   text-align: center;
   height: 60px;
 }
-#stripe {
+/*#stripe {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   height: 8px;
-  background: #999999;
-}
+  background: #5f6d22;
+}*/
 #notes a {
   color: #555555;
 }
@@ -180,6 +180,15 @@ body {
   background-color: yellow;
   border: 1px solid maroon;
   padding: 5px;
+}
+#ehealth-logo {
+  float: right;
+  margin-left: 30px;
+}
+#belgium-logo {
+  float: right;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 /* GENERIC OBJECTS
 ----------------------------------------------------------------------------------------*/
@@ -306,7 +315,7 @@ body {
   margin-bottom: 0;
 }
 .breadcrumb a {
-  color: #555555;
+  color: #bc400f;
 }
 .nav-listing {
   overflow: hidden;

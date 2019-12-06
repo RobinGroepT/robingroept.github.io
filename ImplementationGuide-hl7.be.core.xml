@@ -11,7 +11,7 @@
   <title value="The Core Belgian Federal Profiles"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-12-03T15:57:16+01:00"/>
+  <date value="2019-12-06T14:38:40+01:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <telecom>
@@ -137,7 +137,7 @@
         <reference value="StructureDefinition/be-observationcodeableconcept"/>
       </reference>
       <fhirVersion value="4.0.1"/>
-      <name value="Observation codeable concept code core BE profile"/>
+      <name value="Observation codeable concept core BE profile"/>
       <description value="The Core BE profile for Observation codeable concept"/>
       <groupingId value="core"/>
     </resource>
@@ -450,6 +450,36 @@
       <fhirVersion value="4.0.1"/>
       <name value="Valueset risk manifestation"/>
       <description value="The valueset for risk manifestation"/>
+      <groupingId value="terminology"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-be-allergyintolerancecode.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/be-allergyintolerancecode"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Valueset allergy intolerance code"/>
+      <description value="The valueset for the code for allergy/intolerance"/>
+      <groupingId value="terminology"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-be-noallergy.html"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/be-noallergy"/>
+      </reference>
+      <fhirVersion value="4.0.1"/>
+      <name value="Valueset no allergies"/>
+      <description value="The valueset for the code for no allergies"/>
       <groupingId value="terminology"/>
     </resource>
     <resource>

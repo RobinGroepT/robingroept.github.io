@@ -135,10 +135,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ","Extensions are always sliced by (at least) url",,"open","DomainResource.modifierExtension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.identifier","","","",0,*,"","","Y","Identifier {[]} {[]}
+"Patient.identifier","","","",0,*,"Y","","Y","Identifier {[]} {[]}
 ","An identifier for this patient","An identifier for this patient.
 
-Typically, when SSIN is available it is used. Organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. ","","Patients are almost always assigned specific numerical identifiers.","","","","","","","",,,,,"","value:system}
+Typically, when SSIN is available it is used. Organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. When an identifier is given, a consumer SHALL NOT ignore it.","","Patients are almost always assigned specific numerical identifiers.","","","","","","","",,,,,"","value:system}
 ","",,"open","Patient.identifier",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
@@ -188,15 +188,13 @@ Many systems use this property to mark as non-current patients, such as those th
 
 It is often used to filter patient lists to exclude inactive patients
 
-Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.
-
-It is RECOMMENDED to keep the value ‘true’ as long as the patient is still being treated by the provider of the data.","If a record is inactive, and linked to an active record, then future patient/record updates should occur on the other patient.","Need to be able to mark a patient record as not to be used because it was created in error.","","This resource is generally assumed to be active if no value is provided for the active element","","","","","",,,,,"",,,,"Patient.active",0,1,"ele-1
+Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.","If a record is inactive, and linked to an active record, then future patient/record updates should occur on the other patient.","Need to be able to mark a patient record as not to be used because it was created in error.","","This resource is generally assumed to be active if no value is provided for the active element","","","","","",,,,,"",,,,"Patient.active",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Patient.name","","","",0,*,"Y","","Y","HumanName {[]} {[]}
 ","A name associated with the patient","A name associated with the individual. 
 
-It is RECOMMENDED to give at least one familyname and at least one given name when possible and define an 'official' use. When names are given, the consumer SHALL record this in its consuming system. ","A patient may have multiple names with different uses or applicable periods. For animals, the name is a ""HumanName"" in the sense that is assigned and used by humans and has the same patterns.","Need to be able to track the patient by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"",,,,"Patient.name",0,*,"ele-1
+It is RECOMMENDED to give at least one familyname and at least one given name when possible and define an 'official' use. When names are given, a consumer SHALL NOT ignore it.","A patient may have multiple names with different uses or applicable periods. For animals, the name is a ""HumanName"" in the sense that is assigned and used by humans and has the same patterns.","Need to be able to track the patient by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"",,,,"Patient.name",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Patient.telecom","","","",0,*,"","","Y","ContactPoint {[]} {[]}
@@ -262,7 +260,7 @@ It is RECOMMENDED to include deceased information when applicable","If there's n
 "Patient.address","","","",0,*,"","","Y","Address {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-address]]} {[]}
 ","An address for the individual","An address for the individual. 
 
-It is RECOMMENDED to include an address when available.","Patient may have multiple addresses with different uses or applicable periods.","May need to keep track of patient addresses for contacting, billing or reporting requirements and also to help with identification.","","","","","","","",,,,,"",,,,"Patient.address",0,*,"ele-1
+It is RECOMMENDED to include an address when available. When needed to express the availablity of a Patient at home (e.g. only Wednesdays), another solution will be defined.","Patient may have multiple addresses with different uses or applicable periods.","May need to keep track of patient addresses for contacting, billing or reporting requirements and also to help with identification.","","","","","","","",,,,,"",,,,"Patient.address",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Patient.address.id","","","",0,1,"","","","string {[]} {[]}
@@ -329,7 +327,7 @@ It is RECOMMENDED to include this when available. In a Belgian context, the conc
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Patient.multipleBirth[x]","","","",0,1,"","","","boolean {[]} {[]}
-integer {[]} {[]}","Whether patient is part of a multiple birth","Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer).","Where the valueInteger is provided, the number is the birth number in the sequence. E.g. The middle birth in triplets would be valueInteger=2 and the third born would have valueInteger=3 If a boolean value was provided for this triplets example, then all 3 patient records would have valueBoolean=true (the ordering is not indicated).","For disambiguation of multiple-birth children, especially relevant where the care provider doesn't meet the patient, such as labs.","","","","","","","",,,,,"",,,,"Patient.multipleBirth[x]",0,1,"ele-1
+integer {[]} {[]}","Whether patient is part of a multiple birth","Indicates whether the patient is part of a multiple (boolean) or indicates the actual birth order (integer). Care SHOULD be given when exchanging Patient instances in a purely administrative flow.","Where the valueInteger is provided, the number is the birth number in the sequence. E.g. The middle birth in triplets would be valueInteger=2 and the third born would have valueInteger=3 If a boolean value was provided for this triplets example, then all 3 patient records would have valueBoolean=true (the ordering is not indicated).","For disambiguation of multiple-birth children, especially relevant where the care provider doesn't meet the patient, such as labs.","","","","","","","",,,,,"",,,,"Patient.multipleBirth[x]",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Patient.photo","","","",0,*,"","","","Attachment {[]} {[]}

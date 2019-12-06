@@ -39,9 +39,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 ","Extensions are always sliced by (at least) url",,"open","DomainResource.modifierExtension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Organization.identifier","","","",0,*,"","","Y","Identifier {[]} {[]}
+"Organization.identifier","","","",0,*,"Y","","Y","Identifier {[]} {[]}
 ","Identifies this organization  across multiple systems","Identifier for the organization that is used to identify the organization across multiple disparate systems. 
-Typically, a NIHDI value and/or a CBE or EHP value are given. Other systems are allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"","value:system}
+Typically, a NIHDI value and/or a CBE or EHP value are given. Other systems are allowed. Flows in organizations will most likely want to also include a local identifier, using its own system. A type can be added if needed. When it is given, a consumer SHALL NOT ignore it.","","Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization.","","","","","","","",,,,,"","value:system}
 ","",,"open","Organization.identifier",0,*,"ele-1
 org-1","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
