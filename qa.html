@@ -7,7 +7,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for Core IG</h1>
- <p>Generated Fri Dec 06 14:39:45 CET 2019, FHIR version 4.0.1 for hl7.be.core# (canonical = <a href="https://www.ehealth.fgov.be/standards/fhir">https://www.ehealth.fgov.be/standards/fhir</a> (<a href="https://www.ehealth.fgov.be/standards/fhir/history.html">history</a>))</p>
+ <p>Generated Fri Dec 06 15:04:10 CET 2019, FHIR version 4.0.1 for hl7.be.core# (canonical = <a href="https://www.ehealth.fgov.be/standards/fhir">https://www.ehealth.fgov.be/standards/fhir</a> (<a href="https://www.ehealth.fgov.be/standards/fhir/history.html">history</a>))</p>
 <p style="background-color: #ffcccc">IG Publisher Version: v0.9.96-SNAPSHOT, which is out of date. The current version is v1.0.14-SNAPSHOT <a hhef="https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.publisher.jar">Download Latest</a></p>
 <p><a href="#suppressed">2 Suppressed Errors</a></p>
  <p>HL7 Publication check:</p> <ul><li>n/a - not an HL7.org or FHIR.org implementation guide</li></ul>
@@ -844,6 +844,15 @@
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Observation/observation1: Observation.code.coding[2]</b></td><td><b>information</b></td><td><b>This element does not match any known slice for the profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observationcodeableconcept</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/observation1: Observation.subject</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'Patient/example'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Observation/observation1: Observation.performer[0]</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'Practitioner/example'</b></td>
+   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation/observation1: Observation.code</b></td><td><b>warning</b></td><td><b>The code system &quot;http://my-own-custom-codes&quot; is not known (encountered paired with code = &quot;H-RATE&quot;)</b></td>
    </tr>
@@ -852,15 +861,6 @@
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation/observation1: Observation.code.coding[2]</b></td><td><b>information</b></td><td><b>This element does not match any known slice for the profile http://hl7.org/fhir/StructureDefinition/heartrate</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation/observation1: Observation.subject</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'Patient/example'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation/observation1: Observation.performer[0]</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'Practitioner/example'</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Observation/observation1: Observation.code.coding[2]</b></td><td><b>information</b></td><td><b>This element does not match any known slice for the profile https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-observationcodeableconcept</b></td>
    </tr>
 </table>
 <hr/>
