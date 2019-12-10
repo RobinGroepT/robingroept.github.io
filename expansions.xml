@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="87ed3fbd-d779-464b-b8e3-88535ace2dcc"/>
+  <id value="c85a5706-42d4-4957-aef0-40ae2655fc71"/>
   <meta>
-    <lastUpdated value="2019-12-10T13:26:45.432+01:00"/>
+    <lastUpdated value="2019-12-10T14:09:41.795+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -1364,10 +1364,10 @@
           </div>
         </text>
         <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="BeCausativeAgent"/>
         <status value="draft"/>
-        <date value="2019-12-10T13:26:45+01:00"/>
+        <date value="2019-12-10T14:09:41+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -1383,8 +1383,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6a651d54-0cbf-4d00-9175-db563724b3db"/>
-          <timestamp value="2019-12-10T13:27:13+01:00"/>
+          <identifier value="urn:uuid:1d82cedb-f72e-4549-b6e7-92b1070bbde8"/>
+          <timestamp value="2019-12-10T14:10:19+01:00"/>
           <total value="138"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2105,7 +2105,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 15 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate version 1.0, http://terminology.hl7.org/CodeSystem/v3-MaritalStatus version 2018-08-12, http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate version 1.0.0, http://terminology.hl7.org/CodeSystem/v3-MaritalStatus version 2018-08-12, http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2267,10 +2267,10 @@
           </div>
         </text>
         <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-civilstate"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="BeCivilstate"/>
         <status value="draft"/>
-        <date value="2019-12-10T13:26:45+01:00"/>
+        <date value="2019-12-10T14:09:41+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -2286,8 +2286,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:dcb81a75-809c-4361-9d10-67b6fe474520"/>
-          <timestamp value="2019-12-10T13:27:13+01:00"/>
+          <identifier value="urn:uuid:7b024701-489f-4a9b-a4cc-0b47722baeb4"/>
+          <timestamp value="2019-12-10T14:10:19+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2299,7 +2299,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate|1.0"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate|1.0.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -2384,7 +2384,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 30 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person version 1.2, http://terminology.hl7.org/CodeSystem/v2-0131 version 2.9</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person version 1.0.0, http://terminology.hl7.org/CodeSystem/v2-0131 version 2.9</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -2674,10 +2674,10 @@
           </div>
         </text>
         <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-contactperson"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="BeContactPerson"/>
         <status value="draft"/>
-        <date value="2019-12-10T13:26:45+01:00"/>
+        <date value="2019-12-10T14:09:41+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -2693,8 +2693,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:afaf438d-4dd5-4f89-a0d6-c8e0f9559da1"/>
-          <timestamp value="2019-12-10T13:27:13+01:00"/>
+          <identifier value="urn:uuid:2642123a-f3c5-492f-b8e9-b016c07a74a3"/>
+          <timestamp value="2019-12-10T14:10:19+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2706,7 +2706,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person|1.2"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person|1.0.0"/>
           </parameter>
           <contains>
             <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
@@ -3144,10 +3144,10 @@ en systemische symptomen</td>
           </div>
         </text>
         <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-riskmanifestation"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="BeRiskManifestation"/>
         <status value="draft"/>
-        <date value="2019-12-10T13:26:45+01:00"/>
+        <date value="2019-12-10T14:09:41+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -3163,8 +3163,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c6ce7ce9-a7ec-4940-8796-8e322e0c2b54"/>
-          <timestamp value="2019-12-10T13:27:13+01:00"/>
+          <identifier value="urn:uuid:05f08259-32d6-465b-b63f-42e0daeec6dd"/>
+          <timestamp value="2019-12-10T14:10:19+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3345,7 +3345,7 @@ en systemische symptomen</td>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 145 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent version 0.1.0, https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy version 0.1.0, http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12, SNOMED CT International edition 31-Jul 2019</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent version 1.0.0, https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy version 1.0.0, http://terminology.hl7.org/CodeSystem/v3-NullFlavor version 2018-08-12, SNOMED CT International edition 31-Jul 2019</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -4675,10 +4675,10 @@ en systemische symptomen</td>
           </div>
         </text>
         <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-allergyintolerancecode"/>
-        <version value="0.1.0"/>
+        <version value="1.0.0"/>
         <name value="BeAllergyIntoleranceCode"/>
         <status value="draft"/>
-        <date value="2019-12-10T13:26:45+01:00"/>
+        <date value="2019-12-10T14:09:41+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -4694,8 +4694,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b374da57-f6bb-4586-a59b-98f37a085e50"/>
-          <timestamp value="2019-12-10T13:27:13+01:00"/>
+          <identifier value="urn:uuid:b6df6fba-e007-4094-8d57-0531e5bbde60"/>
+          <timestamp value="2019-12-10T14:10:19+01:00"/>
           <total value="145"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4703,7 +4703,7 @@ en systemische symptomen</td>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent|0.1.0"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent|1.0.0"/>
           </parameter>
           <parameter>
             <name value="limitedExpansion"/>
@@ -4719,7 +4719,7 @@ en systemische symptomen</td>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy|0.1.0"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy|1.0.0"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>

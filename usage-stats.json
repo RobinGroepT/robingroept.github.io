@@ -1,5 +1,6 @@
 {
   "package": "hl7.be.core",
+  "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",
   "extensions": [],

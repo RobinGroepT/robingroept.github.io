@@ -12,10 +12,10 @@
                            Those properties further qualify the nature of what is unknown.  (E.g. specifying a use code of &quot;H&quot; and a URL prefix of &quot;tel:&quot; to convey that it is the home phone number that is unknown.)</td></tr></table></li></ul><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>English (English, en)</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>A</td><td>Annuled</td><td>Annulation de marriage</td><td>Nietigverklaring van huwelijk</td></tr><tr><td>D</td><td>Divorced</td><td>Divorced</td><td>Echtgescheiden</td></tr><tr><td>M</td><td>Married</td><td>Marié</td><td>Gehuwd</td></tr><tr><td>U</td><td>Unmarried</td><td>Célibataire</td><td>Ongehuwd</td></tr><tr><td>W</td><td>Widowed</td><td>Veuf/veuve</td><td>Weduwnaar/weduwe</td></tr><tr><td>10</td><td>Unmarried</td><td>Célibataire</td><td>Ongehuwd</td></tr><tr><td>26</td><td>Putative marriage</td><td>Mariage putatif</td><td>Putatief huwelijk</td></tr><tr><td>40</td><td>Divorced</td><td>Divorced</td><td>Echtgescheiden</td></tr><tr><td>41</td><td>Divorced since 1/10/1994</td><td>Divorcé à partir du 1/10/1994</td><td>Echtgescheiden vanaf 1/10/1994</td></tr><tr><td>50</td><td>Legal separation</td><td>Séparé de corps et de biens</td><td>Gescheiden van tafel en bed</td></tr><tr><td>51</td><td>Legal separation since 1/10/1994</td><td>Séparé de corps et de biens à partir du 1/10/1994</td><td>Gescheiden van tafel en bed sinds 1/10/1994</td></tr><tr><td>60</td><td>Repudiation</td><td>Répudiation</td><td>Verstoting</td></tr><tr><td>80</td><td>Partnership</td><td>Partenariat</td><td>Partnerschap</td></tr><tr><td>81</td><td>End of partnership</td><td>Fin de partenariat</td><td>Partnerschap beeindigd</td></tr><tr><td>UNK</td><td>Unknown</td><td>Indéterminé</td><td>Onbepaald</td></tr></table></div>
   </text>
   <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-civilstate"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0"/>
   <name value="BeCivilstate"/>
   <status value="draft"/>
-  <date value="2019-12-10T13:26:45+01:00"/>
+  <date value="2019-12-10T14:09:41+01:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <telecom>

@@ -7,12 +7,12 @@
 </div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-fed-country defines many codes, but they are not represented here</p></div>
   </text>
   <url value="https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-fed-country"/>
-  <version value="1.2"/>
+  <version value="1.0.0"/>
   <name value="FedCountry"/>
   <title value="FedCountry"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-12-10T13:26:45+01:00"/>
+  <date value="2019-12-10T14:09:41+01:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <telecom>

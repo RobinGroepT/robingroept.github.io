@@ -6,11 +6,12 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Core IG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core</pre><div><p>The Core Belgian Profiles provide the essential and common requirement for FHIR implementations in Belgium</p>\n</div></div>"
   },
   "url": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/hl7.be.core",
+  "version": "1.0.0",
   "name": "Core IG",
   "title": "The Core Belgian Federal FHIR Profiles",
   "status": "active",
   "experimental": false,
-  "date": "2019-12-10T13:26:45+01:00",
+  "date": "2019-12-10T14:09:41+01:00",
   "publisher": "eHealth Platform",
   "contact": [
     {

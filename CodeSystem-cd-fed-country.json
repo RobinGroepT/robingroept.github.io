@@ -6,12 +6,12 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>FedCountry</h2><div><p>FHIR code system definition for country codes as they are described on https://www.ehealth.fgov.be/standards/kmehr/en/tables/fedict-country-codes</p>\n</div><p>This code system https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-fed-country defines many codes, but they are not represented here</p></div>"
   },
   "url": "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-fed-country",
-  "version": "1.2",
+  "version": "1.0.0",
   "name": "FedCountry",
   "title": "FedCountry",
   "status": "active",
   "experimental": false,
-  "date": "2019-12-10T13:26:45+01:00",
+  "date": "2019-12-10T14:09:41+01:00",
   "publisher": "eHealth Platform",
   "contact": [
     {
