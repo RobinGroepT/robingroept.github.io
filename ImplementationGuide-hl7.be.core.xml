@@ -12,7 +12,7 @@
   <title value="The Core Belgian Federal FHIR Profiles"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-12-10T14:09:41+01:00"/>
+  <date value="2019-12-10T16:59:55+01:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <telecom>
@@ -621,16 +621,6 @@
         <nameUrl value="artifacts.html"/>
         <title value="Artifacts"/>
         <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="example-resources.html"/>
-        <title value="Example Resources"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="example-scenarios.html"/>
-        <title value="Example Scenarios"/>
-        <generation value="markdown"/>
       </page>
       <page>
         <nameUrl value="downloads.html"/>
