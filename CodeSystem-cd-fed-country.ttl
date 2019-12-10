@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "FedCountry"];
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2019-12-10T11:22:33+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2019-12-10T13:26:45+01:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "eHealth Platform"];
   fhir:CodeSystem.contact [
      fhir:index 0;

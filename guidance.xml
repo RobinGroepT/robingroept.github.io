@@ -185,7 +185,7 @@ In KMEHR, an address might be expressed using free text or a totally structured 
 <tr><th>KMEHR CD-ADDRESS</th><th>FHIR: http://hl7.org/fhir/ValueSet/address-use</th></tr> 
 <tr>
 <td>careaddress</td>
-<td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period’</td>
+<td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period.’ Please note when needed to express the availablity of a Patient at home (e.g. only Wednesdays), another solution will be defined in a future IG. </td>
 </tr>
 <tr><td>home</td><td>home</td></tr>
 <tr><td>other</td><td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period’</td></tr>

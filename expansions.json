@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "5cb29490-a77f-4e9f-af07-bae8aee3d163",
+  "id" : "87ed3fbd-d779-464b-b8e3-88535ace2dcc",
   "meta" : {
-    "lastUpdated" : "2019-12-10T11:22:33.740+01:00"
+    "lastUpdated" : "2019-12-10T13:26:45.432+01:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -54,7 +54,7 @@
       "version" : "0.1.0",
       "name" : "BeCausativeAgent",
       "status" : "draft",
-      "date" : "2019-12-10T11:22:33+01:00",
+      "date" : "2019-12-10T13:26:45+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -70,8 +70,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9cc50596-4282-4d31-acfb-d1a096ff0595",
-        "timestamp" : "2019-12-10T11:23:03+01:00",
+        "identifier" : "urn:uuid:6a651d54-0cbf-4d00-9175-db563724b3db",
+        "timestamp" : "2019-12-10T13:27:13+01:00",
         "total" : 138,
         "parameter" : [{
           "name" : "excludeNested",
@@ -795,7 +795,7 @@
       "version" : "0.1.0",
       "name" : "BeCivilstate",
       "status" : "draft",
-      "date" : "2019-12-10T11:22:33+01:00",
+      "date" : "2019-12-10T13:26:45+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -811,8 +811,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:25a0aeca-4b6b-49f4-9f18-54e69b198992",
-        "timestamp" : "2019-12-10T11:23:03+01:00",
+        "identifier" : "urn:uuid:dcb81a75-809c-4361-9d10-67b6fe474520",
+        "timestamp" : "2019-12-10T13:27:13+01:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -912,7 +912,7 @@
       "version" : "0.1.0",
       "name" : "BeContactPerson",
       "status" : "draft",
-      "date" : "2019-12-10T11:22:33+01:00",
+      "date" : "2019-12-10T13:26:45+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -928,8 +928,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:67e44f33-2d4a-492f-b2f8-371f6fc21dd2",
-        "timestamp" : "2019-12-10T11:23:03+01:00",
+        "identifier" : "urn:uuid:afaf438d-4dd5-4f89-a0d6-c8e0f9559da1",
+        "timestamp" : "2019-12-10T13:27:13+01:00",
         "total" : 30,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1086,7 +1086,7 @@
       "version" : "0.1.0",
       "name" : "BeRiskManifestation",
       "status" : "draft",
-      "date" : "2019-12-10T11:22:33+01:00",
+      "date" : "2019-12-10T13:26:45+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -1102,8 +1102,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2fec8b33-90e0-4d26-9e76-2bf8cdb42e48",
-        "timestamp" : "2019-12-10T11:23:03+01:00",
+        "identifier" : "urn:uuid:c6ce7ce9-a7ec-4940-8796-8e322e0c2b54",
+        "timestamp" : "2019-12-10T13:27:13+01:00",
         "total" : 30,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1287,7 +1287,7 @@
       "version" : "0.1.0",
       "name" : "BeAllergyIntoleranceCode",
       "status" : "draft",
-      "date" : "2019-12-10T11:22:33+01:00",
+      "date" : "2019-12-10T13:26:45+01:00",
       "publisher" : "eHealth Platform",
       "contact" : [{
         "telecom" : [{
@@ -1303,8 +1303,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3fbe4d7d-2314-4719-9660-ed72f5aabb60",
-        "timestamp" : "2019-12-10T11:23:03+01:00",
+        "identifier" : "urn:uuid:b374da57-f6bb-4586-a59b-98f37a085e50",
+        "timestamp" : "2019-12-10T13:27:13+01:00",
         "total" : 145,
         "parameter" : [{
           "name" : "excludeNested",
