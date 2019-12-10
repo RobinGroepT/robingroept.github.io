@@ -35,7 +35,7 @@ If needed codes can be used from a different system, SNOMED-CT is preferred.">co
   <version value="0.1.0"/>
   <name value="BePractitionerRole"/>
   <status value="draft"/>
-  <date value="2019-12-06T15:14:22+01:00"/>
+  <date value="2019-12-10T11:22:33+01:00"/>
   <publisher value="eHealth Platform"/>
   <contact>
     <telecom>

@@ -108,7 +108,7 @@ applications SHALL ensure that when both text and parts are present, no content 
 </tr>
 <tr>
 <td>careaddress</td>
-<td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period’</td>
+<td>N/A, use value ‘temp.’ Also RECOMMENDED to add a ‘period.’ Please note when needed to express the availablity of a Patient at home (e.g. only Wednesdays), another solution will be defined in a future IG. </td>
 </tr>
 <tr>
 <td>home</td>

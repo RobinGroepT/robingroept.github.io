@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="f120d358-46ce-457e-ad63-accea093901f"/>
+  <id value="5cb29490-a77f-4e9f-af07-bae8aee3d163"/>
   <meta>
-    <lastUpdated value="2019-12-06T15:14:22.045+01:00"/>
+    <lastUpdated value="2019-12-10T11:22:33.740+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -1367,7 +1367,7 @@
         <version value="0.1.0"/>
         <name value="BeCausativeAgent"/>
         <status value="draft"/>
-        <date value="2019-12-06T15:14:22+01:00"/>
+        <date value="2019-12-10T11:22:33+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -1383,8 +1383,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d3540ae0-7099-4a8a-b4ef-55905c872653"/>
-          <timestamp value="2019-12-06T15:14:50+01:00"/>
+          <identifier value="urn:uuid:9cc50596-4282-4d31-acfb-d1a096ff0595"/>
+          <timestamp value="2019-12-10T11:23:03+01:00"/>
           <total value="138"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2270,7 +2270,7 @@
         <version value="0.1.0"/>
         <name value="BeCivilstate"/>
         <status value="draft"/>
-        <date value="2019-12-06T15:14:22+01:00"/>
+        <date value="2019-12-10T11:22:33+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -2286,8 +2286,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6c8ff4ee-f556-410b-8486-e4f7c16e3260"/>
-          <timestamp value="2019-12-06T15:14:50+01:00"/>
+          <identifier value="urn:uuid:25a0aeca-4b6b-49f4-9f18-54e69b198992"/>
+          <timestamp value="2019-12-10T11:23:03+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2677,7 +2677,7 @@
         <version value="0.1.0"/>
         <name value="BeContactPerson"/>
         <status value="draft"/>
-        <date value="2019-12-06T15:14:22+01:00"/>
+        <date value="2019-12-10T11:22:33+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -2693,8 +2693,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4392c0d2-3db5-4e06-81c7-c1200550bd47"/>
-          <timestamp value="2019-12-06T15:14:50+01:00"/>
+          <identifier value="urn:uuid:67e44f33-2d4a-492f-b2f8-371f6fc21dd2"/>
+          <timestamp value="2019-12-10T11:23:03+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3147,7 +3147,7 @@ en systemische symptomen</td>
         <version value="0.1.0"/>
         <name value="BeRiskManifestation"/>
         <status value="draft"/>
-        <date value="2019-12-06T15:14:22+01:00"/>
+        <date value="2019-12-10T11:22:33+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -3163,8 +3163,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d74aa47f-b477-46a5-b398-942bb7e8ac75"/>
-          <timestamp value="2019-12-06T15:14:50+01:00"/>
+          <identifier value="urn:uuid:2fec8b33-90e0-4d26-9e76-2bf8cdb42e48"/>
+          <timestamp value="2019-12-10T11:23:03+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4678,7 +4678,7 @@ en systemische symptomen</td>
         <version value="0.1.0"/>
         <name value="BeAllergyIntoleranceCode"/>
         <status value="draft"/>
-        <date value="2019-12-06T15:14:22+01:00"/>
+        <date value="2019-12-10T11:22:33+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -4694,8 +4694,8 @@ en systemische symptomen</td>
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ff1eb15f-03c7-43ec-9c14-d13e0c7dd27c"/>
-          <timestamp value="2019-12-06T15:14:50+01:00"/>
+          <identifier value="urn:uuid:3fbe4d7d-2314-4719-9660-ed72f5aabb60"/>
+          <timestamp value="2019-12-10T11:23:03+01:00"/>
           <total value="145"/>
           <parameter>
             <name value="excludeNested"/>
