@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1a5da996-ce4b-48e0-9ca3-931f04395508"/>
+  <id value="a300d61e-c080-4a4e-809b-5ec2615a83df"/>
   <meta>
-    <lastUpdated value="2019-12-16T15:10:42.441+01:00"/>
+    <lastUpdated value="2019-12-16T16:37:26.683+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -89,10 +89,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent"/>
     <resource>
       <ValueSet>
-        <id value="be-causativeagent"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -1246,33 +1244,9 @@
             </table>
           </div>
         </text>
-        <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent"/>
-        <version value="1.0.0"/>
-        <name value="BeCausativeAgent"/>
-        <status value="draft"/>
-        <date value="2019-12-16T15:10:42+01:00"/>
-        <publisher value="eHealth Platform"/>
-        <contact>
-          <telecom>
-            <system value="other"/>
-            <value value="http://hl7.org/Special/committees/fiwg"/>
-          </telecom>
-        </contact>
-        <description value="Codes as communicated by NIHDI and the FPS Terminology Center differentiating types of causative agent. This valueset supports the Belgian federal FHIR profiling effort."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:75c20472-4abb-4d70-99da-d29ad4d88990"/>
-          <timestamp value="2019-12-16T15:11:21+01:00"/>
-          <total value="141"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:7176447e-d3f9-47f4-9ba9-212228878e80"/>
+          <timestamp value="2019-12-16T14:49:20.458Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -2164,7 +2138,7 @@
         <version value="1.0.0"/>
         <name value="BeCivilstate"/>
         <status value="draft"/>
-        <date value="2019-12-16T15:10:42+01:00"/>
+        <date value="2019-12-16T16:37:26+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -2180,8 +2154,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1aeb4e84-b325-4512-9d83-c945c4aa5033"/>
-          <timestamp value="2019-12-16T15:11:23+01:00"/>
+          <identifier value="urn:uuid:a6ba2a85-4a7f-4e75-949f-14cf86dc860b"/>
+          <timestamp value="2019-12-16T16:38:11+01:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2571,7 +2545,7 @@
         <version value="1.0.0"/>
         <name value="BeContactPerson"/>
         <status value="draft"/>
-        <date value="2019-12-16T15:10:42+01:00"/>
+        <date value="2019-12-16T16:37:26+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -2587,8 +2561,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:96ad250b-304b-4506-9df9-fabd8c0ad801"/>
-          <timestamp value="2019-12-16T15:11:23+01:00"/>
+          <identifier value="urn:uuid:a794572c-3aec-409b-871d-a3b6c187b3d1"/>
+          <timestamp value="2019-12-16T16:38:12+01:00"/>
           <total value="30"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2734,10 +2708,8 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-riskmanifestation"/>
     <resource>
       <ValueSet>
-        <id value="be-riskmanifestation"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -3059,33 +3031,9 @@
             </table>
           </div>
         </text>
-        <url value="https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-riskmanifestation"/>
-        <version value="1.0.0"/>
-        <name value="BeRiskManifestation"/>
-        <status value="draft"/>
-        <date value="2019-12-16T15:10:42+01:00"/>
-        <publisher value="eHealth Platform"/>
-        <contact>
-          <telecom>
-            <system value="other"/>
-            <value value="http://hl7.org/Special/committees/fiwg"/>
-          </telecom>
-        </contact>
-        <description value="Codes as communicated by NIHDI and the FPS Terminology Center differentiating types of risk manifestation. This valueset supports the Belgian federal FHIR profiling effort."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-          </coding>
-        </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a4e8963b-e7d6-4b34-8b8f-a8e154e24b43"/>
-          <timestamp value="2019-12-16T15:11:23+01:00"/>
-          <total value="37"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
+          <identifier value="urn:uuid:932d4f64-0b3f-4905-9704-8b3a1d31e82c"/>
+          <timestamp value="2019-12-16T14:11:23.912Z"/>
           <parameter>
             <name value="limitedExpansion"/>
             <valueString value="-1"/>
@@ -4501,7 +4449,7 @@
         <version value="1.0.0"/>
         <name value="BeAllergyIntoleranceCode"/>
         <status value="draft"/>
-        <date value="2019-12-16T15:10:42+01:00"/>
+        <date value="2019-12-16T16:37:26+01:00"/>
         <publisher value="eHealth Platform"/>
         <contact>
           <telecom>
@@ -4517,8 +4465,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ae63e2c4-7cac-4b97-b5e4-d68d3adb808d"/>
-          <timestamp value="2019-12-16T15:11:24+01:00"/>
+          <identifier value="urn:uuid:f5d8d81a-2a98-43d0-9eae-99c2a9b3e1be"/>
+          <timestamp value="2019-12-16T16:38:12+01:00"/>
           <total value="148"/>
           <parameter>
             <name value="excludeNested"/>
