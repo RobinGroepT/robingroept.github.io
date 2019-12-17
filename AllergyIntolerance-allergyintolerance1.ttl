@@ -20,7 +20,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>\n        <b>Generated Narrative with Details</b>\n      </p>\n      <p>\n        <b>clinicalStatus</b>: Active <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})</span></p>\n      <p>\n        <b>verificationStatus</b>: Confirmed <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})</span></p>\n      <p>\n        <b>type</b>: allergy</p>\n      <p>\n        <b>category</b>: food</p>\n      <p>\n        <b>criticality</b>: high</p>\n      <p>\n        <b>code</b>: Peanut <span>(Details : {SNOMED CT code '256349002' = 'Peanut', given as 'Peanut'})</span></p>\n    </div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>\n        <b>Generated Narrative with Details</b>\n      </p>\n      <p>\n        <b>clinicalStatus</b>: Active <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})</span></p>\n      <p>\n        <b>verificationStatus</b>: Confirmed <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})</span></p>\n      <p>\n        <b>type</b>: allergy</p>\n      <p>\n        <b>category</b>: food</p>\n      <p>\n        <b>criticality</b>: high</p>\n      <p>\n        <b>code</b>: Peanut <span>(Details : {SNOMED CT code '762952008' = 'Peanut (substance)', given as 'Peanut (substance)'})</span></p>\n    </div>"
   ];
   fhir:AllergyIntolerance.clinicalStatus [
      fhir:CodeableConcept.coding [
@@ -46,10 +46,10 @@
   fhir:AllergyIntolerance.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       a sct:256349002;
+       a sct:762952008;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "256349002" ];
-       fhir:Coding.display [ fhir:value "Peanut" ]
+       fhir:Coding.code [ fhir:value "762952008" ];
+       fhir:Coding.display [ fhir:value "Peanut (substance)" ]
      ];
      fhir:CodeableConcept.text [ fhir:value "Allergic to peanut" ]
   ];

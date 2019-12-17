@@ -10,7 +10,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>\n        <b>Generated Narrative with Details</b>\n      </p>\n      <p>\n        <b>clinicalStatus</b>: Active <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})</span></p>\n      <p>\n        <b>verificationStatus</b>: Confirmed <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})</span></p>\n      <p>\n        <b>type</b>: allergy</p>\n      <p>\n        <b>category</b>: food</p>\n      <p>\n        <b>criticality</b>: high</p>\n      <p>\n        <b>code</b>: Peanut <span>(Details : {SNOMED CT code '256349002' = 'Peanut', given as 'Peanut'})</span></p>\n    </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>\n        <b>Generated Narrative with Details</b>\n      </p>\n      <p>\n        <b>clinicalStatus</b>: Active <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical code 'active' = 'Active', given as 'Active'})</span></p>\n      <p>\n        <b>verificationStatus</b>: Confirmed <span>(Details : {http://terminology.hl7.org/CodeSystem/allergyintolerance-verification code 'confirmed' = 'Confirmed', given as 'Confirmed'})</span></p>\n      <p>\n        <b>type</b>: allergy</p>\n      <p>\n        <b>category</b>: food</p>\n      <p>\n        <b>criticality</b>: high</p>\n      <p>\n        <b>code</b>: Peanut <span>(Details : {SNOMED CT code '762952008' = 'Peanut (substance)', given as 'Peanut (substance)'})</span></p>\n    </div>"
   },
   "clinicalStatus": {
     "coding": [
@@ -38,8 +38,8 @@
     "coding": [
       {
         "system": "http://snomed.info/sct",
-        "code": "256349002",
-        "display": "Peanut"
+        "code": "762952008",
+        "display": "Peanut (substance)"
       }
     ],
     "text": "Allergic to peanut"

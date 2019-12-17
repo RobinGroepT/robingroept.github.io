@@ -1,9 +1,9 @@
 {
-  "url": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/be.core.ig",
+  "url": "https://www.ehealth.fgov.be/standards/fhir/ImplementationGuide/be-core",
   "name": "Core IG",
   "package-id": "hl7.be.core",
   "ig-ver": "1.0.0",
-  "date": "Mon, 16 Dec, 2019 16:37:26 +0100",
+  "date": "Tue, 17 Dec, 2019 16:36:32 +0100",
   "errs": 54,
   "warnings": 2,
   "hints": 12,

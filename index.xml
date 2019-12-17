@@ -2,19 +2,19 @@
   <a name="scope"> </a>
   <h3>Scope</h3>
 	
-	<p>eHealth Platform publishes specific profiles and underlying valuesets, codesystems etc. and implementation guidelines as a federal initiative.</p>
+	<p>With this FHIR Implementation Guide eHealth Platform publishes specific profiles and underlying valuesets, codesystems etc. and guidelines as a federal initiative.</p>
 	<!-- -->
 <p>As such, they are the base Belgian federal profiles and projects can use them, refer to them and build on them in their use cases.</p>
 
+<!--
 <blockquote class="stu-note">
   <a name="dstu"></a>
-<strong>This documentation and set of artefacts are still undergoing development, and they are NOT to be taken by implementations.</strong>
 Contact <a href="mailto:message-structure@ehealth.fgov.be">message-structure@ehealth.fgov.be</a> for any questions concerning this IG.
 The working groups of HL7 and the different interested parties are still defining the process, the requirements and the tooling. This is a placeholder or sandbox for content, and not any recommendation or preview, so there is no guarantee of completeness or correctness.
- THIS IS ONLY A TESTING PAGE!!!!!! NO OFFICIAL CONTENT HERE - THANK YOU FOR VISITING!!!!!!!!!!!!!!
 </blockquote>
+-->
 <p>
-When needed, eHealth Platform does these publications as downloadable technical profiles according to the FHIR specs as published on this page. 
+When needed, eHealth Platform does these publications as downloadable technical profiles according to the FHIR specs as published in this Implementation Guide. 
 As a general rule, the FHIR standard is to be used as close as possible to the basic HL7 published standard. 
 As a consequence of this, when needed eHealth Platform will only focus on nuances and clarifications 
 between the Belgian initiative and the published standard.</p>
@@ -35,7 +35,7 @@ rules.</p>
 
 
 <p>The Belgian profiling effort consists of an iterative approach. This
-first iteration (2019) contains a basic set of profiles and guidelines on the resources
+first iteration (2019) contains a basic set of profiles and guidelines on the resources (and their supporting coding systems and valuesets)
 Patient, Practitioner, PractitionerRole, Organization, Observation, Provenance
 and AllergyIntolerance.</p>
 
@@ -48,10 +48,10 @@ This specification contains:
 	<ul>
     <!--<li>Logical Models (in a future iteration), which describe describing several data sets and elements used in Belgian systems</li>-->
 <li>Generalities and guidance (on this page and on the <a href="guidance.html">Guidance page</a>)</li>    
-    <li>Value Sets and code systems, containing specific Belgian value sets</li>
-    <li>Core profiles, which constitute the basis for Belgium FHIR profiling and can be reused in other profiles </li>
-    <li>Functional Profiles, split by functional area for ease of access</li>
-	<li>Examples, usage note: every effort has been made to ensure that the examples are correct and useful, but they are not a normative part of the specification.</li>
+    <li><a href="artifacts.html#terminology">Value Sets and Code Systems</a>, containing specific Belgian value sets</li>
+    <li><a href="artifacts.html#core-profiles">Core profiles</a>, which constitute the basis for Belgium FHIR profiling and can be reused in other profiles </li>
+    <li><a href="artifacts.html#conditions">Functional Profiles</a>, split by functional area for ease of access</li>
+	<li><a href="artifacts.html#examples">Examples</a>, usage note: every effort has been made to ensure that the examples are correct and useful, but they are not a normative part of the specification.</li>
 	</ul>
 	<!--
 	<ul>
