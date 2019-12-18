@@ -24,7 +24,7 @@ is in KMEHR in FHIR, not the other way around. Attention points that could not d
 <p>“Note that, unlike in many other specifications, there can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions. 
 The use of extensions is what allows the <a href="http://www.hl7.org/fhir/r4/extensibility.html">FHIR specification</a> to retain a core simplicity for everyone.”</p>
 <p>The FHIR standard has a strict way to define extensions in resources.This is the only way to define extensions. An implementer SHALL take extra note of the <a href="http://hl7.org/fhir/r4/defining-extensions.html">rules</a> concerning Modifier Extension.</p>
-<p>Any project SHALL at least try to express its data using the bare FHIR standard and adapt its business rules accordingly.</p>
+<p>When going beyond the profiles in this guide, a project SHALL at least try to express its data using the bare FHIR standard and adapt its business rules accordingly.</p>
 <p>When an extension is needed and <a href="http://www.hl7.org/fhir/r4/extensibility-registry.html">there is already</a> an extension: this existing extension SHALL be used. In general, Belgian profiling on resources will endeavour to – when needed – only use the extensions already defined by HL7.
 In the Belgian profiling documentation, some available standard HL7 extensions of certain resources are recommended.</p>
 
@@ -76,7 +76,7 @@ Depending on the information available, the period can include a start dateTime 
 <h4>Canonical Identifiers</h4>
 <p>
 FHIR resources often contain canonical identifiers. This datatype uses an URI to refer to the used system. Note when these take the form of a URL they are not by definition resolvable.
-Specific URIs to use in Belgian profiles can be found here: <a href="https://www.ehealth.fgov.be/standards/kmehr/en/page/oid-overview">oid-overview</a>.</p>
+Specific URIs to use in Belgian profiles are explained in the profiles and a general overview can be found here: <a href="https://www.ehealth.fgov.be/standards/kmehr/en/page/oid-overview">oid-overview</a>.</p>
 <p>Example:
 <br>To refer to a number of the national registry:</br>
 &lt;identifier&gt;  
@@ -92,8 +92,7 @@ Specific URIs to use in Belgian profiles can be found here: <a href="https://www
 
 <h4>Textual and parts/structured information</h4>
 <p>A narrative SHOULD be included in resource instances. When doing so, <a href="https://www.hl7.org/fhir/narrative.html#Narrative">the guidelines of the HL7 FHIR specification</a> SHALL be followed strictly.</p>
-<p>Note when elements or datatypes give the option to express data structured and/or in text 
-applications SHALL ensure that when both text and parts are present, no content is included in the text that isn't found in a part.</p>
+
 
 <h4>ContactPoint</h4>
 <p>Used in inter alia, Patient and Practioner resource.</p>
@@ -173,7 +172,7 @@ Note the HumanName.use is a required element. Typically the name that was used i
 <p>
 Note: if it is needed to express the same address in different languages: 
 the entire Address element SHALL repeat with each time the language extension on its highest level within Address. 
-This is only meant for use cases that actually involve addresses that exist in multiple 
+This is primarily meant for use cases that actually involve addresses that exist in multiple 
 languages (e.g. in the bilingual environment of Brussels-Capital Region) (also available in the BeAddress profile) </p>
 <p>Special remarks for KMEHR users:
 <br>Note when Address.use and Address.type are used they SHALL use the FHIR defined valuesets as per their required binding level in the FHIR specification. In a KMEHR address, the use was defined by CD-ADDRESS but those values can be found in the FHIR valueset. Cfr. table infra.</br>

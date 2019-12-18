@@ -35,7 +35,7 @@ rules.</p>
 
 
 <p>The Belgian profiling effort consists of an iterative approach. This
-first iteration (2019) contains a basic set of profiles and guidelines on the resources (and their supporting coding systems and valuesets)
+first iteration (Q4 2019) contains a basic set of profiles and guidelines on the resources (and their supporting coding systems and valuesets)
 Patient, Practitioner, PractitionerRole, Organization, Observation, Provenance
 and AllergyIntolerance.</p>
 
@@ -100,10 +100,7 @@ This specification contains:
 	<a name="disclaimer"> </a>
 	<h3>Disclaimer</h3>
 	<p>
-  
-    The specification herewith documented is a draft working specification, and may not be used for any implementation purposes. 
-    This draft is provided without warranty of completeness or consistency, and the official publication supersedes this draft.
-    No liability can be inferred from the use or misuse of this specification, or its consequences.
+    The specification herewith documented is the first published version of the Belgian profiling initiative. Every effort has been made to remain within the FHIR standard and to be enabling in nature above all else. It is expected there will be further clarifications and guidelines in the future. Should an implementation encounter ambiguities due to this guide, your feedback is most welcome on <a href="mailto:message-structure@ehealth.fgov.be">message-structure@ehealth.fgov.be</a>. 
   </p>
   
 </div>

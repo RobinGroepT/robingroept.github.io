@@ -3,7 +3,7 @@
   "name": "Core IG",
   "package-id": "hl7.be.core",
   "ig-ver": "1.0.0",
-  "date": "Tue, 17 Dec, 2019 16:36:32 +0100",
+  "date": "Wed, 18 Dec, 2019 10:11:00 +0100",
   "errs": 54,
   "warnings": 2,
   "hints": 12,

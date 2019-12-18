@@ -16,7 +16,7 @@
   fhir:ValueSet.version [ fhir:value "1.0.0"];
   fhir:ValueSet.name [ fhir:value "BeAllergyIntoleranceCode"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2019-12-17T16:36:32+01:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2019-12-18T10:11:00+01:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "eHealth Platform"];
   fhir:ValueSet.contact [
      fhir:index 0;
